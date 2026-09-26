@@ -1,4 +1,3 @@
-```markdown name=COMMUNITY_SHOWCASE.md
 # Community Mod Showcase
 
 This repository acts as a central hub for Icarus modding research, tools, guides, and community projects. Each project below is independently owned and maintained by its original author.
@@ -86,5 +85,4 @@ Your project should:
 
 Use this format when submitting a project:
 
-```markdown
 | Project Name | @username | Short description of what the project does | [View Repo](https://github.com/username/project) |
