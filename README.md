@@ -1,4 +1,4 @@
-![Uploading Github_Banner_Modding.png…]()
+![Repo Banner](assets/Github_Banner_Modding.png)
 
 
 An independent research repository documenting the Icarus building-placement and grid systems, based on Blueprint metadata and other information that could be extracted for study. The goal is to understand the existing systems, record uncertainties, and develop testable ideas for future mods.
