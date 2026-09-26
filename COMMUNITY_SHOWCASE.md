@@ -1,46 +1,81 @@
-# Community Mod Showcase
+<h1 align="center" style="font-size: 2.6em; margin-bottom: 10px;">🌍 Community Project Showcase</h1>
 
-This repository acts as a central hub for Icarus modding research, tools, guides, and community projects. Each project below is independently owned and maintained by its original author.
+<p align="center" style="font-size: 1.1em; color: #666; margin-bottom: 20px;">
+A curated directory of Icarus community mods, tools, guides, and research
+</p>
 
-The goal is simple: help the community discover useful work without taking ownership away from the creators.
+<div align="center" style="margin: 20px 0 30px 0;">
 
----
+![Community Banner](assets/Github_Banner_Modding.png)
 
-## Featured Community Projects
+</div>
 
-### Building & Construction Mods
+<p align="center" style="color: #555;">
+This repository serves as a central discovery point for Icarus-related community work. Each project remains independently owned and maintained by its original author.
+</p>
 
-| Project | Author | Description | Repository |
-|---------|--------|-------------|-----------|
-| Example Project | @example | Example description of how the mod changes building systems or placement logic | [View Repo](https://github.com/example/repo) |
-
-### Tools & Utilities
-
-| Project | Author | Description | Repository |
-|---------|--------|-------------|-----------|
-| Example Tool | @example | Utility for extracting assets, testing gameplay values, or validating mod behavior | [View Repo](https://github.com/example/repo) |
-
-### Gameplay Mods
-
-| Project | Author | Description | Repository |
-|---------|--------|-------------|-----------|
-| Example Gameplay Mod | @example | Modifies progression, survival systems, crafting loops, or gameplay balance | [View Repo](https://github.com/example/repo) |
-
-### Research & Guides
-
-| Project | Author | Description | Repository |
-|---------|--------|-------------|-----------|
-| Example Research Repo | @example | Technical notes, extracted data, or experiments relating to Icarus systems | [View Repo](https://github.com/example/repo) |
+<p align="center" style="color: #666; font-style: italic;">
+The goal is simple: help the community find useful work without taking ownership away from the creators.
+</p>
 
 ---
 
-## How to Get Featured
+<h2 align="center" style="font-size: 1.8em; margin-top: 30px; margin-bottom: 20px;">✨ Featured Community Projects</h2>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 30px;">
+
+<div style="background: #f6f8fb; padding: 18px; border-radius: 10px; border-left: 5px solid #0969da;">
+
+### 🏗️ Building & Construction Mods
+
+| Project | Author | Description | Repository |
+|---------|--------|-------------|-----------|
+| Example Project | @example | Example description of a building-related mod or construction system | [View Repo](https://github.com/example/repo) |
+
+</div>
+
+<div style="background: #f6f8fb; padding: 18px; border-radius: 10px; border-left: 5px solid #1f6feb;">
+
+### 🔧 Tools & Utilities
+
+| Project | Author | Description | Repository |
+|---------|--------|-------------|-----------|
+| Example Tool | @example | Example utility for asset extraction, testing, or validation | [View Repo](https://github.com/example/repo) |
+
+</div>
+
+<div style="background: #f6f8fb; padding: 18px; border-radius: 10px; border-left: 5px solid #2da44e;">
+
+### 🎮 Gameplay Mods
+
+| Project | Author | Description | Repository |
+|---------|--------|-------------|-----------|
+| Example Gameplay Mod | @example | Example gameplay enhancement or systems change | [View Repo](https://github.com/example/repo) |
+
+</div>
+
+<div style="background: #f6f8fb; padding: 18px; border-radius: 10px; border-left: 5px solid #8250df;">
+
+### 📚 Research & Guides
+
+| Project | Author | Description | Repository |
+|---------|--------|-------------|-----------|
+| Example Research Repo | @example | Technical notes or experiments related to Icarus systems | [View Repo](https://github.com/example/repo) |
+
+</div>
+
+</div>
+
+---
+
+<h2 align="center" style="font-size: 1.8em; margin-top: 30px; margin-bottom: 20px;">📣 How to Get Featured</h2>
 
 We’d love to showcase useful Icarus-related work from the community.
 
 ### Submission Requirements
 
 Your project should:
+
 - Be related to Icarus modding, research, tools, or guides
 - Have a public GitHub repository
 - Include a clear README with installation or usage instructions
@@ -50,18 +85,20 @@ Your project should:
 ### How to Submit
 
 #### Option 1: Open an Issue
+
 - Go to the [Issues](https://github.com/BushCoda/Icarus-Files/issues) tab
 - Create a new issue titled: `Feature Request: [Your Project Name]`
 - Include:
   - Your GitHub username
   - Your repository link
-  - Category: Building Mod, Gameplay Mod, Tool, Guide, Research
+  - Project category: Building Mod, Gameplay Mod, Tool, Guide, Research
   - A short description (1–2 sentences)
   - Why it is useful for the Icarus community
 
 #### Option 2: Submit a Pull Request
+
 - Fork this repository
-- Add your project to the relevant section below
+- Add your project to the relevant section above
 - Include your repo URL, author name, and a brief description
 - Submit the PR for review
 
@@ -81,8 +118,9 @@ Your project should:
 
 ---
 
-## Recommended Format for New Entries
+<h2 align="center" style="font-size: 1.8em; margin-top: 30px; margin-bottom: 20px;">🧩 Recommended Submission Format</h2>
 
 Use this format when submitting a project:
 
+```markdown
 | Project Name | @username | Short description of what the project does | [View Repo](https://github.com/username/project) |
