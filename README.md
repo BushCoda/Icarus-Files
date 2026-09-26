@@ -1,3 +1,8 @@
+<div align="center">
+    
+# Icarus Modding Research & Community Hub
+
+</div>
 # Icarus Modding Research & Community Hub
 
 ![Repo Banner](assets/Github_Banner_Modding.png)
@@ -8,7 +13,11 @@ This project brings together technical research, gameplay-system documentation, 
 
 This is an unofficial community research project. It is not affiliated with or endorsed by RocketWerkz or the creators of Icarus.
 
+<div align="center">
+    
 ## Start Here
+
+</div>
 
 ### Research
 
