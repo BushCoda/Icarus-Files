@@ -1,3 +1,4 @@
+```markdown name=COMMUNITY_SHOWCASE.md
 # Community Mod Showcase
 
 This repository acts as a central hub for Icarus modding research, tools, guides, and community projects. Each project below is independently owned and maintained by its original author.
@@ -87,22 +88,3 @@ Use this format when submitting a project:
 
 ```markdown
 | Project Name | @username | Short description of what the project does | [View Repo](https://github.com/username/project) |
-```
-
-This keeps the showcase easy to scan and consistent across categories.
-
----
-
-## Community Principles
-
-This showcase is intended to:
-- Highlight useful community work
-- Help modders discover new projects
-- Keep ownership with the original author
-- Build a stronger, more organized Icarus modding ecosystem
-
-If you have a project worth sharing, we’d be happy to consider it.
-
----
-
-*Questions? Open an issue or reach out to [@BushCoda](https://github.com/BushCoda).*
