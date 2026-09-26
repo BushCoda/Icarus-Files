@@ -1,66 +1,163 @@
-![Repo Banner](assets/Github_Banner_Modding.png)
+# Icarus Modding Research & Community Hub
 
-
-An independent research repository documenting the Icarus building-placement and grid systems, based on Blueprint metadata and other information that could be extracted for study. The goal is to understand the existing systems, record uncertainties, and develop testable ideas for future mods.
+An independent research repository and community hub for Icarus modding documentation, research findings, mod guides, and curated community projects. This repository aims to be the central resource for modders researching the Icarus building-placement systems, grid mechanics, and other gameplay elements.
 
 This is an unofficial community research project. It is not affiliated with or endorsed by RocketWerkz or the creators of Icarus.
 
-## Start Here
+![Repo Banner](assets/Github_Banner_Modding.png)
 
-- [Existing Building System](Research%20Findings/Building%20System/Icarus%20Building%20Guide.md) explains the placement, grid conversion, piece behavior, server entry points, and record-loading clues visible in the current exports. It distinguishes observed facts from unknowns.
-- [Building Mod Guide](Mod%20Guide%20Suggestions/Building%20System/Icarus%20Building%20Mod%20Guide.md) proposes a world-grid and per-piece snap-point design, with an implementation and validation plan. It is exploratory, not a drop-in mod or a verified set of Blueprint edits.
+---
 
-## Community Projects
+## 🚀 Quick Start
 
-Looking for mods and tools created by fellow modders? Check out our **[Community Mod Showcase](COMMUNITY_SHOWCASE.md)** featuring building mods, gameplay modifications, tools, and guides from the Icarus modding community.
+### New to Icarus Modding?
+- [Existing Building System](Research%20Findings/Building%20System/Icarus%20Building%20Guide.md) — Detailed documentation of placement, grids, piece behavior, and server systems
+- [Building Mod Development Guide](Mod%20Guide%20Suggestions/Building%20System/Icarus%20Building%20Mod%20Guide.md) — Proposed design patterns and implementation steps
 
-Want your project featured? See [how to submit](COMMUNITY_SHOWCASE.md#how-to-submit).
+### Looking for Community Projects?
+Browse the [Community Project Showcase](COMMUNITY_SHOWCASE.md) to discover mods, tools, guides, and research from the Icarus modding community.
 
-## Repository Contents
+---
 
-Research items are grouped by subject. Each subject can have its own folder under the relevant top-level area:
+## 📚 Repository Structure
 
 ```text
-Dumps/
-	Building System/                 Cooked-asset text exports
-Research Findings/
-	Building System/
-		Icarus Building Guide.md       Existing-system findings
-Mod Guide Suggestions/
-	Building System/
-		Icarus Building Mod Guide.md   Proposed mod design and research steps
+Icarus-Files/
+├── README.md
+├── COMMUNITY_SHOWCASE.md
+├── CONTRIBUTING.md
+├── RESOURCES.md
+├── assets/
+│   └── Github_Banner_Modding.png
+├── Research Findings/
+│   └── Building System/
+│       └── Icarus Building Guide.md
+├── Mod Guide Suggestions/
+│   └── Building System/
+│       └── Icarus Building Mod Guide.md
+├── Dumps/
+│   └── Building System/
+│       ├── BP_PlayerBuildingPlacement.txt
+│       ├── BP_Grid_Base.txt
+│       ├── BP_Building_Base.txt
+│       ├── BP_Building_Floor.txt
+│       ├── BP_Building_Wall.txt
+│       ├── BP_Building_Frame.txt
+│       ├── BP_Building_Beam.txt
+│       ├── BP_ActionableBehaviour_Building.txt
+│       ├── BP_ActionableBehaviour_BuildingUpgrade.txt
+│       ├── BP_IcarusGameInstance.txt
+│       ├── BP_IcarusGameMode.txt
+│       └── BP_IcarusGameState.txt
+└── [Additional topics and assets as they are added]
 ```
 
-The Building System `.txt` files in `Dumps/Building System/` are FModel exports associated with these Blueprint assets and systems:
+---
 
-| Area | Export files |
-| --- | --- |
-| Placement and grids | `BP_PlayerBuildingPlacement.txt`, `BP_Grid_Base.txt` |
-| Shared building behavior and pieces | `BP_Building_Base.txt`, `BP_Building_Floor.txt`, `BP_Building_Wall.txt`, `BP_Building_Frame.txt`, `BP_Building_Beam.txt` |
-| Building actions and upgrades | `BP_ActionableBehaviour_Building.txt`, `BP_ActionableBehaviour_BuildingUpgrade.txt` |
-| Game lifecycle context | `BP_IcarusGameInstance.txt`, `BP_IcarusGameMode.txt`, `BP_IcarusGameState.txt` |
+## 🎯 What This Repository Contains
 
-This research is limited to cooked assets and in-game observations. The exports expose reflected properties, function signatures, selected defaults, inheritance, component templates, and related metadata where available; they do not provide complete Blueprint node connections or native source implementations. Names and temporary values can suggest responsibilities, but should not be treated as proof of execution order or runtime behavior.
+### Research Findings
+Technical documentation based on cooked assets, in-game observation, and reverse engineering. Topics include:
+- Building placement systems
+- Grid conversion and base logic
+- Piece-specific placement behavior
+- Server-side RPC signatures
+- Database-driven systems and lifecycle behavior
 
-## Research Status
+### Mod Development Guides
+Shared knowledge and proposed design patterns for Icarus modding, focused on:
+- Building system architecture
+- Grid and snap logic
+- Data validation and debugging
+- Practical implementation strategies
 
-This repository is a work in progress. Current notes focus on the building-placement pipeline, grid transforms and defaults, piece-specific placement behavior, server RPC signatures, and database-to-grid loading clues. Important details remain unverified, including the complete placement graph, native record layouts, and exact save/reload transform behavior.
+### Asset Dumps
+Raw extracted metadata and Blueprint exports used for working through complex systems.
 
-Findings should be read with their confidence and evidence in mind. A useful contribution identifies what was directly observed, what is inferred, and what still needs testing.
+### Community Showcase
+A living directory of community-authored mods, tools, guides, and research projects. Each project remains owned and maintained by its original author.
 
-## Contributing
+---
 
-Research, corrections, and additional evidence are welcome. When opening an issue or pull request, include:
+## 🌍 Community Projects
 
-- The game build/version and the asset or function being discussed.
-- The tool and extraction method used, where relevant.
-- A concise description of the evidence and how to reproduce the observation.
-- Whether the statement is observed, inferred, or experimentally verified.
+This repository is intended to act as a central hub for the Icarus community, with a curated showcase for research, mods, and tools made by other contributors.
 
-The most useful next evidence is additional cooked-asset metadata for representative piece components and sockets, building data rows and referenced types, plus reproducible in-game placement and save/reload observations. The mod guide lists the current research targets. Full graphs and native source are not assumed to be accessible. Keep source exports, existing-system findings, and mod proposals in their corresponding top-level areas, grouped into a topic folder such as `Building System`.
+Browse the [Community Project Showcase](COMMUNITY_SHOWCASE.md) to see:
+- Building and construction mods
+- Tools and utilities
+- Gameplay enhancements
+- Research repositories and guides
 
-Please only share material you are permitted to redistribute. Avoid committing game packages, original game binaries, proprietary assets, or personal data. Before adding extracted data or other third-party material, check the applicable terms and permissions.
+Want your project featured? See the submission guide in [COMMUNITY_SHOWCASE.md](COMMUNITY_SHOWCASE.md#-how-to-get-featured).
 
-## License and Third-Party Content
+---
 
-No repository license is currently specified. Do not assume that the notes, extracted metadata, or any Icarus-related content may be reused or redistributed under an open-source license. A license can be added later for original contributions once their ownership and third-party content have been reviewed.
+## 📖 Research Status
+
+This repository is a work in progress. Current notes focus on:
+- Building-placement pipeline and mechanics
+- Grid transformations and defaults
+- Piece-specific placement behavior
+- Server RPC signatures
+- Database and game-state structures
+
+Findings should be read with context in mind. A useful contribution identifies what was directly observed, what is inferred, and what still requires testing.
+
+---
+
+## 🤝 Contributing
+
+Research, corrections, experiments, and additional evidence are welcome.
+
+When contributing:
+- Include the game build/version involved
+- Describe the extraction method or tools used
+- Explain the evidence and how to reproduce the observation
+- Label content as observed, inferred, or experimentally verified
+- Only share material you are legally allowed to redistribute
+
+For full contribution expectations, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
+## 🧩 Community Submission Model
+
+This repo follows a simple rule:
+- Community projects remain in their own GitHub repos
+- Their owners maintain full control of their work
+- This repository acts as a directory and showcase
+- Links are curated instead of copied or mirrored
+
+This keeps the project scalable, useful, and respectful of other modders' ownership.
+
+---
+
+## 📋 Resources
+
+- [COMMUNITY_SHOWCASE.md](COMMUNITY_SHOWCASE.md)
+- [CONTRIBUTING.md](CONTRIBUTING.md)
+- [RESOURCES.md](RESOURCES.md)
+
+---
+
+## ⚖️ License & Third-Party Content
+
+No repository license is currently specified. Do not assume notes, extracted metadata, or Icarus-related content may be reused or redistributed under an open-source license without explicit permission.
+
+Relevant notes:
+- Game assets and systems remain the property of RocketWerkz
+- Community projects retain their own licenses
+- Any external material should be credited to the original author
+
+---
+
+## 📝 Final Note
+
+This repository is intended to become a professional, easy-to-navigate central hub for Icarus modding research, documentation, and community discovery. The goal is to help modders share accurate information, discover useful work from others, and build a stronger ecosystem around the game.
+
+This is an unofficial community project and is not affiliated with the game studio.
+
+---
+
+Maintainer: [@BushCoda](https://github.com/BushCoda)
