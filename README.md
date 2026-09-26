@@ -208,6 +208,14 @@ For detailed guidelines, see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
 ---
 
+<h2 align="center" style="font-size: 1.8em; margin-top: 30px; margin-bottom: 20px;">💬 Join the Community</h2>
+
+<p align="center" style="color: #555; font-size: 1.05em;">
+Have questions, ideas, or want to discuss Icarus mods? Join the
+<a href="https://github.com/BushCoda/Icarus-Files/discussions">GitHub Discussions</a>
+to connect with other Icarus modders and researchers.
+</p>
+
 <div align="center" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #e0e0e0;">
 
 <p style="color: #666; font-size: 0.95em;">
