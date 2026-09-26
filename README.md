@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" style="font-size: 2.4em;">
     
 # Icarus Modding Research & Community Hub
 
@@ -13,27 +13,27 @@ This project brings together technical research, gameplay-system documentation, 
 
 This is an unofficial community research project. It is not affiliated with or endorsed by RocketWerkz or the creators of Icarus.
 
-<div align="center">
+<div align="center" style="font-size: 2.4em;">
     
 ## Start Here
 
 </div>
 
-### Research
+<p align="center"><strong> ### Research </strong></p>
 
 - [Building System Research](Research%20Findings/Building%20System/Icarus%20Building%20Guide.md) — Initial research into building placement, grid conversion, piece behavior, server entry points, and record-loading clues.
 
-### Modding Guides
+<p align="center"><strong> ### Modding Guides </strong></p>
 
 - [Building Mod Guide](Mod%20Guide%20Suggestions/Building%20System/Icarus%20Building%20Mod%20Guide.md) — Proposed approaches for world-grid and per-piece snap-point systems, including implementation and validation ideas.
 
-### Community Resources
+<p align=center"><strong> ### Community Resources </strong></p>
 
 - [Community Project Showcase](COMMUNITY_SHOWCASE.md) — Discover Icarus mods, tools, guides, research, and other projects maintained by community members.
 - [Contributing Guide](CONTRIBUTING.md) — Learn how to contribute research, corrections, guides, or other improvements.
 - [Resources](RESOURCES.md) — Find useful tools, references, documentation, and external links for Icarus modding.
 
-## Community Projects
+<p align="center"><strong> ## Community Projects </strong></p>
 
 This repository also serves as a directory for Icarus-related community work.
 
@@ -52,7 +52,11 @@ Featured projects remain in their original repositories and continue to be owned
 
 Want your project featured? See [How to Get Featured](COMMUNITY_SHOWCASE.md#how-to-get-featured).
 
-## Research Status
+<div align="center" style="font-size: 2.4em;">
+
+### Research Status
+
+</div>
 
 This repository is in its early stages. The building-placement and grid systems are the initial focus of research, but the long-term goal is to document as many useful Icarus systems as possible.
 
