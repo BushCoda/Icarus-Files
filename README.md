@@ -6,21 +6,34 @@ This is an unofficial community research project. It is not affiliated with or e
 
 ## Start Here
 
-- [Existing Building System](Icarus%20Building%20Guide.md) explains the placement, grid conversion, piece behavior, server entry points, and record-loading clues visible in the current exports. It distinguishes observed facts from unknowns.
-- [Building Mod Guide](Icarus%20Building%20Mod%20Guide.md) proposes a world-grid and per-piece snap-point design, with an implementation and validation plan. It is exploratory, not a drop-in mod or a verified set of Blueprint edits.
+- [Existing Building System](Research%20Findings/Building%20System/Icarus%20Building%20Guide.md) explains the placement, grid conversion, piece behavior, server entry points, and record-loading clues visible in the current exports. It distinguishes observed facts from unknowns.
+- [Building Mod Guide](Mod%20Guide%20Suggestions/Building%20System/Icarus%20Building%20Mod%20Guide.md) proposes a world-grid and per-piece snap-point design, with an implementation and validation plan. It is exploratory, not a drop-in mod or a verified set of Blueprint edits.
 
 ## Repository Contents
 
-The `.txt` files are FModel exports associated with the following Blueprint assets and systems:
+Research items are grouped by subject. Each subject can have its own folder under the relevant top-level area:
 
-| Area | Files |
+```text
+Dumps/
+	Building System/                 Cooked-asset text exports
+Research Findings/
+	Building System/
+		Icarus Building Guide.md       Existing-system findings
+Mod Guide Suggestions/
+	Building System/
+		Icarus Building Mod Guide.md   Proposed mod design and research steps
+```
+
+The Building System `.txt` files in `Dumps/Building System/` are FModel exports associated with these Blueprint assets and systems:
+
+| Area | Export files |
 | --- | --- |
 | Placement and grids | `BP_PlayerBuildingPlacement.txt`, `BP_Grid_Base.txt` |
 | Shared building behavior and pieces | `BP_Building_Base.txt`, `BP_Building_Floor.txt`, `BP_Building_Wall.txt`, `BP_Building_Frame.txt`, `BP_Building_Beam.txt` |
 | Building actions and upgrades | `BP_ActionableBehaviour_Building.txt`, `BP_ActionableBehaviour_BuildingUpgrade.txt` |
 | Game lifecycle context | `BP_IcarusGameInstance.txt`, `BP_IcarusGameMode.txt`, `BP_IcarusGameState.txt` |
 
-These exports expose reflected properties, function signatures, selected defaults, and related metadata. They do not consistently include complete Blueprint node connections or the native C++ implementation. Names and temporary values can suggest a flow, but should not be treated as proof of execution order or runtime behavior without graph or in-game confirmation.
+This research is limited to cooked assets and in-game observations. The exports expose reflected properties, function signatures, selected defaults, inheritance, component templates, and related metadata where available; they do not provide complete Blueprint node connections or native source implementations. Names and temporary values can suggest responsibilities, but should not be treated as proof of execution order or runtime behavior.
 
 ## Research Status
 
@@ -37,7 +50,7 @@ Research, corrections, and additional evidence are welcome. When opening an issu
 - A concise description of the evidence and how to reproduce the observation.
 - Whether the statement is observed, inferred, or experimentally verified.
 
-The most useful next evidence is complete Blueprint graph data for the placement and grid-conversion functions, native definitions for building-grid and record types, and component/socket/default data for representative building pieces. The mod guide lists the current details being sought.
+The most useful next evidence is additional cooked-asset metadata for representative piece components and sockets, building data rows and referenced types, plus reproducible in-game placement and save/reload observations. The mod guide lists the current research targets. Full graphs and native source are not assumed to be accessible. Keep source exports, existing-system findings, and mod proposals in their corresponding top-level areas, grouped into a topic folder such as `Building System`.
 
 Please only share material you are permitted to redistribute. Avoid committing game packages, original game binaries, proprietary assets, or personal data. Before adding extracted data or other third-party material, check the applicable terms and permissions.
 

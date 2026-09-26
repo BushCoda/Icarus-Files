@@ -1,6 +1,6 @@
 # Icarus Building Mod Guide: World Grid and Piece Snap Points
 
-This document is a proposed mod design based on the existing-system findings in [Icarus Building Guide.md](Icarus%20Building%20Guide.md). It is not a verified drop-in Blueprint recipe: the available FModel exports expose function/property metadata but not enough node wiring or native record implementation to name safe injection pins yet.
+This document is a proposed mod design based on the existing-system findings in [Icarus Building Guide.md](../../Research%20Findings/Building%20System/Icarus%20Building%20Guide.md). The research is limited to cooked assets and in-game observations. It is not a verified drop-in Blueprint recipe: cooked exports can expose reflected functions, properties, defaults, inheritance, and asset references, but do not provide the complete Blueprint graph or native implementation needed to prescribe exact injection pins.
 
 ## Goal
 
@@ -48,11 +48,13 @@ For piece-to-piece placement, the matching snap point should normally take prior
 
 ## Implementation Steps
 
-### 1. Export the complete existing graphs
+### 1. Map the cooked-asset evidence
 
-Before editing, capture node links and execution pins for the trace, ground-hit, building-hit, grid conversion, and server add paths. Use the confirmed functions in the existing guide as starting points. The current text exports identify their signatures and temporaries but do not reveal the actual data flow.
+Use FModel exports to build a reference map rather than trying to recover unavailable graph wiring. For each placement/grid function, record its reflected signature, parameters and outputs, related temporary properties, owning class, superclass, and referenced classes/functions. Compare the results across `BP_PlayerBuildingPlacement`, `BP_Grid_Base`, and `BP_Building_Base`.
 
-Map where the preview transform is calculated, where it is applied to the ghost, and what the server receives when the player confirms placement. In particular, compare `ServerProcessBuildingHit`, `ServerProcessGroundHit`, `ServerAddNewBuilding`, and `ServerSpawnNewGridWithBuilding` rather than assuming one is the universal spawn path.
+For representative piece assets, record class defaults, inherited component templates, root/mesh/collision components, socket names and transforms where exposed, grid/footprint values, and extra placement transforms. Follow asset references to relevant enums, structs, data tables, and row handles. Keep a note of which facts are direct export observations and which are inferred from names or co-occurrence.
+
+This can narrow down likely responsibilities and candidate extension points, but it cannot prove execution order or server behavior. Mark missing graph/native details as unknown instead of treating property names as a complete implementation.
 
 ### 2. Add a shared ground-grid frame
 
@@ -89,14 +91,16 @@ Record the preview, server-accepted, and post-reload transforms for each test:
 
 The core criterion is that preview, server, and reload results agree within a small numeric tolerance and remain recognized by the original grid and stability systems.
 
-## Additional Files Needed
+## Useful Cooked-Asset Research
 
-The most useful next evidence is:
+The following can add detail without access to Blueprint graphs or source code:
 
-1. Full Blueprint graph exports with node links/exec pins for `PerformBuildingTrace`, `ProcessGroundHit`, `ProcessBuildingHit`, `ServerProcessGroundHit`, `ServerProcessBuildingHit`, `ServerAddNewBuilding`, `ServerSpawnNewGridWithBuilding`, `BuildingHitToGridRounded`, `DecideShifting`, `ShouldRotate`, `WorldSpaceToGridSpaceRounded`, `WorldSpaceToGridSpaceFloored`, and `CheckBuildingLocationFromWorldspaceRounded`.
-2. Native definitions for `BuildingGridBase`, `BuildingGridRecorderComponent`, `BuildingGridManagerSubsystem`, `BuildingBase`, `BuildingInfo`, and `DatabaseBuildingGrid`, including record fields and add/validate/replication/save-load methods. The code that populates `PendingBuildingsFromDatabase` would clarify the load route.
-3. Full component, socket, and class-default exports for representative floor, wall, frame, beam, and foundation pieces, including root transforms, collision components, sockets, grid dimensions, and local offsets.
-4. Building-piece data rows used by the load event and the code that creates or serializes `BuildingInfo` records.
-5. Game version/build and the exact modding toolchain available, since asset replacement, graph editing, and native RPC changes have different constraints.
+1. **Piece class exports:** Include foundations and less common pieces such as stairs, roofs, ramps, doors, windows, and pillars. Capture superclass, class defaults, component templates, collision settings, footprint/grid values, and placement-related properties.
+2. **Mesh/socket exports:** Search static or skeletal mesh exports for socket names and local transforms. Record the owning mesh and component so a socket is not mistaken for a placement rule unless runtime behavior supports that interpretation.
+3. **Data assets and rows:** Follow exported row handles such as `BuildingPiecesRowHandle`, `BuildableRowHandle`, and `ItemsStaticRowHandle`. Record row names and values that map piece definitions to classes, variations, dimensions, or other placement data.
+4. **Reflected type metadata:** If FModel exposes `BuildingInfo`, `DatabaseBuildingGrid`, or related native struct layouts, save those exports. They may reveal reflected fields, but not necessarily the code that fills, validates, replicates, or serializes them. Treat unavailable implementation details as unknown.
+5. **Asset reference trails:** Record package paths and referenced classes, structs, enums, meshes, and data tables from each export. These references can reveal which additional cooked assets are worth extracting.
+6. **Runtime observations:** Test placement on flat/sloped terrain, rotated pieces, piece edges, and grid boundaries. Compare ghost and placed results; repeat with a remote multiplayer client and across save/reload. Record game build, steps, and visible results. If transforms cannot be measured directly, label the result as a visual observation rather than a coordinate-level measurement.
+7. **Toolchain details:** Note the game build and available mod tools. This determines whether a finding can be acted on through data replacement, cooked-asset overrides, scripting, or another supported route.
 
-If FModel cannot provide graph wiring or native class layouts, a controlled in-game multiplayer and save/reload test is the best next source of evidence. Exact node-by-node instructions should wait until the graph and server data path are known.
+The highest-value immediate targets are full cooked exports for representative piece components/sockets and building data rows, followed by controlled placement and save/reload observations. Full Blueprint graphs and native source definitions are outside the current access and are not prerequisites for continuing this research. They would only be useful if a separate lawful source becomes available.

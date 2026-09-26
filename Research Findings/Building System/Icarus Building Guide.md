@@ -1,6 +1,6 @@
 # Icarus Existing Building Placement System
 
-This guide describes the building-placement and grid behavior visible in the supplied FModel exports. It distinguishes exported facts from hypotheses: the text dumps expose reflected functions, properties, and some defaults, but they do not include enough Blueprint node wiring or native C++ implementation to prove every runtime detail. Proposed changes are documented separately in [Icarus Building Mod Guide.md](Icarus%20Building%20Mod%20Guide.md).
+This guide describes the building-placement and grid behavior visible in the supplied FModel exports. It distinguishes exported facts from hypotheses: the text dumps expose reflected functions, properties, and some defaults, but they do not include enough Blueprint node wiring or native C++ implementation to prove every runtime detail. Proposed changes are documented separately in [Icarus Building Mod Guide.md](../../Mod%20Guide%20Suggestions/Building%20System/Icarus%20Building%20Mod%20Guide.md).
 
 ## Evidence and Confidence
 
@@ -12,12 +12,12 @@ In particular, these files do **not** prove that placement is client-authoritati
 
 | Export | What it shows |
 | --- | --- |
-| [BP_PlayerBuildingPlacement](BP_PlayerBuildingPlacement.txt) | Placement trace and ground/building hit functions; server RPC signatures; new-grid and add-building entry points; grid-offset controls. |
-| [BP_Grid_Base](BP_Grid_Base.txt) | Grid/world transform conversion, rounded and floored conversion functions, placement blocking outputs, and a `LoadSingleBuildingFromRecord` event. |
-| [BP_IcarusGameMode](BP_IcarusGameMode.txt) | A `PendingBuildingsFromDatabase` array of native `DatabaseBuildingGrid` records, confirming a database-to-world building load path exists. |
-| [BP_Building_Base](BP_Building_Base.txt) | Shared building placement functions and properties, including `BuildingHitToGridRounded`, `DecideShifting`, `ShouldRotate`, `BlockLikePlacementTranslation`, and `BuildingGridFootprint`. |
-| [BP_Building_Floor](BP_Building_Floor.txt), [BP_Building_Wall](BP_Building_Wall.txt), [BP_Building_Frame.txt](BP_Building_Frame), [BP_Building_Beam](BP_Building_Beam.txt) | Piece-specific behavior. Floor and wall expose extra placement data; frame overrides `ShouldRotate`; beam derives from frame. |
-| [BP_ActionableBehaviour_Building](BP_ActionableBehaviour_Building.txt), [BP_ActionableBehaviour_BuildingUpgrade](BP_ActionableBehaviour_BuildingUpgrade.txt) | Building actions and upgrades. They are adjacent gameplay behavior, not the primary placement-transform path visible in these exports. |
+| [BP_PlayerBuildingPlacement.txt](../../Dumps/Building%20System/BP_PlayerBuildingPlacement.txt) | Placement trace and ground/building hit functions; server RPC signatures; new-grid and add-building entry points; grid-offset controls. |
+| [BP_Grid_Base.txt](../../Dumps/Building%20System/BP_Grid_Base.txt) | Grid/world transform conversion, rounded and floored conversion functions, placement blocking outputs, and a `LoadSingleBuildingFromRecord` event. |
+| [BP_IcarusGameMode.txt](../../Dumps/Building%20System/BP_IcarusGameMode.txt) | A `PendingBuildingsFromDatabase` array of native `DatabaseBuildingGrid` records, confirming a database-to-world building load path exists. |
+| [BP_Building_Base.txt](../../Dumps/Building%20System/BP_Building_Base.txt) | Shared building placement functions and properties, including `BuildingHitToGridRounded`, `DecideShifting`, `ShouldRotate`, `BlockLikePlacementTranslation`, and `BuildingGridFootprint`. |
+| [BP_Building_Floor.txt](../../Dumps/Building%20System/BP_Building_Floor.txt), [BP_Building_Wall.txt](../../Dumps/Building%20System/BP_Building_Wall.txt), [BP_Building_Frame.txt](../../Dumps/Building%20System/BP_Building_Frame.txt), [BP_Building_Beam.txt](../../Dumps/Building%20System/BP_Building_Beam.txt) | Piece-specific behavior. Floor and wall expose extra placement data; frame overrides `ShouldRotate`; beam derives from frame. |
+| [BP_ActionableBehaviour_Building.txt](../../Dumps/Building%20System/BP_ActionableBehaviour_Building.txt), [BP_ActionableBehaviour_BuildingUpgrade.txt](../../Dumps/Building%20System/BP_ActionableBehaviour_BuildingUpgrade.txt) | Building actions and upgrades. They are adjacent gameplay behavior, not the primary placement-transform path visible in these exports. |
 
 ## Placement Flow: What the Exports Support
 
@@ -75,4 +75,4 @@ The exported class defaults include `BP_Building_Base.GridSize = 300.0` and `BP_
 - The serialized fields in `BuildingInfo` and `DatabaseBuildingGrid`, or the exact save/reload transform behavior.
 - Whether individual meshes contain relevant sockets/components that were not included in these exports.
 
-The design proposal and step-by-step mod plan are in [Icarus Building Mod Guide.md](Icarus%20Building%20Mod%20Guide.md).
+The design proposal and step-by-step mod plan are in [Icarus Building Mod Guide.md](../../Mod%20Guide%20Suggestions/Building%20System/Icarus%20Building%20Mod%20Guide.md).
