@@ -9,6 +9,12 @@ This is an unofficial community research project. It is not affiliated with or e
 - [Existing Building System](Research%20Findings/Building%20System/Icarus%20Building%20Guide.md) explains the placement, grid conversion, piece behavior, server entry points, and record-loading clues visible in the current exports. It distinguishes observed facts from unknowns.
 - [Building Mod Guide](Mod%20Guide%20Suggestions/Building%20System/Icarus%20Building%20Mod%20Guide.md) proposes a world-grid and per-piece snap-point design, with an implementation and validation plan. It is exploratory, not a drop-in mod or a verified set of Blueprint edits.
 
+## Community Projects
+
+Looking for mods and tools created by fellow modders? Check out our **[Community Mod Showcase](COMMUNITY_SHOWCASE.md)** featuring building mods, gameplay modifications, tools, and guides from the Icarus modding community.
+
+Want your project featured? See [how to submit](COMMUNITY_SHOWCASE.md#how-to-submit).
+
 ## Repository Contents
 
 Research items are grouped by subject. Each subject can have its own folder under the relevant top-level area:
