@@ -1,11 +1,12 @@
-<div align="center" style="font-size: 2.4em;">
-    
-# Icarus Modding Research & Community Hub
+<h1 align="center" style="font-size: 2.4em;">Icarus Modding Research & Community Hub</h1>
 
-</div>
-# Icarus Modding Research & Community Hub
+<p align="center"><strong>Community Research, Guides, and Modding Resources for Icarus</strong></p>
+
+<div align="center">
 
 ![Repo Banner](assets/Github_Banner_Modding.png)
+
+</div>
 
 An independent community repository for researching, documenting, and supporting modding for the game Icarus.
 
@@ -13,27 +14,23 @@ This project brings together technical research, gameplay-system documentation, 
 
 This is an unofficial community research project. It is not affiliated with or endorsed by RocketWerkz or the creators of Icarus.
 
-<div align="center" style="font-size: 2.4em;">
-    
-## Start Here
+<h2 align="center" style="font-size: 1.6em;">Start Here</h2>
 
-</div>
-
-<p align="center"><strong> ### Research </strong></p>
+<p><strong> ### Research </strong></p>
 
 - [Building System Research](Research%20Findings/Building%20System/Icarus%20Building%20Guide.md) — Initial research into building placement, grid conversion, piece behavior, server entry points, and record-loading clues.
 
-<p align="center"><strong> ### Modding Guides </strong></p>
+<p><strong> ### Modding Guides </strong></p>
 
 - [Building Mod Guide](Mod%20Guide%20Suggestions/Building%20System/Icarus%20Building%20Mod%20Guide.md) — Proposed approaches for world-grid and per-piece snap-point systems, including implementation and validation ideas.
 
-<p align=center"><strong> ### Community Resources </strong></p>
+<p><strong> ### Community Resources </strong></p>
 
 - [Community Project Showcase](COMMUNITY_SHOWCASE.md) — Discover Icarus mods, tools, guides, research, and other projects maintained by community members.
 - [Contributing Guide](CONTRIBUTING.md) — Learn how to contribute research, corrections, guides, or other improvements.
 - [Resources](RESOURCES.md) — Find useful tools, references, documentation, and external links for Icarus modding.
 
-<p align="center"><strong> ## Community Projects </strong></p>
+<h2 align="center" style="font-size: 1.6em;">Community Projects</h2>
 
 This repository also serves as a directory for Icarus-related community work.
 
@@ -52,11 +49,7 @@ Featured projects remain in their original repositories and continue to be owned
 
 Want your project featured? See [How to Get Featured](COMMUNITY_SHOWCASE.md#how-to-get-featured).
 
-<div align="center" style="font-size: 2.4em;">
-
-### Research Status
-
-</div>
+<h2 align="center">Research Status</h2>
 
 This repository is in its early stages. The building-placement and grid systems are the initial focus of research, but the long-term goal is to document as many useful Icarus systems as possible.
 
@@ -75,7 +68,7 @@ Future research areas may include:
 
 Research findings should be read with their confidence and evidence in mind. Contributions should identify what was directly observed, what was inferred, and what still requires testing.
 
-## Repository Contents
+<h2 align="center">Repository Contents</h2>
 
 The repository is organized by research area and content type. The current building-system material is the first research area, with additional systems and subjects to be added over time.
 
