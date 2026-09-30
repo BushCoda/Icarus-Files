@@ -28,9 +28,9 @@ The goal is simple: help the community find useful work without taking ownership
 
 ### 🏗️ Building & Construction Mods
 
-| Project | Author | Description | Repository |
-|---------|--------|-------------|-----------|
-| Example Project | @example | Example description of a building-related mod or construction system | [View Repo](https://github.com/example/repo) |
+*No featured projects yet*
+
+Ready to showcase your building mod? [Submit your project](https://github.com/BushCoda/Icarus-Files/issues/new?title=Feature%20Request:%20[Your%20Project%20Name]) and help the community!
 
 </div>
 
@@ -38,9 +38,9 @@ The goal is simple: help the community find useful work without taking ownership
 
 ### 🔧 Tools & Utilities
 
-| Project | Author | Description | Repository |
-|---------|--------|-------------|-----------|
-| Example Tool | @example | Example utility for asset extraction, testing, or validation | [View Repo](https://github.com/example/repo) |
+*No featured projects yet*
+
+Have a helpful mod tool or utility? [Share it with us](https://github.com/BushCoda/Icarus-Files/issues/new?title=Feature%20Request:%20[Your%20Project%20Name]) to get featured!
 
 </div>
 
@@ -48,9 +48,9 @@ The goal is simple: help the community find useful work without taking ownership
 
 ### 🎮 Gameplay Mods
 
-| Project | Author | Description | Repository |
-|---------|--------|-------------|-----------|
-| Example Gameplay Mod | @example | Example gameplay enhancement or systems change | [View Repo](https://github.com/example/repo) |
+*No featured projects yet*
+
+Built a gameplay enhancement? [Submit your project](https://github.com/BushCoda/Icarus-Files/issues/new?title=Feature%20Request:%20[Your%20Project%20Name]) for community visibility.
 
 </div>
 
@@ -58,9 +58,11 @@ The goal is simple: help the community find useful work without taking ownership
 
 ### 📚 Research & Guides
 
-| Project | Author | Description | Repository |
-|---------|--------|-------------|-----------|
-| Ferani's Icarus Modding Research | @FeraniShades | Practical Icarus modding research, tested workflows, reusable PowerShell tools, and documented case studies | [View Repo](https://github.com/FeraniShades/Icarus-Modding-Research) |
+**[Ferani's Icarus Modding Research](https://github.com/FeraniShades/Icarus-Modding-Research)** — *by @FeraniShades*
+
+Practical research notes, tested workflows, reusable PowerShell tools for asset indexing and analysis, and documented case studies. Organized by game mechanics with evidence confidence labels.
+
+[View Repository](https://github.com/FeraniShades/Icarus-Modding-Research)
 
 </div>
 
@@ -70,7 +72,7 @@ The goal is simple: help the community find useful work without taking ownership
 
 <h2 align="center" style="font-size: 1.8em; margin-top: 30px; margin-bottom: 20px;">📣 How to Get Featured</h2>
 
-We’d love to showcase useful Icarus-related work from the community.
+We'd love to showcase useful Icarus-related work from the community.
 
 ### Submission Requirements
 
@@ -84,34 +86,36 @@ Your project should:
 
 ### How to Submit
 
-#### Option 1: Open an Issue
+#### Option 1: Open an Issue (Easiest)
 
 - Go to the [Issues](https://github.com/BushCoda/Icarus-Files/issues) tab
-- Create a new issue titled: `Feature Request: [Your Project Name]`
+- Click **"New issue"**
+- Use title: `Feature Request: [Your Project Name]`
 - Include:
   - Your GitHub username
   - Your repository link
-  - Project category: Building Mod, Gameplay Mod, Tool, Guide, Research
+  - Project category: Building Mod, Gameplay Mod, Tool, Guide, or Research
   - A short description (1–2 sentences)
   - Why it is useful for the Icarus community
 
 #### Option 2: Submit a Pull Request
 
 - Fork this repository
-- Add your project to the relevant section above
-- Include your repo URL, author name, and a brief description
+- Add your project to the relevant grid card above
+- Format: **[Project Name](url)** — *by @username* followed by a description
+- Include a link back to your repository
 - Submit the PR for review
 
 ### Review Process
 
-- We review submissions on a regular basis
-- Projects are added if they’re relevant, useful, and maintained well
-- Feature slots are not guaranteed
+- We review submissions regularly
+- Projects are added if they're relevant, useful, and well-maintained
+- Feature slots are not guaranteed (we may prioritize projects over time)
 - We may remove entries if they become outdated, inactive, or misleading
 
 ### Important Notes
 
-- Featuring a project here is not an endorsement of the project’s content or safety
+- Featuring a project here is not an endorsement of the project's content or safety
 - We are showcasing community work, not hosting or mirroring it
 - You keep full ownership and control of your own repository
 - Please be respectful of game developers, community rules, and intellectual property
@@ -120,8 +124,17 @@ Your project should:
 
 <h2 align="center" style="font-size: 1.8em; margin-top: 30px; margin-bottom: 20px;">🧩 Recommended Submission Format</h2>
 
-Use this format when submitting a project:
+When submitting via pull request, use this format:
 
 ```markdown
-| Project Name | @username | Short description of what the project does | [View Repo](https://github.com/username/project) |
+**[Project Name](https://github.com/username/project)** — *by @username*
+
+Short description of what the project does and why it's useful for the Icarus community.
+```
+
+**Example:**
+```markdown
+**[Homestead Expanded](https://github.com/FeraniShades/Icarus_Mods)** — *by @FeraniShades*
+
+Gameplay mod that expands building customization and storage options with new deployable variants and mechanic improvements.
 ```
