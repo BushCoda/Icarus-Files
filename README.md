@@ -9,7 +9,7 @@
 </div>
 
 <p align="center" style="margin-top: 15px; color: #555;">
-An independent community repository for researching, documenting, and supporting modding for the game Icarus. This project brings together technical research, gameplay-system documentation, modding guides, extracted metadata, community projects, and tools useful to Icarus modders.
+An independent community repository for researching, documenting, and supporting modding for the game Icarus. This project brings together technical research, gameplay-system documentation, modding guides, and curated community projects.
 </p>
 
 <p align="center" style="color: #888; font-size: 0.9em; font-style: italic;">
@@ -62,15 +62,15 @@ This is an unofficial community research project. It is not affiliated with or e
 
 This repository documents Icarus game systems through technical research and reverse engineering.
 
-- **[Building System Research](Research%20Findings/Building%20System/Icarus%20Building%20Guide.md)** — Detailed analysis of placement mechanics, grid conversion, piece behavior, server entry points, and how building data is loaded and managed.
+- **[Building System Research](Research%20Findings/Building%20System/Icarus%20Building%20Guide.md)** — Detailed analysis of placement mechanics, grid conversion, piece behavior, server entry points, and coordinate systems.
 
-- **[Building Mod Development Guide](Mod%20Guide%20Suggestions/Building%20System/Icarus%20Building%20Mod%20Guide.md)** — Proposed approaches for world-grid and per-piece snap-point systems, including implementation strategies and validation techniques.
+- **[Building Mod Development Guide](Mod%20Guide%20Suggestions/Building%20System/Icarus%20Building%20Mod%20Guide.md)** — Proposed approaches for world-grid and per-piece snap-point systems, including implementation strategies and best practices.
 
 ### Community Resources
 
 Connect with the community and discover useful projects:
 
-- **[Community Project Showcase](COMMUNITY_SHOWCASE.md)** — Browse mods, tools, guides, research, and other projects created by fellow modders. All projects remain independently owned and maintained.
+- **[Community Project Showcase](COMMUNITY_SHOWCASE.md)** — Browse mods, tools, guides, research, and other projects created by fellow modders. All projects remain independently owned and maintained by their authors.
 
 - **[Contributing Guide](CONTRIBUTING.md)** — Learn how to submit research findings, corrections, guides, or other improvements to this repository.
 
@@ -94,6 +94,26 @@ The **[Community Project Showcase](COMMUNITY_SHOWCASE.md)** features projects in
 **Key principle:** Featured projects remain in their original repositories. Authors keep full ownership and control. This repository provides curation and discovery, not mirroring or copying.
 
 👉 **Want your project featured?** See [How to Get Featured](COMMUNITY_SHOWCASE.md#how-to-get-featured).
+
+---
+
+<h2 align="center" style="font-size: 1.8em; margin-top: 30px; margin-bottom: 20px;">🔗 Community Links</h2>
+
+Discover valuable research and resources from fellow Icarus modders:
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 20px;">
+
+<div style="background: #f6f8fb; padding: 15px; border-radius: 8px; border-left: 4px solid #8250df;">
+
+**📚 [Ferani's Icarus Modding Research](https://github.com/FeraniShades/Icarus-Modding-Research)**
+
+Practical research, tested workflows, reusable PowerShell tools, and documented case studies. Organized by game systems with confidence labels and evidence tracking.
+
+*by @FeraniShades*
+
+</div>
+
+</div>
 
 ---
 
@@ -134,13 +154,13 @@ The Building System `.txt` files in `Dumps/Building System/` are FModel exports 
 | **Actions & Upgrades** | `BP_ActionableBehaviour_Building.txt`, `BP_ActionableBehaviour_BuildingUpgrade.txt` |
 | **Game Lifecycle** | `BP_IcarusGameInstance.txt`, `BP_IcarusGameMode.txt`, `BP_IcarusGameState.txt` |
 
-This research is limited to cooked assets and in-game observations. The exports expose reflected properties, function signatures, selected defaults, inheritance, component templates, and related metadata governing building logic.
+This research is limited to cooked assets and in-game observations. The exports expose reflected properties, function signatures, selected defaults, inheritance, component templates, and related type information.
 
 ---
 
 <h2 align="center" style="font-size: 2.0em; margin-top: 30px; margin-bottom: 20px;">🔍 Research Status</h2>
 
-This repository is actively being developed. The building-placement and grid systems are the initial focus, but long-term goals include documenting additional Icarus systems.
+This repository is actively being developed. The building-placement and grid systems are the initial research focus, but long-term goals include documenting additional Icarus systems.
 
 **Future research areas may include:**
 - Items, crafting, and recipes
@@ -197,7 +217,7 @@ For detailed guidelines, see **[CONTRIBUTING.md](CONTRIBUTING.md)**.
 
 <h2 align="center" style="font-size: 2.0em; margin-top: 30px; margin-bottom: 20px;">⚖️ License & Third-Party Content</h2>
 
-**No repository license is currently specified.** Do not assume that notes, extracted metadata, or Icarus-related content may be reused or redistributed under an open-source license without explicit permission.
+**No repository license is currently specified.** Do not assume that notes, extracted metadata, or Icarus-related content may be reused or redistributed under an open-source license without explicit permission from the original author or project maintainer.
 
 ### Important Notes
 
@@ -223,7 +243,7 @@ to connect with other Icarus modders and researchers.
 </p>
 
 <p style="color: #999; font-size: 0.85em;">
-Last updated: 2026-09-26 | Icarus Modding Central Research Repository
+Last updated: 2026-09-30 | Icarus Modding Central Research Repository
 </p>
 
 </div>
