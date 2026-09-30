@@ -60,7 +60,7 @@ The goal is simple: help the community find useful work without taking ownership
 
 | Project | Author | Description | Repository |
 |---------|--------|-------------|-----------|
-| Example Research Repo | @example | Technical notes or experiments related to Icarus systems | [View Repo](https://github.com/example/repo) |
+| Ferani's Icarus Modding Research | @FeraniShades | Practical Icarus modding research, tested workflows, reusable PowerShell tools, and documented case studies | [View Repo](https://github.com/FeraniShades/Icarus-Modding-Research) |
 
 </div>
 
@@ -124,3 +124,4 @@ Use this format when submitting a project:
 
 ```markdown
 | Project Name | @username | Short description of what the project does | [View Repo](https://github.com/username/project) |
+```
