@@ -1,0 +1,971 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ShouldRotate",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.1"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Building_Ramp_C:ShouldRotate'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_Building_Ramp_C:ShouldRotate'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ByteProperty",
+        "Name": "Direction",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Enum": {
+          "ObjectName": "UserDefinedEnum'RotationalDirections'",
+          "ObjectPath": "Icarus/Content/BP/Building/RotationalDirections.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "GridSpaceTrans",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ClassProperty",
+        "Name": "NewBuilding",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Class'",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+          "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "HitDistanceFromCenter",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Dots",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "WorldRotToTest",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "GridspaceRotTestAgainst",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "RawHitNormal",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "Player",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Character'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "Shifted",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "WantsBlockLikePlacement",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Parm | OutParm",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "BlockLikePlacementExtra",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "Parm | OutParm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ByteProperty",
+        "Name": "WorkingDirection",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Enum": {
+          "ObjectName": "UserDefinedEnum'RotationalDirections'",
+          "ObjectPath": "Icarus/Content/BP/Building/RotationalDirections.0"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "WorkingTransform",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_ShouldRotate_Shifted",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ShouldRotate_WantsBlockLikePlacement",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_ShouldRotate_BlockLikePlacementExtra",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_ForwardShift_ShiftedLoc",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BackwardsShift_ShiftedLoc",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_DownShift_ShiftedLoc",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ClassIsChildOf_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ClassIsChildOf_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_ForwardShift_ShiftedLoc_1",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ClassIsChildOf_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BackwardsShift_ShiftedLoc_1",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ClassIsChildOf_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "K2Node_SwitchEnum_CmpSuccess_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_DownShift_ShiftedLoc_1",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Building_Ramp_Curved_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.2"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Building_Ramp_Curved_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.16"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Building_Ramp_Curved_C:InheritableComponentHandler'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.8"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.2"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Building_Ramp_Curved_C:ShouldRotate'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "BPC_Environmental_Buildup_Skeletal",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BPC_Environmental_Buildup_Skeletal_C'",
+          "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_Environmental_Buildup_Skeletal.8"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ShouldRotate": {
+        "ObjectName": "Function'BP_Building_Ramp_Curved_C:ShouldRotate'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.0"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Building_Ramp_Curved_C'Default__BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.2"
+    }
+  },
+  {
+    "Type": "BP_Building_Ramp_Curved_C",
+    "Name": "Default__BP_Building_Ramp_Curved_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/BP_Building_Ramp_Curved.BP_Building_Ramp_Curved_C'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved",
+    "Template": {
+      "ObjectName": "BP_Building_Ramp_C'Default__BP_Building_Ramp_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.3"
+    },
+    "Properties": {
+      "StatContainer": {
+        "ObjectName": "IcarusStatContainer'Default__BP_Building_Ramp_Curved_C:Stat Container'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.7"
+      },
+      "ActorState": {
+        "ObjectName": "ActorState'Default__BP_Building_Ramp_Curved_C:ActorState'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.3"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Building_Ramp_Curved_C:RootComponent'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.13"
+      }
+    }
+  },
+  {
+    "Type": "ActorState",
+    "Name": "ActorState",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorState'",
+    "Outer": {
+      "ObjectName": "BP_Building_Ramp_Curved_C'Default__BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.2"
+    },
+    "Template": {
+      "ObjectName": "ActorState'Default__BP_Building_Ramp_C:ActorState'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.4"
+    }
+  },
+  {
+    "Type": "BPC_AccumulationComponent_C",
+    "Name": "BPC_AccumulationComponent_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/SnowSystem/BPC_AccumulationComponent.BPC_AccumulationComponent_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.1"
+    },
+    "Template": {
+      "ObjectName": "BPC_AccumulationComponent_C'BP_Building_Ramp_C:BPC_AccumulationComponent_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.10"
+    },
+    "Properties": {
+      "BuildingAngleClampModifier": 1.0
+    }
+  },
+  {
+    "Type": "BPC_Environmental_Buildup_Skeletal_C",
+    "Name": "BPC_Environmental_Buildup_Skeletal_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/SnowSystem/BPC_Environmental_Buildup_Skeletal.BPC_Environmental_Buildup_Skeletal_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.1"
+    },
+    "Template": {
+      "ObjectName": "BPC_Environmental_Buildup_Skeletal_C'Default__BPC_Environmental_Buildup_Skeletal_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_Environmental_Buildup_Skeletal.9"
+    },
+    "Properties": {
+      "ClothingSimulationFactory": {
+        "ObjectName": "Class'ClothingSimulationFactoryNv'",
+        "ObjectPath": "/Script/ClothingSystemRuntimeNv"
+      },
+      "RelativeLocation": {
+        "X": -7.0,
+        "Y": 0.0,
+        "Z": 7.0
+      }
+    }
+  },
+  {
+    "Type": "BPC_EnvironmentalBuildup_C",
+    "Name": "BPC_EnvironmentalBuildup_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildup.BPC_EnvironmentalBuildup_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.1"
+    },
+    "Template": {
+      "ObjectName": "BPC_EnvironmentalBuildup_C'BP_Building_Ramp_C:BPC_EnvironmentalBuildup_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.11"
+    },
+    "Properties": {
+      "StaticMesh": null,
+      "OverrideMaterials": []
+    }
+  },
+  {
+    "Type": "IcarusStatContainer",
+    "Name": "Stat Container",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IcarusStatContainer'",
+    "Outer": {
+      "ObjectName": "BP_Building_Ramp_Curved_C'Default__BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.2"
+    },
+    "Template": {
+      "ObjectName": "IcarusStatContainer'Default__BP_Building_Ramp_C:Stat Container'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.12"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.1"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'NiagaraComponent'",
+            "ObjectPath": "/Script/Niagara"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "NiagaraComponent'BP_Building_Ramp_Curved_C:Niagara_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.9"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.2"
+            },
+            "SCSVariableName": "Niagara",
+            "AssociatedGuid": "92A53617-45B01C4D-CA1B70AE-5B2387E5"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SceneComponent'BP_Building_Ramp_Curved_C:Center_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.11"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "Center",
+            "AssociatedGuid": "1F3F4D7B-4FFB9E9C-6EC50F86-FBFFD7DD"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Ramp_Curved_C:SM_XPlane1_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.17"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.2"
+            },
+            "SCSVariableName": "SM_XPlane1",
+            "AssociatedGuid": "F885EF68-4AC5BE7B-819411A3-53357AC8"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Ramp_Curved_C:SM_XPlane_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.18"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.2"
+            },
+            "SCSVariableName": "SM_XPlane",
+            "AssociatedGuid": "E6CFE3B8-45A151E7-E0DDCF88-ADC38C4F"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BPC_EnvironmentalBuildup_C'",
+            "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildup.8"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BPC_EnvironmentalBuildup_C'BP_Building_Ramp_Curved_C:BPC_EnvironmentalBuildup_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.6"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.2"
+            },
+            "SCSVariableName": "BPC_EnvironmentalBuildup",
+            "AssociatedGuid": "DE27555A-44FBE3E4-EB6A5984-C536E1B8"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BPC_AccumulationComponent_C'",
+            "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_AccumulationComponent.12"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BPC_AccumulationComponent_C'BP_Building_Ramp_Curved_C:BPC_AccumulationComponent_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.4"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "BPC_AccumulationComponent",
+            "AssociatedGuid": "9E029F3B-42406718-4581C8BE-EF1CEB6A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Ramp_Curved_C:WeatherCullingMesh_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.19"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "WeatherCullingMesh",
+            "AssociatedGuid": "BF618F6E-4E8AA6E9-5C10B1BB-1A17639A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "Niagara_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.1"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'BP_Building_Ramp_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.14"
+    },
+    "Properties": {
+      "OverrideParameters": {
+        "DataInterfaces": [
+          {
+            "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_Ramp_Curved_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.10"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceStaticMesh",
+    "Name": "NiagaraDataInterfaceStaticMesh_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceStaticMesh'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'BP_Building_Ramp_Curved_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.9"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_Ramp_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.15"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Center_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.1"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'BP_Building_Ramp_C:Center_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.16"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 79.28932,
+        "Y": 150.0,
+        "Z": 220.7107
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Building_Ramp_Curved_C'Default__BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.2"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_Building_Ramp_C:RootComponent'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.19"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Building_Ramp_Curved_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.16"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Building_Ramp_Curved_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.12"
+      },
+      "VariableGuid": "C2A917A9-4B84A3C2-642E0DBD-5A7B1EC9",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Building_Ramp_Curved_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.16"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPC_Environmental_Buildup_Skeletal_C'",
+        "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_Environmental_Buildup_Skeletal.8"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPC_Environmental_Buildup_Skeletal_C'BP_Building_Ramp_Curved_C:BPC_Environmental_Buildup_Skeletal_GEN_VARIABLE'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.5"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "8EDEF5E0-42C02520-42942580-6D6F65C4",
+      "InternalVariableName": "BPC_Environmental_Buildup_Skeletal"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.1"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Building_Ramp_Curved_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.15"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Building_Ramp_Curved_C:SimpleConstructionScript_0.SCS_Node_1'",
+          "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.15"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Building_Ramp_Curved_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.14"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Ramp_C:SM_XPlane1_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.26"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_XPlane_Curved_Inverted'",
+        "ObjectPath": "Icarus/Content/Assets/3DArt/TMP_MSH/SM_XPlane_Curved_Inverted.2"
+      },
+      "RelativeLocation": {
+        "X": 550.0,
+        "Y": 360.0,
+        "Z": 355.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 1.4
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Ramp_C:SM_XPlane_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.27"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_XPlane_Curved'",
+        "ObjectPath": "Icarus/Content/Assets/3DArt/TMP_MSH/SM_XPlane_Curved.2"
+      },
+      "RelativeLocation": {
+        "X": 480.0,
+        "Y": 360.0,
+        "Z": 385.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 180.0,
+        "Roll": 90.0
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 1.4
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "WeatherCullingMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_Curved.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Ramp_C:WeatherCullingMesh_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.28"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_BLD_Roof_Curved_Brick_SHA'",
+        "ObjectPath": "Icarus/Content/ASS/BLD/Brick/Roof_Curved_Brick/SM_BLD_Roof_Curved_Brick_SHA.2"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  }
+]

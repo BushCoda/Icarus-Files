@@ -1,0 +1,187 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "EBuildingResourceType",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Package": "Icarus/Content/BP/Building/EBuildingResourceType",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "5568D14C43F5F5F174998693C4125197",
+            "SourceString": "Wood",
+            "LocalizedString": "Wood"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "E623873840B4F22D852EFA9C1F8C52F2",
+            "SourceString": "RefinedWood",
+            "LocalizedString": "RefinedWood"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "A7B0E6F344FBA19E7B5DD48C62DB78C1",
+            "SourceString": "Stone",
+            "LocalizedString": "Stone"
+          }
+        },
+        {
+          "Key": "NewEnumerator3",
+          "Value": {
+            "Namespace": "",
+            "Key": "E777B89241227252A9D71E95DFEE1B6C",
+            "SourceString": "Concrete",
+            "LocalizedString": "Concrete"
+          }
+        },
+        {
+          "Key": "NewEnumerator7",
+          "Value": {
+            "Namespace": "",
+            "Key": "BC61BDC64101B26A664304932C757AD9",
+            "SourceString": "Thatch",
+            "LocalizedString": "Thatch"
+          }
+        },
+        {
+          "Key": "NewEnumerator8",
+          "Value": {
+            "Namespace": "",
+            "Key": "1AF6D18A4E6E4C09B20D65A67422BAE4",
+            "SourceString": "Aluminium",
+            "LocalizedString": "Aluminium"
+          }
+        },
+        {
+          "Key": "NewEnumerator9",
+          "Value": {
+            "Namespace": "",
+            "Key": "C7CE309A47AF6AED5B7F5086EE7C8CFD",
+            "SourceString": "Glass",
+            "LocalizedString": "Glass"
+          }
+        },
+        {
+          "Key": "NewEnumerator10",
+          "Value": {
+            "Namespace": "",
+            "Key": "5DD9659644D549CB109C008487F0FD3B",
+            "SourceString": "None",
+            "LocalizedString": "None"
+          }
+        },
+        {
+          "Key": "NewEnumerator11",
+          "Value": {
+            "Namespace": "",
+            "Key": "0F8A291A4A7759E258970C9CEF4CA5D1",
+            "SourceString": "Scoria",
+            "LocalizedString": "Scoria"
+          }
+        },
+        {
+          "Key": "NewEnumerator12",
+          "Value": {
+            "Namespace": "",
+            "Key": "98E7B4014D281CAB82ED45B0651CE983",
+            "SourceString": "ClayBrick",
+            "LocalizedString": "ClayBrick"
+          }
+        },
+        {
+          "Key": "NewEnumerator13",
+          "Value": {
+            "Namespace": "",
+            "Key": "56DE95FD4AAF025323C681B0DE87B1D8",
+            "SourceString": "ScoriaBrick",
+            "LocalizedString": "ScoriaBrick"
+          }
+        },
+        {
+          "Key": "NewEnumerator14",
+          "Value": {
+            "Namespace": "",
+            "Key": "697538FB443FAF56803A1894BF079DE6",
+            "SourceString": "Steel",
+            "LocalizedString": "Steel"
+          }
+        },
+        {
+          "Key": "NewEnumerator15",
+          "Value": {
+            "Namespace": "",
+            "Key": "7AA2B54944E17133694015B74338CCD9",
+            "SourceString": "Ice",
+            "LocalizedString": "Ice"
+          }
+        },
+        {
+          "Key": "NewEnumerator16",
+          "Value": {
+            "Namespace": "",
+            "Key": "F48597DA42429B68D2C38AA668DD32FD",
+            "SourceString": "Limestone",
+            "LocalizedString": "Limestone"
+          }
+        },
+        {
+          "Key": "NewEnumerator17",
+          "Value": {
+            "Namespace": "",
+            "Key": "848D12B64F1562A74B969A865FEA2303",
+            "SourceString": "StoneBrick",
+            "LocalizedString": "StoneBrick"
+          }
+        },
+        {
+          "Key": "NewEnumerator18",
+          "Value": {
+            "Namespace": "",
+            "Key": "6BA7A42742D7C69519DF16B4504A16FA",
+            "SourceString": "ReinforcedGlass",
+            "LocalizedString": "ReinforcedGlass"
+          }
+        },
+        {
+          "Key": "NewEnumerator19",
+          "Value": {
+            "Namespace": "",
+            "Key": "5D5829A644BECDE7403018A32956F2CA",
+            "SourceString": "BeeswaxWood",
+            "LocalizedString": "BeeswaxWood"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "EBuildingResourceType::NewEnumerator10": 0,
+      "EBuildingResourceType::NewEnumerator0": 1,
+      "EBuildingResourceType::NewEnumerator1": 2,
+      "EBuildingResourceType::NewEnumerator2": 3,
+      "EBuildingResourceType::NewEnumerator3": 4,
+      "EBuildingResourceType::NewEnumerator7": 5,
+      "EBuildingResourceType::NewEnumerator8": 6,
+      "EBuildingResourceType::NewEnumerator9": 7,
+      "EBuildingResourceType::NewEnumerator11": 8,
+      "EBuildingResourceType::NewEnumerator12": 9,
+      "EBuildingResourceType::NewEnumerator13": 10,
+      "EBuildingResourceType::NewEnumerator14": 11,
+      "EBuildingResourceType::NewEnumerator17": 12,
+      "EBuildingResourceType::NewEnumerator18": 13,
+      "EBuildingResourceType::NewEnumerator15": 14,
+      "EBuildingResourceType::NewEnumerator16": 15,
+      "EBuildingResourceType::NewEnumerator19": 16,
+      "EBuildingResourceType::EBuildingResourceType_MAX": 17
+    },
+    "CppForm": "Namespaced"
+  }
+]

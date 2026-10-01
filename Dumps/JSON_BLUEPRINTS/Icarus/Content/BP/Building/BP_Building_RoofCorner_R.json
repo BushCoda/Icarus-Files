@@ -1,0 +1,494 @@
+[
+  {
+    "Type": "Function",
+    "Name": "GetBlockingBypass",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_RoofCorner_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.1"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Building_Ramp_C:GetBlockingBypass'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.1"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_Building_Ramp_C:GetBlockingBypass'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.1"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ClassProperty",
+        "Name": "BuildingClass",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Class'",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+          "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "BlockingPreRotate",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "BlockingPreRotate",
+          "Flags": "RF_Public",
+          "ElementSize": 24,
+          "Struct": {
+            "ObjectName": "ScriptStruct'VectorPair'",
+            "ObjectPath": "/Script/Icarus"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "GridSpaceTransform",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "BypassBlocking",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Parm | OutParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "BypassBlocking",
+          "Flags": "RF_Public",
+          "ElementSize": 24,
+          "Struct": {
+            "ObjectName": "ScriptStruct'VectorPair'",
+            "ObjectPath": "/Script/Icarus"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_VectorPair",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'VectorPair'",
+          "ObjectPath": "/Script/Icarus"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 24,
+          "Struct": {
+            "ObjectName": "ScriptStruct'VectorPair'",
+            "ObjectPath": "/Script/Icarus"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array_1",
+          "Flags": "RF_Public",
+          "ElementSize": 24,
+          "Struct": {
+            "ObjectName": "ScriptStruct'VectorPair'",
+            "ObjectPath": "/Script/Icarus"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetBlockingBypass_BypassBlocking",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_GetBlockingBypass_BypassBlocking",
+          "Flags": "RF_Public",
+          "ElementSize": 24,
+          "Struct": {
+            "ObjectName": "ScriptStruct'VectorPair'",
+            "ObjectPath": "/Script/Icarus"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorRotation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ClassIsChildOf_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_RotatorRotator_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Building_RoofCorner_R_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_RoofCorner_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner.0"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Building_RoofCorner_R_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.12"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Building_RoofCorner_R_C:InheritableComponentHandler'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_RoofCorner_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner.0"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Building_RoofCorner_R_C:GetBlockingBypass'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.0"
+      }
+    ],
+    "FuncMap": {
+      "GetBlockingBypass": {
+        "ObjectName": "Function'BP_Building_RoofCorner_R_C:GetBlockingBypass'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.0"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Building_RoofCorner_R_C'Default__BP_Building_RoofCorner_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.2"
+    }
+  },
+  {
+    "Type": "BP_Building_RoofCorner_R_C",
+    "Name": "Default__BP_Building_RoofCorner_R_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/BP_Building_RoofCorner_R.BP_Building_RoofCorner_R_C'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R",
+    "Template": {
+      "ObjectName": "BP_Building_RoofCorner_C'Default__BP_Building_RoofCorner_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner.1"
+    },
+    "Properties": {
+      "StatContainer": {
+        "ObjectName": "IcarusStatContainer'Default__BP_Building_RoofCorner_R_C:Stat Container'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.5"
+      },
+      "ActorState": {
+        "ObjectName": "ActorState'Default__BP_Building_RoofCorner_R_C:ActorState'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.3"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Building_RoofCorner_R_C:RootComponent'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.10"
+      }
+    }
+  },
+  {
+    "Type": "ActorState",
+    "Name": "ActorState",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorState'",
+    "Outer": {
+      "ObjectName": "BP_Building_RoofCorner_R_C'Default__BP_Building_RoofCorner_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.2"
+    },
+    "Template": {
+      "ObjectName": "ActorState'Default__BP_Building_RoofCorner_C:ActorState'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner.2"
+    }
+  },
+  {
+    "Type": "BPC_EnvironmentalBuildup_C",
+    "Name": "BPC_EnvironmentalBuildup_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildup.BPC_EnvironmentalBuildup_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_RoofCorner_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.1"
+    },
+    "Template": {
+      "ObjectName": "BPC_EnvironmentalBuildup_C'BP_Building_Ramp_C:BPC_EnvironmentalBuildup_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.11"
+    },
+    "Properties": {
+      "MeshXScale": 1.0,
+      "MeshYScale": 1.0,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FX_SnowRoof_R_Flat'",
+        "ObjectPath": "Icarus/Content/ASS/VFX/SNO/SM_FX_SnowRoof_R_Flat.2"
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 0.5
+      }
+    }
+  },
+  {
+    "Type": "IcarusStatContainer",
+    "Name": "Stat Container",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IcarusStatContainer'",
+    "Outer": {
+      "ObjectName": "BP_Building_RoofCorner_R_C'Default__BP_Building_RoofCorner_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.2"
+    },
+    "Template": {
+      "ObjectName": "IcarusStatContainer'Default__BP_Building_RoofCorner_C:Stat Container'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner.3"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_RoofCorner_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.1"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'NiagaraComponent'",
+            "ObjectPath": "/Script/Niagara"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "NiagaraComponent'BP_Building_RoofCorner_R_C:Niagara_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.7"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.2"
+            },
+            "SCSVariableName": "Niagara",
+            "AssociatedGuid": "92A53617-45B01C4D-CA1B70AE-5B2387E5"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BPC_EnvironmentalBuildup_C'",
+            "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildup.8"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BPC_EnvironmentalBuildup_C'BP_Building_RoofCorner_R_C:BPC_EnvironmentalBuildup_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.4"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.2"
+            },
+            "SCSVariableName": "BPC_EnvironmentalBuildup",
+            "AssociatedGuid": "DE27555A-44FBE3E4-EB6A5984-C536E1B8"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "Niagara_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_RoofCorner_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.1"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'BP_Building_RoofCorner_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner.5"
+    },
+    "Properties": {
+      "OverrideParameters": {
+        "DataInterfaces": [
+          {
+            "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_RoofCorner_R_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.8"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceStaticMesh",
+    "Name": "NiagaraDataInterfaceStaticMesh_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceStaticMesh'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'BP_Building_RoofCorner_R_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.7"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_RoofCorner_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner.6"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_RoofCorner_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Building_RoofCorner_R_C'Default__BP_Building_RoofCorner_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.2"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_Building_RoofCorner_C:RootComponent'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner.8"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Building_RoofCorner_R_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.12"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Building_RoofCorner_R_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.9"
+      },
+      "VariableGuid": "ECD42440-412F0A6C-B5422B9C-5215899F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_RoofCorner_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.1"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Building_RoofCorner_R_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_RoofCorner_R.11"
+      }
+    }
+  }
+]

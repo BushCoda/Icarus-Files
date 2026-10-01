@@ -1,0 +1,2886 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "BuildingVariationsStructure",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Package": "Icarus/Content/BP/Building/BuildingVariationsStructure",
+    "Properties": {
+      "Guid": "DD46B322-49B69B7E-D7970081-F686B475"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "BuildingTypes_72_32A035384C6F7100EAC360805E6B1972",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "BuildingTypes_72_32A035384C6F7100EAC360805E6B1972",
+          "Flags": "RF_Public",
+          "ElementSize": 32,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct'SoftBuildingGroupArray'",
+            "ObjectPath": "Icarus/Content/BP/Building/SoftBuildingGroupArray.0"
+          }
+        }
+      }
+    ],
+    "StructFlags": 0,
+    "DefaultProperties": {
+      "BuildingTypes_72_32A035384C6F7100EAC360805E6B1972": [
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Beam_Diagonal",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Beam_Diagonal_Concrete.BP_Building_Beam_Diagonal_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Beam_Diagonal_Glass.BP_Building_Beam_Diagonal_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Beam_Diagonal_INT_Wood.BP_Building_Beam_Diagonal_INT_Wood_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Beam_Diagonal_Iron.BP_Building_Beam_Diagonal_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Beam_Diagonal_Stone.BP_Building_Beam_Diagonal_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Beam_Diagonal_Thatch.BP_Building_Beam_Diagonal_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Beam_Diagonal_Wood.BP_Building_Beam_Diagonal_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Beam_Horizontal",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Beam_Horizontal_Concrete.BP_Building_Beam_Horizontal_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Beam_Horizontal_Glass.BP_Building_Beam_Horizontal_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Beam_Horizontal_INT_Wood.BP_Building_Beam_Horizontal_INT_Wood_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Beam_Horizontal_Iron.BP_Building_Beam_Horizontal_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Beam_Horizontal_Stone.BP_Building_Beam_Horizontal_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Beam_Horizontal_Thatch.BP_Building_Beam_Horizontal_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Beam_Horizontal_Wood.BP_Building_Beam_Horizontal_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Beam_Vertical",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Beam_Vertical_Concrete.BP_Building_Beam_Vertical_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Beam_Vertical_Glass.BP_Building_Beam_Vertical_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Beam_Vertical_INT_Wood.BP_Building_Beam_Vertical_INT_Wood_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Beam_Vertical_Iron.BP_Building_Beam_Vertical_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Beam_Vertical_Stone.BP_Building_Beam_Vertical_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Beam_Vertical_Thatch.BP_Building_Beam_Vertical_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Beam_Vertical_Wood.BP_Building_Beam_Vertical_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Floor",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Floor_Concrete.BP_Building_Floor_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Floor_Glass.BP_Building_Floor_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Floor_Wood_Refined.BP_Building_Floor_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Floor_Iron.BP_Building_Floor_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Floor_Stone.BP_Building_Floor_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Floor_Thatch.BP_Building_Floor_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Floor_Wood.BP_Building_Floor_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Floor_Half_1",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Floor_Half_1_Concrete.BP_Building_Floor_Half_1_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Floor_Half_1_Glass.BP_Building_Floor_Half_1_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Floor_Half_1_Wood_Refined.BP_Building_Floor_Half_1_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Floor_Half_1_Iron.BP_Building_Floor_Half_1_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Floor_Half_1_Stone.BP_Building_Floor_Half_1_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Floor_Half_1_Thatch.BP_Building_Floor_Half_1_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Floor_Half_1_Wood.BP_Building_Floor_Half_1_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Floor_Quarter_1",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Floor_Quarter_1_Concrete.BP_Building_Floor_Quarter_1_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Floor_Quarter_1_Glass.BP_Building_Floor_Quarter_1_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Floor_Quarter_1_Wood_Refined.BP_Building_Floor_Quarter_1_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Floor_Quarter_1_Iron.BP_Building_Floor_Quarter_1_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Floor_Quarter_1_Stone.BP_Building_Floor_Quarter_1_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Floor_Quarter_1_Thatch.BP_Building_Floor_Quarter_1_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Floor_Quarter_1_Wood.BP_Building_Floor_Quarter_1_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Floor_Trap",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Floor_TrapDoor_Concrete.BP_Building_Floor_TrapDoor_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Floor_TrapDoor_Wood_Refined.BP_Building_Floor_TrapDoor_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Floor_TrapDoor_Iron.BP_Building_Floor_TrapDoor_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Floor_TrapDoor_Stone.BP_Building_Floor_TrapDoor_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Floor_TrapDoor_Thatch.BP_Building_Floor_TrapDoor_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Floor_TrapDoor_Wood.BP_Building_Floor_TrapDoor_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Frame_Angle",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Frame_Angle_Concrete.BP_Building_Frame_Angle_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Frame_Angle_Wood_Refined.BP_Building_Frame_Angle_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Frame_Angle_Stone.BP_Building_Frame_Angle_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Frame_Angle_Thatch.BP_Building_Frame_Angle_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Frame_Angle_Wood.BP_Building_Frame_Angle_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Frame",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Frame_Concrete.BP_Building_Frame_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Frame_Wood_Refined.BP_Building_Frame_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Frame_Stone.BP_Building_Frame_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Frame_Thatch.BP_Building_Frame_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Frame_Wood.BP_Building_Frame_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "InvRoofCorner_L",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_InvRoofCorner_L_Concrete.BP_Building_InvRoofCorner_L_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_InvRoofCorner_L_Glass.BP_Building_InvRoofCorner_L_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_InvRoofCorner_L_Iron.BP_Building_InvRoofCorner_L_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_InvRoofCorner_L_Stone.BP_Building_InvRoofCorner_L_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_InvRoofCorner_L_Thatch.BP_Building_InvRoofCorner_L_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_InvRoofCorner_L_Wood.BP_Building_InvRoofCorner_L_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "InvRoofCorner_R",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_InvRoofCorner_R_Concrete.BP_Building_InvRoofCorner_R_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_InvRoofCorner_R_Glass.BP_Building_InvRoofCorner_R_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_InvRoofCorner_R_Iron.BP_Building_InvRoofCorner_R_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_InvRoofCorner_R_Stone.BP_Building_InvRoofCorner_R_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_InvRoofCorner_R_Thatch.BP_Building_InvRoofCorner_R_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_InvRoofCorner_R_Wood.BP_Building_InvRoofCorner_R_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Ramp",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Ramp_Concrete.BP_Building_Ramp_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Ramp_Wood_Refined.BP_Building_Ramp_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Ramp_Iron.BP_Building_Ramp_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Ramp_Stone.BP_Building_Ramp_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Ramp_Thatch.BP_Building_Ramp_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Ramp_Wood.BP_Building_Ramp_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Ramp_Half_1",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Ramp_Half_1_Concrete.BP_Building_Ramp_Half_1_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Ramp_Half_1_Glass.BP_Building_Ramp_Half_1_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Ramp_Half_1_Wood_Refined.BP_Building_Ramp_Half_1_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Ramp_Half_1_Iron.BP_Building_Ramp_Half_1_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Ramp_Half_1_Stone.BP_Building_Ramp_Half_1_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Ramp_Half_1_Thatch.BP_Building_Ramp_Half_1_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Ramp_Half_1_Wood.BP_Building_Ramp_Half_1_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Ramp_Half_2",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Ramp_Half_2_Concrete.BP_Building_Ramp_Half_2_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Ramp_Half_2_Glass.BP_Building_Ramp_Half_2_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Ramp_Half_2_Wood_Refined.BP_Building_Ramp_Half_2_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Ramp_Half_2_Iron.BP_Building_Ramp_Half_2_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Ramp_Half_2_Stone.BP_Building_Ramp_Half_2_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Ramp_Half_2_Thatch.BP_Building_Ramp_Half_2_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Ramp_Half_2_Wood.BP_Building_Ramp_Half_2_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Ramp_Halfpitch_Lower",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Ramp_HalfPitch_Lower_Concrete.BP_Building_Ramp_HalfPitch_Lower_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Ramp_HalfPitch_Lower_Glass.BP_Building_Ramp_HalfPitch_Lower_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Ramp_HalfPitch_Lower_Iron.BP_Building_Ramp_HalfPitch_Lower_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Ramp_HalfPitch_Lower_Stone.BP_Building_Ramp_HalfPitch_Lower_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Ramp_HalfPitch_Lower_Thatch.BP_Building_Ramp_HalfPitch_Lower_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Ramp_HalfPitch_Lower_Wood.BP_Building_Ramp_HalfPitch_Lower_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Ramp_Halfpitch_Upper",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Ramp_HalfPitch_Upper_Concrete.BP_Building_Ramp_HalfPitch_Upper_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Ramp_HalfPitch_Upper_Glass.BP_Building_Ramp_HalfPitch_Upper_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Ramp_HalfPitch_Upper_Iron.BP_Building_Ramp_HalfPitch_Upper_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Ramp_HalfPitch_Upper_Stone.BP_Building_Ramp_HalfPitch_Upper_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Ramp_HalfPitch_Upper_Thatch.BP_Building_Ramp_HalfPitch_Upper_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Ramp_HalfPitch_Upper_Wood.BP_Building_Ramp_HalfPitch_Upper_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Roof",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Roof_Concrete.BP_Building_Roof_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Roof_Angle_Glass.BP_Building_Roof_Angle_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Roof_Angle_Iron.BP_Building_Roof_Angle_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Roof_Stone.BP_Building_Roof_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Roof_Thatch.BP_Building_Roof_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Roof_Angle_Wood.BP_Building_Roof_Angle_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Roof_Peak",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Roof_Peak_Concrete.BP_Building_Roof_Peak_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Roof_Peak_Glass.BP_Building_Roof_Peak_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Roof_Peak_Iron.BP_Building_Roof_Peak_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Roof_Peak_Stone.BP_Building_Roof_Peak_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Roof_Peak_Thatch.BP_Building_Roof_Peak_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Roof_Peak_Wood.BP_Building_Roof_Peak_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "RoofCorner_L",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_RoofCorner_L_Concrete.BP_Building_RoofCorner_L_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_RoofCorner_L_Glass.BP_Building_RoofCorner_L_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_RoofCorner_L_Iron.BP_Building_RoofCorner_L_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_RoofCorner_L_Stone.BP_Building_RoofCorner_L_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_RoofCorner_L_Thatch.BP_Building_RoofCorner_L_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_RoofCorner_L_Wood.BP_Building_RoofCorner_L_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "RoofCorner_R",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_RoofCorner_R_Concrete.BP_Building_RoofCorner_R_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_RoofCorner_R_Glass.BP_Building_RoofCorner_R_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_RoofCorner_R_Iron.BP_Building_RoofCorner_R_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_RoofCorner_R_Stone.BP_Building_RoofCorner_R_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_RoofCorner_R_Thatch.BP_Building_RoofCorner_R_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_RoofCorner_R_Wood.BP_Building_RoofCorner_R_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Stairs",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Stairs_Concrete.BP_Building_Stairs_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "None",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Stairs_Interior_Wood.BP_Building_Stairs_Interior_Wood_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Stairs_Iron.BP_Building_Stairs_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Stairs_Stone.BP_Building_Stairs_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Stairs_Thatch.BP_Building_Stairs_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Stairs_Wood.BP_Building_Stairs_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_Doorframe",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_Doorframe_Concrete.BP_Building_Wall_Doorframe_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_Doorframe_Glass.BP_Building_Wall_Doorframe_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_Doorframe_Wood_Refined.BP_Building_Wall_Doorframe_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_Doorframe_Iron.BP_Building_Wall_Doorframe_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_Doorframe_Stone.BP_Building_Wall_Doorframe_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_Doorframe_Thatch.BP_Building_Wall_Doorframe_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_Doorframe_Wood.BP_Building_Wall_Doorframe_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_Half_1",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_Half_1_Concrete.BP_Building_Wall_Half_1_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_Half_1_Glass.BP_Building_Wall_Half_1_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_Half_1_Wood_Refined.BP_Building_Wall_Half_1_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_Half_1_Iron.BP_Building_Wall_Half_1_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_Half_1_Stone.BP_Building_Wall_Half_1_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_Half_1_Thatch.BP_Building_Wall_Half_1_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_Half_1_Wood.BP_Building_Wall_Half_1_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_Half_Angle_L",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_Half_Angle_L_Concrete.BP_Building_Wall_Half_Angle_L_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_Angle_Left_Glass.BP_Building_Wall_Angle_Left_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_Half_Angle_Left_Wood_Refined.BP_Building_Wall_Half_Angle_Left_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_Angle_Left_Iron.BP_Building_Wall_Angle_Left_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_Half_Angle_L_Stone.BP_Building_Wall_Half_Angle_L_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_Half_Angle_L_Thatch.BP_Building_Wall_Half_Angle_L_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_Half_Angle_Left_Wood.BP_Building_Wall_Half_Angle_Left_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_Half_Angle_Left_Invert",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_Half_Angle_Left_Invert_Concrete.BP_Building_Wall_Half_Angle_Left_Invert_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_Angle_Left_Invert_Glass.BP_Building_Wall_Angle_Left_Invert_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_Half_Angle_Left_Invert_INT_Wood.BP_Building_Wall_Half_Angle_Left_Invert_INT_Wood_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_Angle_Left_Invert_Iron.BP_Building_Wall_Angle_Left_Invert_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_Half_Angle_Left_Invert_Stone.BP_Building_Wall_Half_Angle_Left_Invert_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_Half_Angle_Left_Invert_Thatch.BP_Building_Wall_Half_Angle_Left_Invert_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_Angle_Left_Invert_Wood.BP_Building_Wall_Angle_Left_Invert_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_Half_Angle_Peak",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_Half_Angle_Peak_Concrete.BP_Building_Wall_Half_Angle_Peak_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_Angle_Peak_Glass.BP_Building_Wall_Angle_Peak_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_Half_Angle_Peak_Wood_Refined.BP_Building_Wall_Half_Angle_Peak_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_Angle_Peak_Iron.BP_Building_Wall_Angle_Peak_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_Half_Angle_Peak_Stone.BP_Building_Wall_Half_Angle_Peak_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_Half_Angle_Peak_Thatch.BP_Building_Wall_Half_Angle_Peak_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_Half_Angle_Peak_Wood.BP_Building_Wall_Half_Angle_Peak_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_Half_Angle_R",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_Half_Angle_R_Concrete.BP_Building_Wall_Half_Angle_R_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_Angle_Right_Glass.BP_Building_Wall_Angle_Right_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_Half_Angle_Right_Wood_Refined.BP_Building_Wall_Half_Angle_Right_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_Angle_Right_Iron.BP_Building_Wall_Angle_Right_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_Half_Angle_R_Stone.BP_Building_Wall_Half_Angle_R_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_Half_Angle_R_Thatch.BP_Building_Wall_Half_Angle_R_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_Half_Angle_Right_Wood.BP_Building_Wall_Half_Angle_Right_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_Half_Angle_Right_Invert",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_Half_Angle_Right_Invert_Concrete.BP_Building_Wall_Half_Angle_Right_Invert_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_Angle_Right_Invert_Glass.BP_Building_Wall_Angle_Right_Invert_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_Half_Angle_Right_Invert_INT_Wood.BP_Building_Wall_Half_Angle_Right_Invert_INT_Wood_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_Angle_Right_Invert_Iron.BP_Building_Wall_Angle_Right_Invert_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_Half_Angle_Right_Invert_Stone.BP_Building_Wall_Half_Angle_Right_Invert_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_Half_Angle_Right_Invert_Thatch.BP_Building_Wall_Half_Angle_Right_Invert_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_Angle_Right_Invert_Wood.BP_Building_Wall_Angle_Right_Invert_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_HalfPitch_Lower_Left",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_HalfPitch_Lower_Left_Concrete.BP_Building_Wall_HalfPitch_Lower_Left_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_HalfPitch_Lower_Left_Glass.BP_Building_Wall_HalfPitch_Lower_Left_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_HalfPitch_Lower_Left_Wood_Refined.BP_Building_Wall_HalfPitch_Lower_Left_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_HalfPitch_Lower_Left_Iron.BP_Building_Wall_HalfPitch_Lower_Left_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_HalfPitch_Lower_Left_Stone.BP_Building_Wall_HalfPitch_Lower_Left_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_HalfPitch_Lower_Left_Thatch.BP_Building_Wall_HalfPitch_Lower_Left_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_HalfPitch_Lower_Left_Wood.BP_Building_Wall_HalfPitch_Lower_Left_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_HalfPitch_Lower_Right",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_HalfPitch_Lower_Right_Concrete.BP_Building_Wall_HalfPitch_Lower_Right_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_HalfPitch_Lower_Right_Glass.BP_Building_Wall_HalfPitch_Lower_Right_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_HalfPitch_Lower_Right_Wood_Refined.BP_Building_Wall_HalfPitch_Lower_Right_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_HalfPitch_Lower_Right_Iron.BP_Building_Wall_HalfPitch_Lower_Right_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_HalfPitch_Lower_Right_Stone.BP_Building_Wall_HalfPitch_Lower_Right_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_HalfPitch_Lower_Right_Thatch.BP_Building_Wall_HalfPitch_Lower_Right_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_HalfPitch_Lower_Right_Wood.BP_Building_Wall_HalfPitch_Lower_Right_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_HalfPitch_Upper_Left",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_HalfPitch_Upper_Left_Concrete.BP_Building_Wall_HalfPitch_Upper_Left_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_HalfPitch_Upper_Left_Glass.BP_Building_Wall_HalfPitch_Upper_Left_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_HalfPitch_Upper_Left_Wood_Refined.BP_Building_Wall_HalfPitch_Upper_Left_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_HalfPitch_Upper_Left_Iron.BP_Building_Wall_HalfPitch_Upper_Left_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_HalfPitch_Upper_Left_Stone.BP_Building_Wall_HalfPitch_Upper_Left_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_HalfPitch_Upper_Left_Thatch.BP_Building_Wall_HalfPitch_Upper_Left_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_HalfPitch_Upper_Left_Wood.BP_Building_Wall_HalfPitch_Upper_Left_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_HalfPitch_Upper_Right",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_HalfPitch_Upper_Right_Concrete.BP_Building_Wall_HalfPitch_Upper_Right_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_HalfPitch_Upper_Right_Glass.BP_Building_Wall_HalfPitch_Upper_Right_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_HalfPitch_Upper_Right_Wood_Refined.BP_Building_Wall_HalfPitch_Upper_Right_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_HalfPitch_Upper_Right_Iron.BP_Building_Wall_HalfPitch_Upper_Right_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_HalfPitch_Upper_Right_Stone.BP_Building_Wall_HalfPitch_Upper_Right_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_HalfPitch_Upper_Right_Thatch.BP_Building_Wall_HalfPitch_Upper_Right_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_HalfPitch_Upper_Right_Wood.BP_Building_Wall_HalfPitch_Upper_Right_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_Solid",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_Solid_Concrete.BP_Building_Wall_Solid_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_Solid_Glass.BP_Building_Wall_Solid_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_Solid_Wood_Refined.BP_Building_Wall_Solid_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_Solid_Iron.BP_Building_Wall_Solid_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_Solid_Stone.BP_Building_Wall_Solid_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_Solid_Thatch.BP_Building_Wall_Solid_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_Solid_Wood.BP_Building_Wall_Solid_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_Windowframe",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_Windowframe_Concrete.BP_Building_Wall_Windowframe_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_Windowframe_Glass.BP_Building_Wall_Windowframe_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_Windowframe_Wood_Refined.BP_Building_Wall_Windowframe_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_Windowframe_Iron.BP_Building_Wall_Windowframe_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_Windowframe_Stone.BP_Building_Wall_Windowframe_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_Windowframe_Thatch.BP_Building_Wall_Windowframe_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_Windowframe_Wood.BP_Building_Wall_Windowframe_Wood_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_Door_DBL_L",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_Door_DBL_L_Concrete.BP_Building_Wall_Door_DBL_L_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_Door_DBL_L_Glass.BP_Building_Wall_Door_DBL_L_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_Door_DBL_L_Wood_Refined.BP_Building_Wall_Door_DBL_L_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_Door_DBL_L_Iron.BP_Building_Wall_Door_DBL_L_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_Door_DBL_L_Stone.BP_Building_Wall_Door_DBL_L_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_Door_DBL_L_Thatch.BP_Building_Wall_Door_DBL_L_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_Door_DBL_L.BP_Building_Wall_Door_DBL_L_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_Door_DBL_R",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_Door_DBL_R_Concrete.BP_Building_Wall_Door_DBL_R_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_Door_DBL_R_Glass.BP_Building_Wall_Door_DBL_R_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_Door_DBL_R_Wood_Refined.BP_Building_Wall_Door_DBL_R_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_Door_DBL_R_Iron.BP_Building_Wall_Door_DBL_R_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_Door_DBL_R_Stone.BP_Building_Wall_Door_DBL_R_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_Door_DBL_R_Thatch.BP_Building_Wall_Door_DBL_R_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_Door_DBL_R.BP_Building_Wall_Door_DBL_R_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_Win_DBL_L",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_Win_DBL_L_Concrete.BP_Building_Wall_Win_DBL_L_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_Win_DBL_L_Glass.BP_Building_Wall_Win_DBL_L_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_Win_DBL_L_Wood_Refined.BP_Building_Wall_Win_DBL_L_Wood_Refined_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_Win_DBL_L_Iron.BP_Building_Wall_Win_DBL_L_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_Win_DBL_L_Stone.BP_Building_Wall_Win_DBL_L_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_Win_DBL_L_Thatch.BP_Building_Wall_Win_DBL_L_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_Window_DBL_L.BP_Building_Wall_Window_DBL_L_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        },
+        {
+          "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "Wall_Win_DBL_R",
+          "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": [
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Concrete",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Concrete/BP_Building_Wall_Win_DBL_R_Concrete.BP_Building_Wall_Win_DBL_R_Concrete_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Glass",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Glass/BP_Building_Wall_Win_DBL_R_Glass.BP_Building_Wall_Win_DBL_R_Glass_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Interior_Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/InteriorWood/BP_Building_Wall_Win_DBL_R_Wood_Refined1.BP_Building_Wall_Win_DBL_R_Wood_Refined1_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Iron",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Iron/BP_Building_Wall_Win_DBL_R_Iron.BP_Building_Wall_Win_DBL_R_Iron_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Stone",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Stone/BP_Building_Wall_Win_DBL_R_Stone.BP_Building_Wall_Win_DBL_R_Stone_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Thatch",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Thatch/BP_Building_Wall_Win_DBL_R_Thatch.BP_Building_Wall_Win_DBL_R_Thatch_C",
+                "SubPathString": ""
+              }
+            },
+            {
+              "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+                "RowName": "Wood",
+                "DataTableName": "D_BuildingTypes"
+              },
+              "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+                "AssetPathName": "/Game/BP/Building/Wood/BP_Building_Wall_Window_DBL_R.BP_Building_Wall_Window_DBL_R_C",
+                "SubPathString": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

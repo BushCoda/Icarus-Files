@@ -1,0 +1,51 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "SoftBuildingData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Package": "Icarus/Content/BP/Building/SoftBuildingData",
+    "Properties": {
+      "Guid": "FE85D393-4D996F6E-778ED096-697B0E3E"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 32,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'BuildingTypesRowHandle'",
+          "ObjectPath": "/Script/Icarus"
+        }
+      },
+      {
+        "Type": "SoftClassProperty",
+        "Name": "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "PropertyClass": {
+          "ObjectName": "Class'Class'",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+          "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+        }
+      }
+    ],
+    "StructFlags": 0,
+    "DefaultProperties": {
+      "BuildingType_5_D995FC874A80B98A1E36ADBD27B04DDD": {
+        "RowName": "None",
+        "DataTableName": "D_BuildingTypes"
+      },
+      "SoftBuildingClass_2_9E5E790944B30803C59A0C9A09CE0348": {
+        "AssetPathName": "None",
+        "SubPathString": ""
+      }
+    }
+  }
+]

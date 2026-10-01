@@ -1,0 +1,982 @@
+[
+  {
+    "Type": "Function",
+    "Name": "GetBlockingBypass",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.1"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Building_Beam_Diagnal_C:GetBlockingBypass'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.4"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_Building_Beam_Diagnal_C:GetBlockingBypass'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.4"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ClassProperty",
+        "Name": "BuildingClass",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "PropertyClass": {
+          "ObjectName": "Class'Class'",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+          "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "BlockingPreRotate",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "BlockingPreRotate",
+          "Flags": "RF_Public",
+          "ElementSize": 24,
+          "Struct": {
+            "ObjectName": "ScriptStruct'VectorPair'",
+            "ObjectPath": "/Script/Icarus"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "GridSpaceTransform",
+        "Flags": "RF_Public",
+        "ElementSize": 48,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Transform'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "BypassBlocking",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Parm | OutParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "BypassBlocking",
+          "Flags": "RF_Public",
+          "ElementSize": 24,
+          "Struct": {
+            "ObjectName": "ScriptStruct'VectorPair'",
+            "ObjectPath": "/Script/Icarus"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorRotation_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetBlockingBypass_BypassBlocking",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_GetBlockingBypass_BypassBlocking",
+          "Flags": "RF_Public",
+          "ElementSize": 24,
+          "Struct": {
+            "ObjectName": "ScriptStruct'VectorPair'",
+            "ObjectPath": "/Script/Icarus"
+          }
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Roll",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Pitch",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_BreakRotator_Yaw",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValidClass_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_MakeRotator_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_K2_GetActorRotation_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_RotatorRotator_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Location_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Rotation_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Rotator'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_BreakTransform_Scale_1",
+        "Flags": "RF_Public",
+        "ElementSize": 12,
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_RotatorRotator_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 24,
+          "Struct": {
+            "ObjectName": "ScriptStruct'VectorPair'",
+            "ObjectPath": "/Script/Icarus"
+          }
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_VectorPair",
+        "Flags": "RF_Public",
+        "ElementSize": 24,
+        "Struct": {
+          "ObjectName": "ScriptStruct'VectorPair'",
+          "ObjectPath": "/Script/Icarus"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ClassIsChildOf_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "K2Node_MakeArray_Array_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeArray_Array_1",
+          "Flags": "RF_Public",
+          "ElementSize": 24,
+          "Struct": {
+            "ObjectName": "ScriptStruct'VectorPair'",
+            "ObjectPath": "/Script/Icarus"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ClassIsChildOf_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetBlockingBypass_BypassBlocking_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "CallFunc_GetBlockingBypass_BypassBlocking_1",
+          "Flags": "RF_Public",
+          "ElementSize": 24,
+          "Struct": {
+            "ObjectName": "ScriptStruct'VectorPair'",
+            "ObjectPath": "/Script/Icarus"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ClassIsChildOf_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_ClassIsChildOf_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_BooleanOR_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Building_Beam_Diagnal_Curved_Up_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Diagnal_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.5"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Building_Beam_Diagnal_Curved_Up_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.13"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Building_Beam_Diagnal_Curved_Up_C:InheritableComponentHandler'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.6"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Diagnal_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.5"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Building_Beam_Diagnal_Curved_Up_C:GetBlockingBypass'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.0"
+      }
+    ],
+    "FuncMap": {
+      "GetBlockingBypass": {
+        "ObjectName": "Function'BP_Building_Beam_Diagnal_Curved_Up_C:GetBlockingBypass'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.0"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Building_Beam_Diagnal_Curved_Up_C'Default__BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.2"
+    }
+  },
+  {
+    "Type": "BP_Building_Beam_Diagnal_Curved_Up_C",
+    "Name": "Default__BP_Building_Beam_Diagnal_Curved_Up_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.BP_Building_Beam_Diagnal_Curved_Up_C'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up",
+    "Template": {
+      "ObjectName": "BP_Building_Beam_Diagnal_C'Default__BP_Building_Beam_Diagnal_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.6"
+    },
+    "Properties": {
+      "StatContainer": {
+        "ObjectName": "IcarusStatContainer'Default__BP_Building_Beam_Diagnal_Curved_Up_C:Stat Container'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.5"
+      },
+      "ActorState": {
+        "ObjectName": "ActorState'Default__BP_Building_Beam_Diagnal_Curved_Up_C:ActorState'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.3"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Building_Beam_Diagnal_Curved_Up_C:RootComponent'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.11"
+      }
+    }
+  },
+  {
+    "Type": "ActorState",
+    "Name": "ActorState",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorState'",
+    "Outer": {
+      "ObjectName": "BP_Building_Beam_Diagnal_Curved_Up_C'Default__BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.2"
+    },
+    "Template": {
+      "ObjectName": "ActorState'Default__BP_Building_Beam_Diagnal_C:ActorState'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.7"
+    }
+  },
+  {
+    "Type": "BPC_EnvironmentalBuildup_C",
+    "Name": "BPC_EnvironmentalBuildup_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildup.BPC_EnvironmentalBuildup_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.1"
+    },
+    "Template": {
+      "ObjectName": "BPC_EnvironmentalBuildup_C'BP_Building_Beam_Diagnal_C:BPC_EnvironmentalBuildup_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.12"
+    },
+    "Properties": {
+      "StaticMesh": null,
+      "OverrideMaterials": []
+    }
+  },
+  {
+    "Type": "IcarusStatContainer",
+    "Name": "Stat Container",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IcarusStatContainer'",
+    "Outer": {
+      "ObjectName": "BP_Building_Beam_Diagnal_Curved_Up_C'Default__BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.2"
+    },
+    "Template": {
+      "ObjectName": "IcarusStatContainer'Default__BP_Building_Beam_Diagnal_C:Stat Container'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.13"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.1"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'NiagaraComponent'",
+            "ObjectPath": "/Script/Niagara"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "NiagaraComponent'BP_Building_Beam_Diagnal_Curved_Up_C:Niagara_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.7"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "Niagara",
+            "AssociatedGuid": "CB0E44DB-49843C8B-5A22CFA3-F952136B"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Beam_Diagnal_Curved_Up_C:SM_XPlane5_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.18"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "SM_XPlane5",
+            "AssociatedGuid": "AC6DD5DB-42E4F294-05D488B8-A4A8B3F6"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Beam_Diagnal_Curved_Up_C:SM_XPlane4_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.17"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "SM_XPlane4",
+            "AssociatedGuid": "FAFD76AB-4457FB28-01D3DA89-DBDCB4EF"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Beam_Diagnal_Curved_Up_C:SM_XPlane3_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.16"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "SM_XPlane3",
+            "AssociatedGuid": "24EA6BFF-4D731D7E-C631C98C-E3B068FE"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Beam_Diagnal_Curved_Up_C:SM_XPlane2_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.15"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "SM_XPlane2",
+            "AssociatedGuid": "E3B75EC5-4E79AB8F-06B299A3-E5387C36"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Beam_Diagnal_Curved_Up_C:SM_XPlane1_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.14"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "SM_XPlane1",
+            "AssociatedGuid": "80599486-46B4E747-8C9BFC8E-4C0D6E6D"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Beam_Diagnal_Curved_Up_C:SM_XPlane_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.19"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "SM_XPlane",
+            "AssociatedGuid": "2EC8F4D2-4F43B016-B7FAC79A-D2A51238"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SceneComponent'BP_Building_Beam_Diagnal_Curved_Up_C:PlacementHelpers_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.10"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "PlacementHelpers",
+            "AssociatedGuid": "3F67BDDC-42391D92-1574FA9B-B72E2660"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BPC_EnvironmentalBuildup_C'",
+            "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildup.8"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BPC_EnvironmentalBuildup_C'BP_Building_Beam_Diagnal_Curved_Up_C:BPC_EnvironmentalBuildup_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.4"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "BPC_EnvironmentalBuildup",
+            "AssociatedGuid": "58080BB3-4EB67ECB-CE6DC19F-19EF8149"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "Niagara_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.1"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'BP_Building_Beam_Diagnal_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.15"
+    },
+    "Properties": {
+      "OverrideParameters": {
+        "DataInterfaces": [
+          {
+            "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_Beam_Diagnal_Curved_Up_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.8"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceStaticMesh",
+    "Name": "NiagaraDataInterfaceStaticMesh_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceStaticMesh'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'BP_Building_Beam_Diagnal_Curved_Up_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.7"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_Beam_Diagnal_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.16"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.1"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlacementHelpers_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.1"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'BP_Building_Beam_Diagnal_C:PlacementHelpers_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.19"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Building_Beam_Diagnal_Curved_Up_C'Default__BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.2"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_Building_Beam_Diagnal_C:RootComponent'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.20"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Building_Beam_Diagnal_Curved_Up_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.13"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Building_Beam_Diagnal_Curved_Up_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.9"
+      },
+      "VariableGuid": "B509A7CD-459AE2A0-44CF7AA7-9E407E3B",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.1"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Building_Beam_Diagnal_Curved_Up_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.12"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Beam_Diagnal_C:SM_XPlane1_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.23"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_XPlane_Curved_Inverted'",
+        "ObjectPath": "Icarus/Content/Assets/3DArt/TMP_MSH/SM_XPlane_Curved_Inverted.2"
+      },
+      "RelativeLocation": {
+        "X": -19.994762,
+        "Y": 416.73135,
+        "Z": 373.20944
+      },
+      "RelativeRotation": {
+        "Pitch": 5.003619,
+        "Yaw": -90.00076,
+        "Roll": 89.99969
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 0.2
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Beam_Diagnal_C:SM_XPlane2_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.24"
+    },
+    "Properties": {
+      "StaticMesh": null,
+      "OverrideMaterials": []
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Beam_Diagnal_C:SM_XPlane3_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.25"
+    },
+    "Properties": {
+      "StaticMesh": null,
+      "OverrideMaterials": []
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Beam_Diagnal_C:SM_XPlane4_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.26"
+    },
+    "Properties": {
+      "StaticMesh": null,
+      "OverrideMaterials": []
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Beam_Diagnal_C:SM_XPlane5_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.27"
+    },
+    "Properties": {
+      "StaticMesh": null,
+      "OverrideMaterials": []
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Diagnal_Curved_Up_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal_Curved_Up.1"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Beam_Diagnal_C:SM_XPlane_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Diagnal.28"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_XPlane_Curved'",
+        "ObjectPath": "Icarus/Content/Assets/3DArt/TMP_MSH/SM_XPlane_Curved.2"
+      },
+      "RelativeLocation": {
+        "X": -19.995998,
+        "Y": 362.29825,
+        "Z": 420.03452
+      },
+      "RelativeRotation": {
+        "Pitch": 5.0036187,
+        "Yaw": -90.00076,
+        "Roll": 89.99969
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 0.2
+      }
+    }
+  }
+]

@@ -1,0 +1,275 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Building_Wall_HalfPitch_Lower_Right_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Wall_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall.3"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Building_Wall_HalfPitch_Lower_Right_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.10"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Building_Wall_HalfPitch_Lower_Right_C:InheritableComponentHandler'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Wall_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall.3"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Building_Wall_HalfPitch_Lower_Right_C'Default__BP_Building_Wall_HalfPitch_Lower_Right_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.1"
+    }
+  },
+  {
+    "Type": "BP_Building_Wall_HalfPitch_Lower_Right_C",
+    "Name": "Default__BP_Building_Wall_HalfPitch_Lower_Right_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.BP_Building_Wall_HalfPitch_Lower_Right_C'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right",
+    "Template": {
+      "ObjectName": "BP_Building_Wall_C'Default__BP_Building_Wall_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall.4"
+    },
+    "Properties": {
+      "StatContainer": {
+        "ObjectName": "IcarusStatContainer'Default__BP_Building_Wall_HalfPitch_Lower_Right_C:Stat Container'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.3"
+      },
+      "ActorState": {
+        "ObjectName": "ActorState'Default__BP_Building_Wall_HalfPitch_Lower_Right_C:ActorState'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Building_Wall_HalfPitch_Lower_Right_C:RootComponent'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.8"
+      }
+    }
+  },
+  {
+    "Type": "ActorState",
+    "Name": "ActorState",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorState'",
+    "Outer": {
+      "ObjectName": "BP_Building_Wall_HalfPitch_Lower_Right_C'Default__BP_Building_Wall_HalfPitch_Lower_Right_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.1"
+    },
+    "Template": {
+      "ObjectName": "ActorState'Default__BP_Building_Wall_C:ActorState'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall.5"
+    }
+  },
+  {
+    "Type": "IcarusStatContainer",
+    "Name": "Stat Container",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IcarusStatContainer'",
+    "Outer": {
+      "ObjectName": "BP_Building_Wall_HalfPitch_Lower_Right_C'Default__BP_Building_Wall_HalfPitch_Lower_Right_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.1"
+    },
+    "Template": {
+      "ObjectName": "IcarusStatContainer'Default__BP_Building_Wall_C:Stat Container'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall.7"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Wall_HalfPitch_Lower_Right_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'NiagaraComponent'",
+            "ObjectPath": "/Script/Niagara"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "NiagaraComponent'BP_Building_Wall_HalfPitch_Lower_Right_C:Niagara_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.5"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Wall_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall.3"
+            },
+            "SCSVariableName": "Niagara",
+            "AssociatedGuid": "49E404FF-41C6CC41-46CE6AA1-74F7B3F9"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Wall_HalfPitch_Lower_Right_C:WeatherCullingMesh_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.11"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "WeatherCullingMesh",
+            "AssociatedGuid": "BF618F6E-4E8AA6E9-5C10B1BB-1A17639A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "Niagara_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Wall_HalfPitch_Lower_Right_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.0"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'BP_Building_Wall_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall.9"
+    },
+    "Properties": {
+      "OverrideParameters": {
+        "DataInterfaces": [
+          {
+            "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_Wall_HalfPitch_Lower_Right_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.6"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceStaticMesh",
+    "Name": "NiagaraDataInterfaceStaticMesh_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceStaticMesh'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'BP_Building_Wall_HalfPitch_Lower_Right_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.5"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_Wall_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall.10"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Wall_HalfPitch_Lower_Right_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Building_Wall_HalfPitch_Lower_Right_C'Default__BP_Building_Wall_HalfPitch_Lower_Right_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.1"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_Building_Wall_C:RootComponent'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall.14"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Building_Wall_HalfPitch_Lower_Right_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.10"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Building_Wall_HalfPitch_Lower_Right_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.7"
+      },
+      "VariableGuid": "51E82E78-460604DC-B61D4FA0-5D26809E",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Wall_HalfPitch_Lower_Right_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Building_Wall_HalfPitch_Lower_Right_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.9"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "WeatherCullingMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Wall_HalfPitch_Lower_Right_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall_HalfPitch_Lower_Right.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Wall_C:WeatherCullingMesh_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Wall.22"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 150.0,
+        "Z": 75.0
+      },
+      "RelativeScale3D": {
+        "X": 0.125,
+        "Y": 1.25,
+        "Z": 0.625
+      }
+    }
+  }
+]

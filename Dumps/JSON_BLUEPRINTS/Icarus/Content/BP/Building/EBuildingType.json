@@ -1,0 +1,87 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "EBuildingType",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Package": "Icarus/Content/BP/Building/EBuildingType",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "C1F462324DC45AD5E08A0A8408A5B40D",
+            "SourceString": "Frame",
+            "LocalizedString": "Frame"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "1B17878E4CCABB74E0FE56B5E533553C",
+            "SourceString": "Floor",
+            "LocalizedString": "Floor"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "6F8351304AE0A400CBA2B3981C1D519D",
+            "SourceString": "Wall",
+            "LocalizedString": "Wall"
+          }
+        },
+        {
+          "Key": "NewEnumerator3",
+          "Value": {
+            "Namespace": "",
+            "Key": "7D444E204AF5CD1AFBDBE4911F389A72",
+            "SourceString": "AngledWall",
+            "LocalizedString": "AngledWall"
+          }
+        },
+        {
+          "Key": "NewEnumerator7",
+          "Value": {
+            "Namespace": "",
+            "Key": "30D0D91D4A5BE5DE71D4129A8C65182E",
+            "SourceString": "Ramp",
+            "LocalizedString": "Ramp"
+          }
+        },
+        {
+          "Key": "NewEnumerator10",
+          "Value": {
+            "Namespace": "",
+            "Key": "80C5D1E143DF2EB34F94C9952D4DE9F8",
+            "SourceString": "Beam",
+            "LocalizedString": "Beam"
+          }
+        },
+        {
+          "Key": "NewEnumerator11",
+          "Value": {
+            "Namespace": "",
+            "Key": "E5C8D70D457A8FB7CCD1FCB21B880DCE",
+            "SourceString": "Diagonal",
+            "LocalizedString": "Diagonal"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "EBuildingType::NewEnumerator0": 0,
+      "EBuildingType::NewEnumerator1": 1,
+      "EBuildingType::NewEnumerator2": 2,
+      "EBuildingType::NewEnumerator3": 3,
+      "EBuildingType::NewEnumerator7": 4,
+      "EBuildingType::NewEnumerator10": 5,
+      "EBuildingType::NewEnumerator11": 6,
+      "EBuildingType::EBuildingType_MAX": 7
+    },
+    "CppForm": "Namespaced"
+  }
+]

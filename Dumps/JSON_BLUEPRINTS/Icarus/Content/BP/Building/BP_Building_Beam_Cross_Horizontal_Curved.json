@@ -1,0 +1,549 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Building_Beam_Cross_Horizontal_Curved_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Horizontal_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal.2"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Building_Beam_Cross_Horizontal_Curved_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.11"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Building_Beam_Cross_Horizontal_Curved_C:InheritableComponentHandler'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.4"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Horizontal_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal.2"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Building_Beam_Cross_Horizontal_Curved_C'Default__BP_Building_Beam_Cross_Horizontal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.1"
+    }
+  },
+  {
+    "Type": "BP_Building_Beam_Cross_Horizontal_Curved_C",
+    "Name": "Default__BP_Building_Beam_Cross_Horizontal_Curved_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.BP_Building_Beam_Cross_Horizontal_Curved_C'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved",
+    "Template": {
+      "ObjectName": "BP_Building_Beam_Cross_Horizontal_C'Default__BP_Building_Beam_Cross_Horizontal_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal.3"
+    },
+    "Properties": {
+      "StatContainer": {
+        "ObjectName": "IcarusStatContainer'Default__BP_Building_Beam_Cross_Horizontal_Curved_C:Stat Container'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.3"
+      },
+      "ActorState": {
+        "ObjectName": "ActorState'Default__BP_Building_Beam_Cross_Horizontal_Curved_C:ActorState'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Building_Beam_Cross_Horizontal_Curved_C:RootComponent'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.9"
+      }
+    }
+  },
+  {
+    "Type": "ActorState",
+    "Name": "ActorState",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorState'",
+    "Outer": {
+      "ObjectName": "BP_Building_Beam_Cross_Horizontal_Curved_C'Default__BP_Building_Beam_Cross_Horizontal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.1"
+    },
+    "Template": {
+      "ObjectName": "ActorState'Default__BP_Building_Beam_Cross_Horizontal_C:ActorState'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal.4"
+    }
+  },
+  {
+    "Type": "IcarusStatContainer",
+    "Name": "Stat Container",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IcarusStatContainer'",
+    "Outer": {
+      "ObjectName": "BP_Building_Beam_Cross_Horizontal_Curved_C'Default__BP_Building_Beam_Cross_Horizontal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.1"
+    },
+    "Template": {
+      "ObjectName": "IcarusStatContainer'Default__BP_Building_Beam_Cross_Horizontal_C:Stat Container'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal.11"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Horizontal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'NiagaraComponent'",
+            "ObjectPath": "/Script/Niagara"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "NiagaraComponent'BP_Building_Beam_Cross_Horizontal_Curved_C:Niagara_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.5"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "Niagara",
+            "AssociatedGuid": "CB0E44DB-49843C8B-5A22CFA3-F952136B"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Beam_Cross_Horizontal_Curved_C:SM_XPlane5_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.16"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "SM_XPlane5",
+            "AssociatedGuid": "AC6DD5DB-42E4F294-05D488B8-A4A8B3F6"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Beam_Cross_Horizontal_Curved_C:SM_XPlane4_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.15"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "SM_XPlane4",
+            "AssociatedGuid": "FAFD76AB-4457FB28-01D3DA89-DBDCB4EF"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Beam_Cross_Horizontal_Curved_C:SM_XPlane3_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.14"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "SM_XPlane3",
+            "AssociatedGuid": "24EA6BFF-4D731D7E-C631C98C-E3B068FE"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Beam_Cross_Horizontal_Curved_C:SM_XPlane2_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.13"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "SM_XPlane2",
+            "AssociatedGuid": "E3B75EC5-4E79AB8F-06B299A3-E5387C36"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Beam_Cross_Horizontal_Curved_C:SM_XPlane1_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.12"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "SM_XPlane1",
+            "AssociatedGuid": "80599486-46B4E747-8C9BFC8E-4C0D6E6D"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Beam_Cross_Horizontal_Curved_C:SM_XPlane_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.17"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "SM_XPlane",
+            "AssociatedGuid": "2EC8F4D2-4F43B016-B7FAC79A-D2A51238"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SceneComponent'BP_Building_Beam_Cross_Horizontal_Curved_C:PlacementHelpers_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.8"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "PlacementHelpers",
+            "AssociatedGuid": "3F67BDDC-42391D92-1574FA9B-B72E2660"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "Niagara_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Horizontal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.0"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'BP_Building_Beam_Cross_Horizontal_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal.13"
+    },
+    "Properties": {
+      "OverrideParameters": {
+        "DataInterfaces": [
+          {
+            "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_Beam_Cross_Horizontal_Curved_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.6"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceStaticMesh",
+    "Name": "NiagaraDataInterfaceStaticMesh_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceStaticMesh'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'BP_Building_Beam_Cross_Horizontal_Curved_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.5"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_Beam_Cross_Horizontal_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal.14"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Horizontal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "PlacementHelpers_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Horizontal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.0"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'BP_Building_Beam_Cross_Horizontal_C:PlacementHelpers_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal.19"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -620.0,
+        "Y": 310.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Building_Beam_Cross_Horizontal_Curved_C'Default__BP_Building_Beam_Cross_Horizontal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.1"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_Building_Beam_Cross_Horizontal_C:RootComponent'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal.20"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Building_Beam_Cross_Horizontal_Curved_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.11"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Building_Beam_Cross_Horizontal_Curved_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.7"
+      },
+      "VariableGuid": "C47A939D-484D87A5-B1CCD881-1904D817",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Horizontal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Building_Beam_Cross_Horizontal_Curved_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.10"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Horizontal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Beam_Horizontal_C:SM_XPlane1_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Horizontal.23"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_XPlane_Curved_Inverted'",
+        "ObjectPath": "Icarus/Content/Assets/3DArt/TMP_MSH/SM_XPlane_Curved_Inverted.2"
+      },
+      "RelativeLocation": {
+        "X": 375.0,
+        "Y": -50.0,
+        "Z": -10.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -135.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 0.1
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Horizontal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Beam_Horizontal_C:SM_XPlane2_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Horizontal.24"
+    },
+    "Properties": {
+      "StaticMesh": null,
+      "OverrideMaterials": []
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane3_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Horizontal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Beam_Horizontal_C:SM_XPlane3_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Horizontal.25"
+    },
+    "Properties": {
+      "StaticMesh": null,
+      "OverrideMaterials": []
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane4_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Horizontal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Beam_Horizontal_C:SM_XPlane4_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Horizontal.26"
+    },
+    "Properties": {
+      "StaticMesh": null,
+      "OverrideMaterials": []
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane5_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Horizontal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Beam_Horizontal_C:SM_XPlane5_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Horizontal.27"
+    },
+    "Properties": {
+      "StaticMesh": null,
+      "OverrideMaterials": []
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Horizontal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Horizontal_Curved.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Beam_Horizontal_C:SM_XPlane_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Horizontal.28"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_XPlane_Curved'",
+        "ObjectPath": "Icarus/Content/Assets/3DArt/TMP_MSH/SM_XPlane_Curved.2"
+      },
+      "RelativeLocation": {
+        "X": 265.0,
+        "Y": -15.0,
+        "Z": -10.0
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -135.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.0,
+        "Y": 2.0,
+        "Z": 0.1
+      }
+    }
+  }
+]

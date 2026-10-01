@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "EBuildingOpenableState",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Package": "Icarus/Content/BP/Building/EBuildingOpenableState",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "B1C3B4D84FC3DF8DDB991389147012FE",
+            "SourceString": "NotOpenable",
+            "LocalizedString": "NotOpenable"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "565E95FE420D164A849F9EB9561F19F5",
+            "SourceString": "OpenableOpen",
+            "LocalizedString": "OpenableOpen"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "FBEDBBF940FF17A970A76DA24261D1ED",
+            "SourceString": "OpenableClosed",
+            "LocalizedString": "OpenableClosed"
+          }
+        },
+        {
+          "Key": "NewEnumerator3",
+          "Value": {
+            "Namespace": "",
+            "Key": "577786CD40BE5BD054212090EF619910",
+            "SourceString": "OpenableNone",
+            "LocalizedString": "OpenableNone"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "EBuildingOpenableState::NewEnumerator0": 0,
+      "EBuildingOpenableState::NewEnumerator3": 1,
+      "EBuildingOpenableState::NewEnumerator1": 2,
+      "EBuildingOpenableState::NewEnumerator2": 3,
+      "EBuildingOpenableState::EBuildingOpenableState_MAX": 4
+    },
+    "CppForm": "Namespaced"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "DestructionPoints",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Package": "Icarus/Content/BP/Building/DestructionPoints",
+    "Properties": {
+      "Guid": "FC7695CF-4F279F52-F0F636A0-1F0F724D"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "WorldLocation_4_7A4210704A04B5AB0A5ED982955B2299",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Damage_12_104B428A47F9353816F55C8BE0A8D769",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Radius_7_4C58168A407EAAD1FFD0F985BAE2AC23",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "FloatProperty",
+        "Name": "Impulse_9_A63D4FAD4275CA1A9F9C9F9784DA5DD3",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 4,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      }
+    ],
+    "StructFlags": 57344,
+    "DefaultProperties": {
+      "WorldLocation_4_7A4210704A04B5AB0A5ED982955B2299": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Damage_12_104B428A47F9353816F55C8BE0A8D769": 0.0,
+      "Radius_7_4C58168A407EAAD1FFD0F985BAE2AC23": 0.0,
+      "Impulse_9_A63D4FAD4275CA1A9F9C9F9784DA5DD3": 0.0
+    }
+  }
+]

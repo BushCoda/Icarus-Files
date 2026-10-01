@@ -1,0 +1,43 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "SoftBuildingGroupArray",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Package": "Icarus/Content/BP/Building/SoftBuildingGroupArray",
+    "Properties": {
+      "Guid": "EBEAF4C0-48551E17-7836CEB1-8EC75949"
+    },
+    "ChildProperties": [
+      {
+        "Type": "NameProperty",
+        "Name": "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible"
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139",
+          "Flags": "RF_Public",
+          "ElementSize": 80,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct'SoftBuildingData'",
+            "ObjectPath": "Icarus/Content/BP/Building/SoftBuildingData.0"
+          }
+        }
+      }
+    ],
+    "StructFlags": 0,
+    "DefaultProperties": {
+      "BuildingTypeName_8_84F8D9664A9AC18E05C3C6A84B9DFD9E": "None",
+      "BuildingsTypes_4_0D03372A49862558ED2D63A86EDC4139": []
+    }
+  }
+]

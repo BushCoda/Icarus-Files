@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "VectorPair",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Package": "Icarus/Content/BP/Building/VectorPair",
+    "Properties": {
+      "Guid": "C9E3A7D9-464EEC2C-A35D9F84-9C02ECFA"
+    },
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "StartPoint_2_FD81C26346EF319685AE14B449E7E5C3",
+        "Flags": "RF_Public | RF_NeedPostLoad | RF_NeedPostLoadSubobjects | RF_WasLoaded | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "EndPoint_4_E58A8AD44E4129CAE245BF9D4CA5DB5D",
+        "Flags": "RF_Public | RF_NeedPostLoad | RF_NeedPostLoadSubobjects | RF_WasLoaded | RF_LoadCompleted",
+        "ElementSize": 12,
+        "PropertyFlags": "Edit | BlueprintVisible",
+        "Struct": {
+          "ObjectName": "ScriptStruct'Vector'",
+          "ObjectPath": "/Script/CoreUObject"
+        }
+      }
+    ],
+    "StructFlags": 57344,
+    "DefaultProperties": {
+      "StartPoint_2_FD81C26346EF319685AE14B449E7E5C3": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "EndPoint_4_E58A8AD44E4129CAE245BF9D4CA5DB5D": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  }
+]

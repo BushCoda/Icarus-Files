@@ -1,0 +1,448 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Building_Floor_Diagonal_Curved",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Floor_Diagonal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.2"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Floor_Diagonal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.2"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Building_Base_C:ReceiveBeginPlay'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.70"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_Building_Base_C:ReceiveBeginPlay'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.70"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Building_Floor_Diagonal_Curved_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Floor_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor.1"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Building_Floor_Diagonal_Curved_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.14"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Building_Floor_Diagonal_Curved_C:InheritableComponentHandler'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.7"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Building_Floor_Diagonal_Curved_C:ExecuteUbergraph_BP_Building_Floor_Diagonal_Curved'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Floor_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Building_Floor_Diagonal_Curved_C:ReceiveBeginPlay'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.1"
+      },
+      {
+        "ObjectName": "Function'BP_Building_Floor_Diagonal_Curved_C:ExecuteUbergraph_BP_Building_Floor_Diagonal_Curved'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Building_Floor_Diagonal_Curved": {
+        "ObjectName": "Function'BP_Building_Floor_Diagonal_Curved_C:ExecuteUbergraph_BP_Building_Floor_Diagonal_Curved'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_Building_Floor_Diagonal_Curved_C:ReceiveBeginPlay'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.1"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Building_Floor_Diagonal_Curved_C'Default__BP_Building_Floor_Diagonal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.3"
+    }
+  },
+  {
+    "Type": "BP_Building_Floor_Diagonal_Curved_C",
+    "Name": "Default__BP_Building_Floor_Diagonal_Curved_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.BP_Building_Floor_Diagonal_Curved_C'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved",
+    "Template": {
+      "ObjectName": "BP_Building_Floor_C'Default__BP_Building_Floor_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor.2"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "StatContainer": {
+        "ObjectName": "IcarusStatContainer'Default__BP_Building_Floor_Diagonal_Curved_C:Stat Container'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.6"
+      },
+      "ActorState": {
+        "ObjectName": "ActorState'Default__BP_Building_Floor_Diagonal_Curved_C:ActorState'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.4"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Building_Floor_Diagonal_Curved_C:RootComponent'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.12"
+      }
+    }
+  },
+  {
+    "Type": "ActorState",
+    "Name": "ActorState",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorState'",
+    "Outer": {
+      "ObjectName": "BP_Building_Floor_Diagonal_Curved_C'Default__BP_Building_Floor_Diagonal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.3"
+    },
+    "Template": {
+      "ObjectName": "ActorState'Default__BP_Building_Floor_C:ActorState'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor.3"
+    }
+  },
+  {
+    "Type": "BPC_EnvironmentalBuildup_C",
+    "Name": "BPC_EnvironmentalBuildup_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildup.BPC_EnvironmentalBuildup_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Floor_Diagonal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.2"
+    },
+    "Template": {
+      "ObjectName": "BPC_EnvironmentalBuildup_C'BP_Building_Floor_C:BPC_EnvironmentalBuildup_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor.8"
+    },
+    "Properties": {
+      "MeshXScale": 1.0,
+      "MeshYScale": 1.0,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FX_Snow_Curved_Floor'",
+        "ObjectPath": "Icarus/Content/ASS/VFX/SNO/SM_FX_Snow_Curved_Floor.2"
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 0.5
+      }
+    }
+  },
+  {
+    "Type": "IcarusStatContainer",
+    "Name": "Stat Container",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IcarusStatContainer'",
+    "Outer": {
+      "ObjectName": "BP_Building_Floor_Diagonal_Curved_C'Default__BP_Building_Floor_Diagonal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.3"
+    },
+    "Template": {
+      "ObjectName": "IcarusStatContainer'Default__BP_Building_Floor_C:Stat Container'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor.9"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Floor_Diagonal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.2"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'NiagaraComponent'",
+            "ObjectPath": "/Script/Niagara"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "NiagaraComponent'BP_Building_Floor_Diagonal_Curved_C:NS_spreadableFire_floor_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.8"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Floor_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor.1"
+            },
+            "SCSVariableName": "NS_spreadableFire_floor",
+            "AssociatedGuid": "2B85626B-4F199BF4-BB8342A3-45891BFF"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BPC_EnvironmentalBuildup_C'",
+            "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildup.8"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BPC_EnvironmentalBuildup_C'BP_Building_Floor_Diagonal_Curved_C:BPC_EnvironmentalBuildup_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.5"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Floor_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor.1"
+            },
+            "SCSVariableName": "BPC_EnvironmentalBuildup",
+            "AssociatedGuid": "091F65B5-4947FB65-B024F48A-07B8E129"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SceneComponent'BP_Building_Floor_Diagonal_Curved_C:SecondOutsideTestLocation_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.11"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "SecondOutsideTestLocation",
+            "AssociatedGuid": "E1AE8316-42BBE823-474F89A7-74701CD6"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Floor_Diagonal_Curved_C:WeatherCullingMesh_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.15"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "WeatherCullingMesh",
+            "AssociatedGuid": "BF618F6E-4E8AA6E9-5C10B1BB-1A17639A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "NS_spreadableFire_floor_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Floor_Diagonal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.2"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'BP_Building_Floor_C:NS_spreadableFire_floor_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor.11"
+    },
+    "Properties": {
+      "OverrideParameters": {
+        "DataInterfaces": [
+          {
+            "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_Floor_Diagonal_Curved_C:NS_spreadableFire_floor_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.9"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceStaticMesh",
+    "Name": "NiagaraDataInterfaceStaticMesh_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceStaticMesh'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'BP_Building_Floor_Diagonal_Curved_C:NS_spreadableFire_floor_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.8"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_Floor_C:NS_spreadableFire_floor_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor.12"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Floor_Diagonal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.2"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecondOutsideTestLocation_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Floor_Diagonal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.2"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'BP_Building_Floor_C:SecondOutsideTestLocation_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor.15"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -75.0,
+        "Y": -75.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Building_Floor_Diagonal_Curved_C'Default__BP_Building_Floor_Diagonal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.3"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_Building_Floor_C:RootComponent'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor.16"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Building_Floor_Diagonal_Curved_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.14"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Building_Floor_Diagonal_Curved_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.10"
+      },
+      "VariableGuid": "7D57EFE5-4396B0BA-AA25769A-7FC5ADA5",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Floor_Diagonal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.2"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Building_Floor_Diagonal_Curved_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.13"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "WeatherCullingMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Floor_Diagonal_Curved_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor_Diagonal_Curved.2"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Floor_C:WeatherCullingMesh_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Floor.25"
+    },
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_BLD_Floor_Curved_Wood_INT_SHA'",
+        "ObjectPath": "Icarus/Content/ASS/BLD/InteriorWood/Floor_Curved_Wood_INT/SM_BLD_Floor_Curved_Wood_INT_SHA.2"
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  }
+]

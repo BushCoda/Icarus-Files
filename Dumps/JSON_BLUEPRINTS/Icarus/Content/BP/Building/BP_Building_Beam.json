@@ -1,0 +1,510 @@
+[
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_BP_Building_Beam",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.2"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_IsValid_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.2"
+    },
+    "Super": {
+      "ObjectName": "Function'BP_Building_Base_C:ReceiveBeginPlay'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.70"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'BP_Building_Base_C:ReceiveBeginPlay'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.70"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Building_Beam_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Beam",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Building_Beam_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.16"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Building_Beam_C:InheritableComponentHandler'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.10"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'BP_Building_Beam_C:ExecuteUbergraph_BP_Building_Beam'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.0"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'BP_Building_Beam_C:ReceiveBeginPlay'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.1"
+      },
+      {
+        "ObjectName": "Function'BP_Building_Beam_C:ExecuteUbergraph_BP_Building_Beam'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.0"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_BP_Building_Beam": {
+        "ObjectName": "Function'BP_Building_Beam_C:ExecuteUbergraph_BP_Building_Beam'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.0"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'BP_Building_Beam_C:ReceiveBeginPlay'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.1"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Building_Beam_C'Default__BP_Building_Beam_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.3"
+    }
+  },
+  {
+    "Type": "BP_Building_Beam_C",
+    "Name": "Default__BP_Building_Beam_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/BP_Building_Beam.BP_Building_Beam_C'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Beam",
+    "Template": {
+      "ObjectName": "BP_Building_Frame_C'Default__BP_Building_Frame_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.13"
+    },
+    "Properties": {
+      "UberGraphFrame": {},
+      "ShouldOptionallyRotateCenterUptoInpactNormal": false,
+      "BlockingLines": [],
+      "StatContainer": {
+        "ObjectName": "IcarusStatContainer'Default__BP_Building_Beam_C:Stat Container'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.9"
+      },
+      "ActorState": {
+        "ObjectName": "ActorState'Default__BP_Building_Beam_C:ActorState'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.4"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Building_Beam_C:RootComponent'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.14"
+      }
+    }
+  },
+  {
+    "Type": "ActorState",
+    "Name": "ActorState",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorState'",
+    "Outer": {
+      "ObjectName": "BP_Building_Beam_C'Default__BP_Building_Beam_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.3"
+    },
+    "Template": {
+      "ObjectName": "ActorState'Default__BP_Building_Frame_C:ActorState'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.14"
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box00_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.2"
+    },
+    "Template": {
+      "ObjectName": "BoxComponent'BP_Building_Frame_C:Box00_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.17"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 20.0,
+        "Y": 20.0,
+        "Z": 20.0
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box01_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.2"
+    },
+    "Template": {
+      "ObjectName": "BoxComponent'BP_Building_Frame_C:Box01_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.18"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 20.0,
+        "Y": 20.0,
+        "Z": 20.0
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box10_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.2"
+    },
+    "Template": {
+      "ObjectName": "BoxComponent'BP_Building_Frame_C:Box10_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.19"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 20.0,
+        "Y": 20.0,
+        "Z": 20.0
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box11_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.2"
+    },
+    "Template": {
+      "ObjectName": "BoxComponent'BP_Building_Frame_C:Box11_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.20"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 20.0,
+        "Y": 20.0,
+        "Z": 20.0
+      },
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "IcarusStatContainer",
+    "Name": "Stat Container",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IcarusStatContainer'",
+    "Outer": {
+      "ObjectName": "BP_Building_Beam_C'Default__BP_Building_Beam_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.3"
+    },
+    "Template": {
+      "ObjectName": "IcarusStatContainer'Default__BP_Building_Frame_C:Stat Container'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.22"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.2"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BoxComponent'BP_Building_Beam_C:Box11_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.8"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "Box11",
+            "AssociatedGuid": "57E1240E-47C1EF64-320187BF-F82D0DE0"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BoxComponent'BP_Building_Beam_C:Box01_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.6"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "Box01",
+            "AssociatedGuid": "77B32E7E-46E7069C-7905369A-B64BB267"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BoxComponent'BP_Building_Beam_C:Box10_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.7"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "Box10",
+            "AssociatedGuid": "9C648B5A-4EEEE2CD-F152D891-A26C2D4B"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BoxComponent'BP_Building_Beam_C:Box00_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.5"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "Box00",
+            "AssociatedGuid": "31C045B9-43D22921-992F328E-953BFE4E"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'NiagaraComponent'",
+            "ObjectPath": "/Script/Niagara"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "NiagaraComponent'BP_Building_Beam_C:Niagara_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.11"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "Niagara",
+            "AssociatedGuid": "CB0E44DB-49843C8B-5A22CFA3-F952136B"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "Niagara_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.2"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'BP_Building_Frame_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.24"
+    },
+    "Properties": {
+      "OverrideParameters": {
+        "DataInterfaces": [
+          {
+            "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_Beam_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.12"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceStaticMesh",
+    "Name": "NiagaraDataInterfaceStaticMesh_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceStaticMesh'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'BP_Building_Beam_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.11"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_Frame_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.25"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.2"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Building_Beam_C'Default__BP_Building_Beam_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.3"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_Building_Frame_C:RootComponent'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.28"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Building_Beam_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.16"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Building_Beam_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.13"
+      },
+      "VariableGuid": "5CFA7223-453B730E-F77A00A3-350156F1",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.2"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Building_Beam_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam.15"
+      }
+    }
+  }
+]

@@ -1,0 +1,461 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Building_CornerStair_R_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_CornerStair_R",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Building_CornerStair_R_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.15"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Building_CornerStair_R_C:InheritableComponentHandler'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ObjectProperty",
+        "Name": "EnvironmentalBuildUpChild2",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BPC_EnvironmentalBuildupChild_C'",
+          "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildupChild.8"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "EnvironmentalBuildUpChild",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "BlueprintGeneratedClass'BPC_EnvironmentalBuildupChild_C'",
+          "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildupChild.8"
+        }
+      }
+    ],
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Building_CornerStair_R_C'Default__BP_Building_CornerStair_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.1"
+    }
+  },
+  {
+    "Type": "BP_Building_CornerStair_R_C",
+    "Name": "Default__BP_Building_CornerStair_R_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/BP_Building_CornerStair_R.BP_Building_CornerStair_R_C'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_CornerStair_R",
+    "Template": {
+      "ObjectName": "BP_Building_Frame_C'Default__BP_Building_Frame_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.13"
+    },
+    "Properties": {
+      "StatContainer": {
+        "ObjectName": "IcarusStatContainer'Default__BP_Building_CornerStair_R_C:Stat Container'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.6"
+      },
+      "ActorState": {
+        "ObjectName": "ActorState'Default__BP_Building_CornerStair_R_C:ActorState'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Building_CornerStair_R_C:RootComponent'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.11"
+      }
+    }
+  },
+  {
+    "Type": "ActorState",
+    "Name": "ActorState",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorState'",
+    "Outer": {
+      "ObjectName": "BP_Building_CornerStair_R_C'Default__BP_Building_CornerStair_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.1"
+    },
+    "Template": {
+      "ObjectName": "ActorState'Default__BP_Building_Frame_C:ActorState'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.14"
+    }
+  },
+  {
+    "Type": "BPC_EnvironmentalBuildup_C",
+    "Name": "BPC_EnvironmentalBuildup_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildup.BPC_EnvironmentalBuildup_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_CornerStair_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.0"
+    },
+    "Template": {
+      "ObjectName": "BPC_EnvironmentalBuildup_C'BP_Building_Frame_C:BPC_EnvironmentalBuildup_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.21"
+    },
+    "Properties": {
+      "MeshXScale": 2.25,
+      "MeshYScale": 1.5,
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_FX_SnowRoof'",
+          "ObjectPath": "Icarus/Content/ASS/VFX/SNO/M_FX_SnowRoof.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 5.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "RelativeRotation": {
+        "Pitch": 45.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.25,
+        "Y": 1.5,
+        "Z": 0.5
+      }
+    }
+  },
+  {
+    "Type": "BPC_EnvironmentalBuildupChild_C",
+    "Name": "EnvironmentalBuildUpChild2_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildupChild.BPC_EnvironmentalBuildupChild_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_CornerStair_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.0"
+    },
+    "Template": {
+      "ObjectName": "BPC_EnvironmentalBuildupChild_C'Default__BPC_EnvironmentalBuildupChild_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildupChild.9"
+    },
+    "Properties": {
+      "ChildMeshXScale": 1.6,
+      "ChildMeshYScale": 1.6,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FX_SnowRamp'",
+        "ObjectPath": "Icarus/Content/ASS/VFX/SNO/SM_FX_SnowRamp.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_FX_SnowRoof'",
+          "ObjectPath": "Icarus/Content/ASS/VFX/SNO/M_FX_SnowRoof.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 139.03516,
+        "Y": -0.3437462,
+        "Z": 146.41527
+      },
+      "RelativeScale3D": {
+        "X": 1.6,
+        "Y": 1.6,
+        "Z": 0.5
+      }
+    }
+  },
+  {
+    "Type": "BPC_EnvironmentalBuildupChild_C",
+    "Name": "EnvironmentalBuildUpChild_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildupChild.BPC_EnvironmentalBuildupChild_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_CornerStair_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.0"
+    },
+    "Template": {
+      "ObjectName": "BPC_EnvironmentalBuildupChild_C'Default__BPC_EnvironmentalBuildupChild_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildupChild.9"
+    },
+    "Properties": {
+      "ChildMeshXScale": 2.25,
+      "ChildMeshYScale": 1.5,
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'SM_FX_SnowRamp'",
+        "ObjectPath": "Icarus/Content/ASS/VFX/SNO/SM_FX_SnowRamp.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'M_FX_SnowRoof'",
+          "ObjectPath": "Icarus/Content/ASS/VFX/SNO/M_FX_SnowRoof.0"
+        }
+      ],
+      "RelativeLocation": {
+        "X": 300.0,
+        "Y": 155.0,
+        "Z": 150.0
+      },
+      "RelativeRotation": {
+        "Pitch": 45.0,
+        "Yaw": 90.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 2.25,
+        "Y": 1.5,
+        "Z": 0.5
+      }
+    }
+  },
+  {
+    "Type": "IcarusStatContainer",
+    "Name": "Stat Container",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IcarusStatContainer'",
+    "Outer": {
+      "ObjectName": "BP_Building_CornerStair_R_C'Default__BP_Building_CornerStair_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.1"
+    },
+    "Template": {
+      "ObjectName": "IcarusStatContainer'Default__BP_Building_Frame_C:Stat Container'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.22"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_CornerStair_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'NiagaraComponent'",
+            "ObjectPath": "/Script/Niagara"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "NiagaraComponent'BP_Building_CornerStair_R_C:Niagara_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.8"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "Niagara",
+            "AssociatedGuid": "CB0E44DB-49843C8B-5A22CFA3-F952136B"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BPC_EnvironmentalBuildup_C'",
+            "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildup.8"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BPC_EnvironmentalBuildup_C'BP_Building_CornerStair_R_C:BPC_EnvironmentalBuildup_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.3"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Frame_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.12"
+            },
+            "SCSVariableName": "BPC_EnvironmentalBuildup",
+            "AssociatedGuid": "58080BB3-4EB67ECB-CE6DC19F-19EF8149"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "Niagara_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_CornerStair_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.0"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'BP_Building_Frame_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.24"
+    },
+    "Properties": {
+      "OverrideParameters": {
+        "DataInterfaces": [
+          {
+            "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_CornerStair_R_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.9"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceStaticMesh",
+    "Name": "NiagaraDataInterfaceStaticMesh_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceStaticMesh'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'BP_Building_CornerStair_R_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.8"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_Frame_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.25"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_CornerStair_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Building_CornerStair_R_C'Default__BP_Building_CornerStair_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.1"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_Building_Frame_C:RootComponent'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Frame.28"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Building_CornerStair_R_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.15"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Building_CornerStair_R_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.10"
+      },
+      "VariableGuid": "6FEF6EED-49D518DB-40B57DAD-27E1B47F",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Building_CornerStair_R_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.15"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPC_EnvironmentalBuildupChild_C'",
+        "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildupChild.8"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPC_EnvironmentalBuildupChild_C'BP_Building_CornerStair_R_C:EnvironmentalBuildUpChild_GEN_VARIABLE'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.5"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "627B5FE3-4FBDED3A-8AE5D585-EE15D5FC",
+      "InternalVariableName": "EnvironmentalBuildUpChild"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Building_CornerStair_R_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.15"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "BlueprintGeneratedClass'BPC_EnvironmentalBuildupChild_C'",
+        "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildupChild.8"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "BPC_EnvironmentalBuildupChild_C'BP_Building_CornerStair_R_C:EnvironmentalBuildUpChild2_GEN_VARIABLE'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.4"
+      },
+      "ParentComponentOrVariableName": "RootComponent",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "2A1DF120-4001DEB0-E748118B-216648FB",
+      "InternalVariableName": "EnvironmentalBuildUpChild2"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_CornerStair_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Building_CornerStair_R_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Building_CornerStair_R_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.14"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'BP_Building_CornerStair_R_C:SimpleConstructionScript_0.SCS_Node_2'",
+          "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.13"
+        },
+        {
+          "ObjectName": "SCS_Node'BP_Building_CornerStair_R_C:SimpleConstructionScript_0.SCS_Node_3'",
+          "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.14"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Building_CornerStair_R_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_CornerStair_R.12"
+      }
+    }
+  }
+]

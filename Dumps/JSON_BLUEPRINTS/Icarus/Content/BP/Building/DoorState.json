@@ -1,0 +1,57 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "DoorState",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Package": "Icarus/Content/BP/Building/DoorState",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "0568C7D349B2608B2289B2B99EC133ED",
+            "SourceString": "Closed",
+            "LocalizedString": "Closed"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "C82C69DB482BE08FEC0D719DACA2F835",
+            "SourceString": "OpenForwards",
+            "LocalizedString": "OpenForwards"
+          }
+        },
+        {
+          "Key": "NewEnumerator6",
+          "Value": {
+            "Namespace": "",
+            "Key": "070D3C894978CD29F50E5BA70E83198B",
+            "SourceString": "Broken",
+            "LocalizedString": "Broken"
+          }
+        },
+        {
+          "Key": "NewEnumerator7",
+          "Value": {
+            "Namespace": "",
+            "Key": "336A8412491AEE76D0425CAA4314816E",
+            "SourceString": "OpenBackwards",
+            "LocalizedString": "OpenBackwards"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "DoorState::NewEnumerator0": 0,
+      "DoorState::NewEnumerator2": 1,
+      "DoorState::NewEnumerator7": 2,
+      "DoorState::NewEnumerator6": 3,
+      "DoorState::DoorState_MAX": 4
+    },
+    "CppForm": "Namespaced"
+  }
+]

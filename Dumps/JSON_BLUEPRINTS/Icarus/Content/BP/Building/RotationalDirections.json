@@ -1,0 +1,177 @@
+[
+  {
+    "Type": "UserDefinedEnum",
+    "Name": "RotationalDirections",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'UserDefinedEnum'",
+    "Package": "Icarus/Content/BP/Building/RotationalDirections",
+    "Properties": {
+      "DisplayNameMap": [
+        {
+          "Key": "NewEnumerator0",
+          "Value": {
+            "Namespace": "",
+            "Key": "D0CE1410478B50EA8813699067429A13",
+            "SourceString": "Forward",
+            "LocalizedString": "Forward"
+          }
+        },
+        {
+          "Key": "NewEnumerator1",
+          "Value": {
+            "Namespace": "",
+            "Key": "07B0B45D4591E53BCFD09295E91C1863",
+            "SourceString": "Backward",
+            "LocalizedString": "Backward"
+          }
+        },
+        {
+          "Key": "NewEnumerator2",
+          "Value": {
+            "Namespace": "",
+            "Key": "BEAE6AFE4D4DA20F82BC3B8DCBD988AE",
+            "SourceString": "Right",
+            "LocalizedString": "Right"
+          }
+        },
+        {
+          "Key": "NewEnumerator3",
+          "Value": {
+            "Namespace": "",
+            "Key": "DE7AB6104CBFD0CDC946E7AE54CF3325",
+            "SourceString": "Left",
+            "LocalizedString": "Left"
+          }
+        },
+        {
+          "Key": "NewEnumerator4",
+          "Value": {
+            "Namespace": "",
+            "Key": "2E882A2D436CA66770D8E18A688B31A6",
+            "SourceString": "Up",
+            "LocalizedString": "Up"
+          }
+        },
+        {
+          "Key": "NewEnumerator5",
+          "Value": {
+            "Namespace": "",
+            "Key": "9A152A1A4396EC00A2322194911D5C4D",
+            "SourceString": "Down",
+            "LocalizedString": "Down"
+          }
+        },
+        {
+          "Key": "NewEnumerator6",
+          "Value": {
+            "Namespace": "",
+            "Key": "168B3A1247BEEAB5728A588BF8E539F8",
+            "SourceString": "Error",
+            "LocalizedString": "Error"
+          }
+        },
+        {
+          "Key": "NewEnumerator7",
+          "Value": {
+            "Namespace": "",
+            "Key": "C36C3C3A4236260A7E4828BD09D7A0C8",
+            "SourceString": "Centered",
+            "LocalizedString": "Centered"
+          }
+        },
+        {
+          "Key": "NewEnumerator8",
+          "Value": {
+            "Namespace": "",
+            "Key": "705A4AD04D1398DD53E66D90364713E2",
+            "SourceString": "ForwardLeft",
+            "LocalizedString": "ForwardLeft"
+          }
+        },
+        {
+          "Key": "NewEnumerator9",
+          "Value": {
+            "Namespace": "",
+            "Key": "8B7666EA42B181490B3892AAA5C618AC",
+            "SourceString": "ForwardRight",
+            "LocalizedString": "ForwardRight"
+          }
+        },
+        {
+          "Key": "NewEnumerator10",
+          "Value": {
+            "Namespace": "",
+            "Key": "710867594C085CA9D1470F8525492701",
+            "SourceString": "BackwardLeft",
+            "LocalizedString": "BackwardLeft"
+          }
+        },
+        {
+          "Key": "NewEnumerator11",
+          "Value": {
+            "Namespace": "",
+            "Key": "D07D0FFC440F4E38F818C69862F810C5",
+            "SourceString": "BackwardRight",
+            "LocalizedString": "BackwardRight"
+          }
+        },
+        {
+          "Key": "NewEnumerator12",
+          "Value": {
+            "Namespace": "",
+            "Key": "8A7BF5304E01885C2CEAE4B1150E3730",
+            "SourceString": "RightForward",
+            "LocalizedString": "RightForward"
+          }
+        },
+        {
+          "Key": "NewEnumerator13",
+          "Value": {
+            "Namespace": "",
+            "Key": "A57CB48548505F3DBDEA108898234166",
+            "SourceString": "RightBackward",
+            "LocalizedString": "RightBackward"
+          }
+        },
+        {
+          "Key": "NewEnumerator14",
+          "Value": {
+            "Namespace": "",
+            "Key": "1A35F86E4C4EC1B6451EB38C1B1A3CC5",
+            "SourceString": "LeftForward",
+            "LocalizedString": "LeftForward"
+          }
+        },
+        {
+          "Key": "NewEnumerator15",
+          "Value": {
+            "Namespace": "",
+            "Key": "22CFFB9742578DE9B628F0A6CBCC96B6",
+            "SourceString": "LeftBackward",
+            "LocalizedString": "LeftBackward"
+          }
+        }
+      ]
+    },
+    "Names": {
+      "RotationalDirections::NewEnumerator8": 0,
+      "RotationalDirections::NewEnumerator0": 1,
+      "RotationalDirections::NewEnumerator9": 2,
+      "RotationalDirections::NewEnumerator12": 3,
+      "RotationalDirections::NewEnumerator2": 4,
+      "RotationalDirections::NewEnumerator13": 5,
+      "RotationalDirections::NewEnumerator11": 6,
+      "RotationalDirections::NewEnumerator1": 7,
+      "RotationalDirections::NewEnumerator10": 8,
+      "RotationalDirections::NewEnumerator15": 9,
+      "RotationalDirections::NewEnumerator3": 10,
+      "RotationalDirections::NewEnumerator14": 11,
+      "RotationalDirections::NewEnumerator4": 12,
+      "RotationalDirections::NewEnumerator5": 13,
+      "RotationalDirections::NewEnumerator7": 14,
+      "RotationalDirections::NewEnumerator6": 15,
+      "RotationalDirections::RotationalDirections_MAX": 16
+    },
+    "CppForm": "Namespaced"
+  }
+]

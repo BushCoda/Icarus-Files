@@ -1,0 +1,149 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Diagnal_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal.2"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Diagnal_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal.2"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C'Default__BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R.1"
+    }
+  },
+  {
+    "Type": "BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C",
+    "Name": "Default__BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R.BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R",
+    "Template": {
+      "ObjectName": "BP_Building_Beam_Cross_Diagnal_C'Default__BP_Building_Beam_Cross_Diagnal_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal.3"
+    },
+    "Properties": {
+      "StatContainer": {
+        "ObjectName": "IcarusStatContainer'Default__BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C:Stat Container'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R.3"
+      },
+      "ActorState": {
+        "ObjectName": "ActorState'Default__BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C:ActorState'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R.2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C:RootComponent'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R.5"
+      }
+    }
+  },
+  {
+    "Type": "ActorState",
+    "Name": "ActorState",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorState'",
+    "Outer": {
+      "ObjectName": "BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C'Default__BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R.1"
+    },
+    "Template": {
+      "ObjectName": "ActorState'Default__BP_Building_Beam_Cross_Diagnal_C:ActorState'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal.4"
+    }
+  },
+  {
+    "Type": "IcarusStatContainer",
+    "Name": "Stat Container",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IcarusStatContainer'",
+    "Outer": {
+      "ObjectName": "BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C'Default__BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R.1"
+    },
+    "Template": {
+      "ObjectName": "IcarusStatContainer'Default__BP_Building_Beam_Cross_Diagnal_C:Stat Container'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal.11"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C'Default__BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R.1"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_Building_Beam_Cross_Diagnal_C:RootComponent'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal.20"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R.7"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R.4"
+      },
+      "VariableGuid": "B1C2B512-47346CB1-AFC1578F-91DB11C8",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Building_Beam_Cross_Diagnal_Curved_Up_R_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Beam_Cross_Diagnal_Curved_Up_R.6"
+      }
+    }
+  }
+]

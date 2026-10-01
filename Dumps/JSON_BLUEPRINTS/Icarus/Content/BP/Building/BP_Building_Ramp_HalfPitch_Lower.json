@@ -1,0 +1,777 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "BP_Building_Ramp_HalfPitch_Lower_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower",
+    "Super": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.2"
+    },
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'BP_Building_Ramp_HalfPitch_Lower_C:SimpleConstructionScript_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.19"
+      },
+      "InheritableComponentHandler": {
+        "ObjectName": "InheritableComponentHandler'BP_Building_Ramp_HalfPitch_Lower_C:InheritableComponentHandler'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.10"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.2"
+    },
+    "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "BP_Building_Ramp_HalfPitch_Lower_C'Default__BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.1"
+    }
+  },
+  {
+    "Type": "BP_Building_Ramp_HalfPitch_Lower_C",
+    "Name": "Default__BP_Building_Ramp_HalfPitch_Lower_C",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.BP_Building_Ramp_HalfPitch_Lower_C'",
+    "Package": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower",
+    "Template": {
+      "ObjectName": "BP_Building_Ramp_C'Default__BP_Building_Ramp_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.3"
+    },
+    "Properties": {
+      "StatContainer": {
+        "ObjectName": "IcarusStatContainer'Default__BP_Building_Ramp_HalfPitch_Lower_C:Stat Container'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.9"
+      },
+      "ActorState": {
+        "ObjectName": "ActorState'Default__BP_Building_Ramp_HalfPitch_Lower_C:ActorState'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.2"
+      },
+      "RootComponent": {
+        "ObjectName": "SceneComponent'Default__BP_Building_Ramp_HalfPitch_Lower_C:RootComponent'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.17"
+      },
+      "Tags": [
+        "Building_Floor"
+      ]
+    }
+  },
+  {
+    "Type": "ActorState",
+    "Name": "ActorState",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ActorState'",
+    "Outer": {
+      "ObjectName": "BP_Building_Ramp_HalfPitch_Lower_C'Default__BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.1"
+    },
+    "Template": {
+      "ObjectName": "ActorState'Default__BP_Building_Ramp_C:ActorState'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.4"
+    }
+  },
+  {
+    "Type": "ArrowComponent",
+    "Name": "PlacementArrow_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'ArrowComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    },
+    "Template": {
+      "ObjectName": "ArrowComponent'BP_Building_Ramp_C:PlacementArrow_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.5"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box00_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    },
+    "Template": {
+      "ObjectName": "BoxComponent'BP_Building_Ramp_C:Box00_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.6"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 98.0,
+        "Y": 70.0,
+        "Z": 22.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box01_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    },
+    "Template": {
+      "ObjectName": "BoxComponent'BP_Building_Ramp_C:Box01_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.7"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 98.0,
+        "Y": 70.0,
+        "Z": 22.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box10_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    },
+    "Template": {
+      "ObjectName": "BoxComponent'BP_Building_Ramp_C:Box10_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.8"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 98.0,
+        "Y": 70.0,
+        "Z": 22.0
+      }
+    }
+  },
+  {
+    "Type": "BoxComponent",
+    "Name": "Box11_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'BoxComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    },
+    "Template": {
+      "ObjectName": "BoxComponent'BP_Building_Ramp_C:Box11_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.9"
+    },
+    "Properties": {
+      "BoxExtent": {
+        "X": 98.0,
+        "Y": 70.0,
+        "Z": 22.0
+      }
+    }
+  },
+  {
+    "Type": "BPC_EnvironmentalBuildup_C",
+    "Name": "BPC_EnvironmentalBuildup_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "BlueprintGeneratedClass'Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildup.BPC_EnvironmentalBuildup_C'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    },
+    "Template": {
+      "ObjectName": "BPC_EnvironmentalBuildup_C'BP_Building_Ramp_C:BPC_EnvironmentalBuildup_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.11"
+    },
+    "Properties": {
+      "MeshXScale": 3.4,
+      "RelativeRotation": {
+        "Pitch": 26.565,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 3.4,
+        "Y": 3.0,
+        "Z": 0.5
+      }
+    }
+  },
+  {
+    "Type": "IcarusStatContainer",
+    "Name": "Stat Container",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'IcarusStatContainer'",
+    "Outer": {
+      "ObjectName": "BP_Building_Ramp_HalfPitch_Lower_C'Default__BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.1"
+    },
+    "Template": {
+      "ObjectName": "IcarusStatContainer'Default__BP_Building_Ramp_C:Stat Container'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.12"
+    }
+  },
+  {
+    "Type": "InheritableComponentHandler",
+    "Name": "InheritableComponentHandler",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'InheritableComponentHandler'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    },
+    "Properties": {
+      "Records": [
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BoxComponent'BP_Building_Ramp_HalfPitch_Lower_C:Box01_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.5"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "Box01",
+            "AssociatedGuid": "77B32E7E-46E7069C-7905369A-B64BB267"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'NiagaraComponent'",
+            "ObjectPath": "/Script/Niagara"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "NiagaraComponent'BP_Building_Ramp_HalfPitch_Lower_C:Niagara_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.11"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.2"
+            },
+            "SCSVariableName": "Niagara",
+            "AssociatedGuid": "92A53617-45B01C4D-CA1B70AE-5B2387E5"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BoxComponent'BP_Building_Ramp_HalfPitch_Lower_C:Box11_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.7"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "Box11",
+            "AssociatedGuid": "57E1240E-47C1EF64-320187BF-F82D0DE0"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'ArrowComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "ArrowComponent'BP_Building_Ramp_HalfPitch_Lower_C:PlacementArrow_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.3"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "PlacementArrow",
+            "AssociatedGuid": "543481F8-40FB12F0-4729CDA7-9638D39A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SceneComponent'BP_Building_Ramp_HalfPitch_Lower_C:SecondOutsideTestLocation_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.16"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "SecondOutsideTestLocation",
+            "AssociatedGuid": "E1AE8316-42BBE823-474F89A7-74701CD6"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SceneComponent'BP_Building_Ramp_HalfPitch_Lower_C:CollisionTesting_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.14"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "CollisionTesting",
+            "AssociatedGuid": "BA29D091-47D18CA5-89B9FD9F-4465B689"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BoxComponent'BP_Building_Ramp_HalfPitch_Lower_C:Box00_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.4"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "Box00",
+            "AssociatedGuid": "31C045B9-43D22921-992F328E-953BFE4E"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'BoxComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BoxComponent'BP_Building_Ramp_HalfPitch_Lower_C:Box10_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.6"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "Box10",
+            "AssociatedGuid": "9C648B5A-4EEEE2CD-F152D891-A26C2D4B"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Ramp_HalfPitch_Lower_C:SM_XPlane_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.21"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.2"
+            },
+            "SCSVariableName": "SM_XPlane",
+            "AssociatedGuid": "E6CFE3B8-45A151E7-E0DDCF88-ADC38C4F"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Ramp_HalfPitch_Lower_C:SM_XPlane1_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.20"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.2"
+            },
+            "SCSVariableName": "SM_XPlane1",
+            "AssociatedGuid": "F885EF68-4AC5BE7B-819411A3-53357AC8"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'SceneComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "SceneComponent'BP_Building_Ramp_HalfPitch_Lower_C:Center_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.13"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "Center",
+            "AssociatedGuid": "1F3F4D7B-4FFB9E9C-6EC50F86-FBFFD7DD"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "BlueprintGeneratedClass'BPC_EnvironmentalBuildup_C'",
+            "ObjectPath": "Icarus/Content/BP/Building/SnowSystem/BPC_EnvironmentalBuildup.8"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "BPC_EnvironmentalBuildup_C'BP_Building_Ramp_HalfPitch_Lower_C:BPC_EnvironmentalBuildup_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.8"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.2"
+            },
+            "SCSVariableName": "BPC_EnvironmentalBuildup",
+            "AssociatedGuid": "DE27555A-44FBE3E4-EB6A5984-C536E1B8"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        },
+        {
+          "ComponentClass": {
+            "ObjectName": "Class'StaticMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "ComponentTemplate": {
+            "ObjectName": "StaticMeshComponent'BP_Building_Ramp_HalfPitch_Lower_C:WeatherCullingMesh_GEN_VARIABLE'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.22"
+          },
+          "ComponentKey": {
+            "OwnerClass": {
+              "ObjectName": "BlueprintGeneratedClass'BP_Building_Base_C'",
+              "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.184"
+            },
+            "SCSVariableName": "WeatherCullingMesh",
+            "AssociatedGuid": "BF618F6E-4E8AA6E9-5C10B1BB-1A17639A"
+          },
+          "CookedComponentInstancingData": {
+            "ChangedPropertyList": [],
+            "bHasValidCookedData": false
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Type": "NiagaraComponent",
+    "Name": "Niagara_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'NiagaraComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    },
+    "Template": {
+      "ObjectName": "NiagaraComponent'BP_Building_Ramp_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.14"
+    },
+    "Properties": {
+      "OverrideParameters": {
+        "DataInterfaces": [
+          {
+            "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_Ramp_HalfPitch_Lower_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+            "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.12"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "Type": "NiagaraDataInterfaceStaticMesh",
+    "Name": "NiagaraDataInterfaceStaticMesh_0",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'NiagaraDataInterfaceStaticMesh'",
+    "Outer": {
+      "ObjectName": "NiagaraComponent'BP_Building_Ramp_HalfPitch_Lower_C:Niagara_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.11"
+    },
+    "Template": {
+      "ObjectName": "NiagaraDataInterfaceStaticMesh'BP_Building_Ramp_C:Niagara_GEN_VARIABLE.NiagaraDataInterfaceStaticMesh_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.15"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "Center_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'BP_Building_Ramp_C:Center_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.16"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 150.0,
+        "Y": 150.0,
+        "Z": 75.0
+      },
+      "RelativeRotation": {
+        "Pitch": 26.565,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "CollisionTesting_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'BP_Building_Ramp_C:CollisionTesting_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.17"
+    },
+    "Properties": {
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SecondOutsideTestLocation_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'BP_Building_Base_C:SecondOutsideTestLocation_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Base.209"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 95.0,
+        "Y": 40.0,
+        "Z": 0.0
+      }
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "RootComponent",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BP_Building_Ramp_HalfPitch_Lower_C'Default__BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.1"
+    },
+    "Template": {
+      "ObjectName": "SceneComponent'Default__BP_Building_Ramp_C:RootComponent'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.19"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'BP_Building_Ramp_HalfPitch_Lower_C:SimpleConstructionScript_0'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.19"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'BP_Building_Ramp_HalfPitch_Lower_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.15"
+      },
+      "VariableGuid": "F637191B-4695DB7A-244E73AF-6AC93307",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_0",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    },
+    "Properties": {
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'BP_Building_Ramp_HalfPitch_Lower_C:SimpleConstructionScript_0.SCS_Node_0'",
+        "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.18"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane1_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Ramp_C:SM_XPlane1_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.26"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -213.96333,
+        "Y": -149.99947,
+        "Z": -147.71788
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 89.99967,
+        "Roll": 206.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "SM_XPlane_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Ramp_C:SM_XPlane_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.27"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": -243.36263,
+        "Y": 449.9986,
+        "Z": -96.61427
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -89.99904,
+        "Roll": -26.0
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "WeatherCullingMesh_GEN_VARIABLE",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted | RF_InheritableComponentTemplate",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'BP_Building_Ramp_HalfPitch_Lower_C'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp_HalfPitch_Lower.0"
+    },
+    "Template": {
+      "ObjectName": "StaticMeshComponent'BP_Building_Ramp_C:WeatherCullingMesh_GEN_VARIABLE'",
+      "ObjectPath": "Icarus/Content/BP/Building/BP_Building_Ramp.28"
+    },
+    "Properties": {
+      "RelativeLocation": {
+        "X": 150.0,
+        "Y": 150.0,
+        "Z": 75.0
+      },
+      "RelativeRotation": {
+        "Pitch": 27.0,
+        "Yaw": 0.0,
+        "Roll": 0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.4,
+        "Y": 1.25,
+        "Z": 0.125
+      }
+    }
+  }
+]
