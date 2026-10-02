@@ -1,0 +1,35 @@
+// AnimBlueprintGeneratedClass SK_CRE_RockDog_Skeleton_AnimBlueprint.SK_CRE_RockDog_Skeleton_AnimBlueprint_C
+struct USK_CRE_RockDog_Skeleton_AnimBlueprint_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_3; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_BlendListByEnum AnimGraphNode_BlendListByEnum; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_AimOffsetLookAt AnimGraphNode_AimOffsetLookAt; 
+	struct FVector __CustomProperty_Trace_Length_00F6EB50403AC7569B22089433167795; 
+	float __CustomProperty_Trace_Offset_00F6EB50403AC7569B22089433167795; 
+	float __CustomProperty_Pelvis_Speed_Inc_00F6EB50403AC7569B22089433167795; 
+	float __CustomProperty_Pelvis_Speed_Dec_00F6EB50403AC7569B22089433167795; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_RockDog_Skeleton_AnimBlueprint_AnimGraphNode_BlendListByBool_8672E4424FBB4ADA0D79C3B61BF9C8FE(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_RockDog_Skeleton_AnimBlueprint_AnimGraphNode_BlendSpacePlayer_AF069F7C46E67A0ED47F3D94F4AE26EA(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_RockDog_Skeleton_AnimBlueprint_AnimGraphNode_BlendSpacePlayer_7FEA9F3F435AAF1CFEC9B4AB29389423(); // (BlueprintEvent)
+	void ExecuteUbergraph_SK_CRE_RockDog_Skeleton_AnimBlueprint(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_SpawnFilter_PopulationCheck_SwampSlug.BP_SpawnFilter_PopulationCheck_SwampSlug_C
+struct UBP_SpawnFilter_PopulationCheck_SwampSlug_C : UBP_SpawnFilter_PopulationCheck_C {
+};
+

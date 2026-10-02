@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ModifierStateBehaviour_TickDamage_Physical.BP_ModifierStateBehaviour_TickDamage_Physical_C
+struct UBP_ModifierStateBehaviour_TickDamage_Physical_C : UBP_ModifierStateBehaviour_TickDamage_C {
+};
+

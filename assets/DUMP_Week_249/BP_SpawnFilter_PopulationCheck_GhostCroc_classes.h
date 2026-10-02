@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_SpawnFilter_PopulationCheck_GhostCroc.BP_SpawnFilter_PopulationCheck_GhostCroc_C
+struct UBP_SpawnFilter_PopulationCheck_GhostCroc_C : UBP_SpawnFilter_PopulationCheck_C {
+};
+

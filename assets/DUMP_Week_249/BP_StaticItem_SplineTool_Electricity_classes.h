@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_StaticItem_SplineTool_Electricity.BP_StaticItem_SplineTool_Electricity_C
+struct ABP_StaticItem_SplineTool_Electricity_C : ABP_StaticItem_SplineTool_Base_C {
+};
+

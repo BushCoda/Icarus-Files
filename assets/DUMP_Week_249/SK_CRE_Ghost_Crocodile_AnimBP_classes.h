@@ -1,0 +1,51 @@
+// AnimBlueprintGeneratedClass SK_CRE_Ghost_Crocodile_AnimBP.SK_CRE_Ghost_Crocodile_AnimBP_C
+struct USK_CRE_Ghost_Crocodile_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_3; 
+	struct FAnimNode_ApplyMeshSpaceAdditive AnimGraphNode_ApplyMeshSpaceAdditive_3; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_6; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_5; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace_2; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_2; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig_3; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_4; 
+	struct FAnimNode_ApplyMeshSpaceAdditive AnimGraphNode_ApplyMeshSpaceAdditive_2; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_3; 
+	struct FAnimNode_ApplyMeshSpaceAdditive AnimGraphNode_ApplyMeshSpaceAdditive; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	bool __CustomProperty_DoLookAt_166F92E1489527F81FC444AF5D9B5832; 
+	struct FVector __CustomProperty_LookAtTargetLocation_166F92E1489527F81FC444AF5D9B5832; 
+	float __CustomProperty_Trace_Offset_Tail_8E41E888498245DAC32359BEC9B9D7D5; 
+	float __CustomProperty_Trace_Offset_8E41E888498245DAC32359BEC9B9D7D5; 
+	struct FVector __CustomProperty_Trace_Length_8E41E888498245DAC32359BEC9B9D7D5; 
+	bool IsSandSwimming; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Ghost_Crocodile_AnimBP_AnimGraphNode_ControlRig_166F92E1489527F81FC444AF5D9B5832(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Ghost_Crocodile_AnimBP_AnimGraphNode_ControlRig_8E41E888498245DAC32359BEC9B9D7D5(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Ghost_Crocodile_AnimBP_AnimGraphNode_BlendListByBool_4F3D782349DB352F3E0ACEA908E16A65(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Ghost_Crocodile_AnimBP_AnimGraphNode_BlendSpacePlayer_9E9D083E4269EC6BDB2E7FABD86E0828(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Ghost_Crocodile_AnimBP_AnimGraphNode_BlendSpacePlayer_8D1A61194CC91BBD20AD67AB3BF842C4(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Ghost_Crocodile_AnimBP_AnimGraphNode_BlendSpacePlayer_806C68DD4C3781766AC9AB88DFA93429(); // (BlueprintEvent)
+	void BlueprintUpdateAnimation(float DeltaTimeX); // (Event|Public|BlueprintEvent)
+	void ExecuteUbergraph_SK_CRE_Ghost_Crocodile_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

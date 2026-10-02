@@ -1,0 +1,35 @@
+// AnimBlueprintGeneratedClass SK_CRE_Horse_AnimBP.SK_CRE_Horse_AnimBP_C
+struct USK_CRE_Horse_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_4; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_ApplyMeshSpaceAdditive AnimGraphNode_ApplyMeshSpaceAdditive; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_3; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig_2; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	float __CustomProperty_LookAtInterpSpeedWithoutTarget_63FE192F460FA96334FF9196A2C9EBEB; 
+	float __CustomProperty_LookAtInterpSpeedWithTarget_63FE192F460FA96334FF9196A2C9EBEB; 
+	struct FVector __CustomProperty_LookAtTargetLocation_63FE192F460FA96334FF9196A2C9EBEB; 
+	bool __CustomProperty_DoLookAt_63FE192F460FA96334FF9196A2C9EBEB; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Horse_AnimBP_AnimGraphNode_BlendSpacePlayer_E3B0A64840675F6D6FEFA68E73BB66C6(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Horse_AnimBP_AnimGraphNode_BlendListByBool_39AC631D411BA1A8F5D0479E23A87460(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Horse_AnimBP_AnimGraphNode_BlendSpacePlayer_0805F44E47CA6B9B676BD09C8F807FD4(); // (BlueprintEvent)
+	void ExecuteUbergraph_SK_CRE_Horse_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

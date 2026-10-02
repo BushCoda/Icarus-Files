@@ -1,0 +1,44 @@
+// AnimBlueprintGeneratedClass SK_CRE_SwampQuad_AnimBP.SK_CRE_SwampQuad_AnimBP_C
+struct USK_CRE_SwampQuad_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_3; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_2; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_4; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_4; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace_2; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_2; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace_2; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_3; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_3; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_2; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_2; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	struct FVector __CustomProperty_LookAtTargetLocation_2CC658FC40873F2CE690CAA580114993; 
+	bool __CustomProperty_DoLookAt_2CC658FC40873F2CE690CAA580114993; 
+	struct FVector __CustomProperty_Trace_Length_8206271C482CBB9ED3BDC8B55E943567; 
+	float __CustomProperty_Trace_Offset_8206271C482CBB9ED3BDC8B55E943567; 
+	float __CustomProperty_Pelvis_Speed_Inc_8206271C482CBB9ED3BDC8B55E943567; 
+	float __CustomProperty_Pelvis_Speed_Dec_8206271C482CBB9ED3BDC8B55E943567; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_SwampQuad_AnimBP_AnimGraphNode_BlendSpacePlayer_1BDF09934236B365E985F782DD79D6A1(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_SwampQuad_AnimBP_AnimGraphNode_TransitionResult_FFDDF19E4F287B968C17B1A0E441D5CF(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_SwampQuad_AnimBP_AnimGraphNode_TransitionResult_78CB0BEA4BC05EA5DBBC1F90C1101C83(); // (BlueprintEvent)
+	void ExecuteUbergraph_SK_CRE_SwampQuad_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

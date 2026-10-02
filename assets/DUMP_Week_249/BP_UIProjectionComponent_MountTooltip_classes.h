@@ -1,0 +1,30 @@
+// BlueprintGeneratedClass BP_UIProjectionComponent_MountTooltip.BP_UIProjectionComponent_MountTooltip_C
+struct UBP_UIProjectionComponent_MountTooltip_C : UBP_UIProjectionComponent_C {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	bool IsAlive; 
+	struct ABP_IcarusPlayerCharacterSurvival_C* Player; 
+	bool SettingsEnable; 
+	bool StatAbilityEnable; 
+	float DotToSee; 
+	float RangeToDotSee; 
+	float RangeToCloseCircleSee; 
+	bool DotSeeEnable; 
+	bool CircleCloseSee; 
+	struct AActor* CurrentActor; 
+	float RightOffset; 
+	float UpOffset; 
+	struct FMulticastInlineDelegate OnItemChanged; 
+	struct FHitResult CurrentInteractableHit; 
+
+	void GatherBounds(); // (Public|BlueprintCallable|BlueprintEvent)
+	struct FVector GetProjectionLocation(); // (Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure)
+	void UpdateWidget(); // (Public|BlueprintCallable|BlueprintEvent)
+	void UpdateEnabled(); // (Public|BlueprintCallable|BlueprintEvent)
+	void OnRep_IsAlive(); // (BlueprintCallable|BlueprintEvent)
+	void GetWidgetLocation(struct FVector& Location); // (Public|HasOutParms|BlueprintCallable|BlueprintEvent)
+	void ReceiveBeginPlay(); // (Event|Public|BlueprintEvent)
+	void ReceiveTick(float DeltaSeconds); // (Event|Public|BlueprintEvent)
+	void ExecuteUbergraph_BP_UIProjectionComponent_MountTooltip(int32_t EntryPoint); // (Final|UbergraphFunction)
+	void OnItemChanged__DelegateSignature(); // (Public|Delegate|BlueprintCallable|BlueprintEvent)
+};
+

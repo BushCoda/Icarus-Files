@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_IcarusGOAPAction_HuntTarget_Pack.BP_IcarusGOAPAction_HuntTarget_Pack_C
+struct UBP_IcarusGOAPAction_HuntTarget_Pack_C : UBP_IcarusGOAPAction_HuntTarget_C {
+};
+

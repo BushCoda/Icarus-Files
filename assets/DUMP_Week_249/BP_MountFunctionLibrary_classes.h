@@ -1,0 +1,32 @@
+// BlueprintGeneratedClass BP_MountFunctionLibrary.BP_MountFunctionLibrary_C
+struct UBP_MountFunctionLibrary_C : UBlueprintFunctionLibrary {
+
+	void CanEvolve(struct AIcarusCharacter* Character, struct FItemData Item, struct UObject* __WorldContext, bool& bCanInject); // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent)
+	bool IsVehicle(struct AIcarusCharacter* Target, struct UObject* __WorldContext); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|Const)
+	enum class EMountCombatBehaviourState GetNextSupportedMountCombatState(struct AIcarusMountCharacter* Target, struct UObject* __WorldContext); // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent)
+	enum class EMountMovementBehaviourState GetNextSupportedMountMovementState(struct AIcarusMountCharacter* Target, struct UObject* __WorldContext); // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent)
+	void SetNearbyTamesCombatState(enum class EMountCombatBehaviourState NewCombatBehaviour, struct FVector Origin, int32_t NearbyRadius, struct AIcarusPlayerCharacter* Player, struct UObject* __WorldContext); // (Static|Public|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void SetNearbyTamesMovementState(enum class EMountMovementBehaviourState NewMovementBehaviour, struct FVector Origin, int32_t NearbyRadius, struct AIcarusPlayerCharacter* Player, struct UObject* __WorldContext); // (Static|Public|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void CanBeFertilized(struct AActor* Male, struct AActor* PotentialFemale, struct UObject* __WorldContext, bool& CanFertilize); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void FindAnimalToFertalize(struct AActor* Male, float MaxDistance, struct UObject* __WorldContext, struct AActor*& Female); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void FindNearbyWaterTrough(struct APawn* Pawn, struct FVector& AroundLocation, float MaxDistance, struct UObject* __WorldContext, struct AIcarusActor*& Item, bool& Success); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void IsLocationFreeFromHostileTargets(struct APawn* Owner, struct FVector WorldLocation, struct UObject* __WorldContext, bool& FreeFromHostiles); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void FindValidFoodContainer(struct APawn* Pawn, struct FVector AroundLocation, float MaxDistance, struct FTagQueriesRowHandle ContainerQuery, bool bIgnoreUnreachable, bool SortByPathCost, bool OnlyAcceptUnshelteredContainers, bool AvoidNearbyPlayers, struct UObject* __WorldContext, struct AIcarusActor*& ContainerActor, struct UInventory*& Inventory, bool& Success); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void SendFertalizedChatMessage(struct TScriptInterface<ISpawnableAI> Mother, struct UObject* __WorldContext); // (Static|Public|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void SendBirthChatMessage(struct TScriptInterface<ISpawnableAI> Mother, struct UObject* __WorldContext); // (Static|Public|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void CanFeedSerum(struct AIcarusCharacter* Character, struct FItemData Item, struct UObject* __WorldContext, bool& bCanFeed); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void IsMount(struct AIcarusMountCharacter* MountCharacter, struct UObject* __WorldContext, bool& IsMount); // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure|Const)
+	void IsPet(struct AIcarusMountCharacter* MountCharacter, struct UObject* __WorldContext, bool& IsPet); // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure|Const)
+	void SetDesiredMountGrazingState(struct AIcarusCharacter* MountCharacter, enum class EMountGrazingBehaviourState GrazingBehaviour, struct UObject* __WorldContext); // (Static|Public|BlueprintCallable|BlueprintEvent)
+	void SetDesiredMountConsumptionState(struct AIcarusCharacter* MountCharacter, enum class EMountConsumptionBehaviourState ConsumptionBehaviour, struct UObject* __WorldContext); // (Static|Public|BlueprintCallable|BlueprintEvent)
+	void UnloadMountActors(struct TArray<struct AIcarusMountCharacter*>& Mounts, struct UObject* __WorldContext); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void GetBestBoneToAttachRopeTo(struct ACharacter* Target, struct UObject* __WorldContext, struct FName& BestBoneOrSocket); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure)
+	void GetCreatureTypeFromMountData(struct FMountsRowHandle Mount Data, struct UObject* __WorldContext, struct FText& Creature Name); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure)
+	void TameConsumeFoodItem(struct AIcarusCharacter* TameCharacter, struct FItemData Item, float NutritionMultiplier, struct UObject* __WorldContext, bool& Success); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void SendDeathChatMessage(struct TScriptInterface<ISpawnableAI> SpawnableAI, bool IsJuvenile, struct UObject* __WorldContext); // (Static|Public|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void GetMountParent(struct AIcarusCharacter* MountCharacter, struct UObject* __WorldContext, struct AActor*& ParentActor, bool& Success); // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent|Const)
+	void SetMountParent(struct AIcarusCharacter* MountCharacter, struct AActor* ParentActor, struct UObject* __WorldContext); // (Static|Public|BlueprintCallable|BlueprintEvent)
+	void SetDesiredMountCombatState(struct AIcarusCharacter* MountCharacter, enum class EMountCombatBehaviourState CombatBehaviour, struct UObject* __WorldContext); // (Static|Public|BlueprintCallable|BlueprintEvent)
+	void SetDesiredMountMovementState(struct AIcarusCharacter* MountCharacter, enum class EMountMovementBehaviourState MovementBehaviour, struct UObject* __WorldContext); // (Static|Public|BlueprintCallable|BlueprintEvent)
+};
+

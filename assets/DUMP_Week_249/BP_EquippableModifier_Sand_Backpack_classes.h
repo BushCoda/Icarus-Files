@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_EquippableModifier_Sand_Backpack.BP_EquippableModifier_Sand_Backpack_C
+struct UBP_EquippableModifier_Sand_Backpack_C : UBP_EquippableModifier_Lava_Hunter_Backpack_C {
+};
+

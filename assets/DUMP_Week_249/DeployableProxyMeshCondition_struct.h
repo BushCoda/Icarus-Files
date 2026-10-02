@@ -1,0 +1,7 @@
+// UserDefinedStruct DeployableProxyMeshCondition.DeployableProxyMeshCondition
+struct FDeployableProxyMeshCondition {
+	struct USceneComponent* ComponentHeirarchyToEnable_11_EB16323A42C85DD5974A2CBC0413F8E0; 
+	int32_t MinimumCondition_6_8A73B2AA405601285E9FA1BE12D2AC36; 
+	bool RequiresLinkedSlotable_9_59C0C8874524D3F432B593888FA00030; 
+};
+

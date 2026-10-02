@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_IcarusGOAPAction_FindCompany.BP_IcarusGOAPAction_FindCompany_C
+struct UBP_IcarusGOAPAction_FindCompany_C : UBP_IcarusGOAPAction_Base_C {
+};
+

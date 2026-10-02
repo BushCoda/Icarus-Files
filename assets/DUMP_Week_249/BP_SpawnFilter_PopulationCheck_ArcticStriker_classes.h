@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_SpawnFilter_PopulationCheck_ArcticStriker.BP_SpawnFilter_PopulationCheck_ArcticStriker_C
+struct UBP_SpawnFilter_PopulationCheck_ArcticStriker_C : UBP_SpawnFilter_PopulationCheck_C {
+};
+

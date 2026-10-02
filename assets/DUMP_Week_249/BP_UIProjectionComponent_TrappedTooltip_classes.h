@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_UIProjectionComponent_TrappedTooltip.BP_UIProjectionComponent_TrappedTooltip_C
+struct UBP_UIProjectionComponent_TrappedTooltip_C : UBP_UIProjectionComponent_MountTooltip_C {
+};
+

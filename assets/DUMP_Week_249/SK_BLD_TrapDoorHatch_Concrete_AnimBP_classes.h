@@ -1,0 +1,31 @@
+// AnimBlueprintGeneratedClass SK_BLD_TrapDoorHatch_Concrete_AnimBP.SK_BLD_TrapDoorHatch_Concrete_AnimBP_C
+struct USK_BLD_TrapDoorHatch_Concrete_AnimBP_C : UAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_6; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_5; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_4; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_3; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_2; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_4; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_5; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_3; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_4; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_2; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_3; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_2; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	enum class DoorState DoorState; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_TrapDoorHatch_Concrete_AnimBP_AnimGraphNode_TransitionResult_6D97017C4BA4954588CE56A47C4B5D2B(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_TrapDoorHatch_Concrete_AnimBP_AnimGraphNode_TransitionResult_0E79621146D94A070666E9A2FCC114F0(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_TrapDoorHatch_Concrete_AnimBP_AnimGraphNode_TransitionResult_42EC7314424818BF939070BF8ECDDC87(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_TrapDoorHatch_Concrete_AnimBP_AnimGraphNode_TransitionResult_05F91A784EC632CFCB7A40A3A13FB7A9(); // (BlueprintEvent)
+	void BlueprintUpdateAnimation(float DeltaTimeX); // (Event|Public|BlueprintEvent)
+	void ExecuteUbergraph_SK_BLD_TrapDoorHatch_Concrete_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

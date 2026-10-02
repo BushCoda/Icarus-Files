@@ -1,0 +1,43 @@
+// AnimBlueprintGeneratedClass SK_CRE_SwampBird_AnimBP.SK_CRE_SwampBird_AnimBP_C
+struct USK_CRE_SwampBird_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_4; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_3; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_ApplyMeshSpaceAdditive AnimGraphNode_ApplyMeshSpaceAdditive_2; 
+	struct FAnimNode_ApplyMeshSpaceAdditive AnimGraphNode_ApplyMeshSpaceAdditive; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig_2; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	float __CustomProperty_Pelvis_Speed_Dec_F092A06F49A8952367F345AD87812366; 
+	float __CustomProperty_Pelvis_Speed_Inc_F092A06F49A8952367F345AD87812366; 
+	float __CustomProperty_LookAtInterpSpeedWithoutTarget_38CD973B4B9D4505884DC0B31F711466; 
+	float __CustomProperty_LookAtInterpSpeedWithTarget_38CD973B4B9D4505884DC0B31F711466; 
+	struct FVector __CustomProperty_LookAtTargetLocation_38CD973B4B9D4505884DC0B31F711466; 
+	bool __CustomProperty_DoLookAt_38CD973B4B9D4505884DC0B31F711466; 
+	float __CustomProperty_LookAtInterpSpeedWithoutTarget_F1C500E847C1B7F5C9C45AAC808C8A09; 
+	float __CustomProperty_LookAtInterpSpeedWithTarget_F1C500E847C1B7F5C9C45AAC808C8A09; 
+	struct FVector __CustomProperty_LookAtTargetLocation_F1C500E847C1B7F5C9C45AAC808C8A09; 
+	bool __CustomProperty_DoLookAt_F1C500E847C1B7F5C9C45AAC808C8A09; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_SwampBird_AnimBP_AnimGraphNode_BlendSpacePlayer_5C0BAE6249BC991E4869B39E56A4A9A6(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_SwampBird_AnimBP_AnimGraphNode_BlendSpacePlayer_8DB16C524A66BA4A9912B4B8E10C394A(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_SwampBird_AnimBP_AnimGraphNode_BlendListByBool_27F5288E44DA484C16A64EA77C90CA5D(); // (BlueprintEvent)
+	void ExecuteUbergraph_SK_CRE_SwampBird_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

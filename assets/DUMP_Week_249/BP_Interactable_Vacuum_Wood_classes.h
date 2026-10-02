@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_Interactable_Vacuum_Wood.BP_Interactable_Vacuum_Wood_C
+struct UBP_Interactable_Vacuum_Wood_C : UBP_Interactable_Interact_Vacuum_Items_Base_C {
+};
+

@@ -1,0 +1,49 @@
+// AnimBlueprintGeneratedClass Striker_AnimBP.Striker_AnimBP_C
+struct UStriker_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Slot AnimGraphNode_Slot_2; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_5; 
+	struct FAnimNode_ApplyMeshSpaceAdditive AnimGraphNode_ApplyMeshSpaceAdditive_2; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_4; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_2; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_3; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_5; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_4; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_3; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig_2; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_ApplyMeshSpaceAdditive AnimGraphNode_ApplyMeshSpaceAdditive; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	bool __CustomProperty_FourLeg_23E3F53C420984654CD55EBB31079406; 
+	bool __CustomProperty_IsOnFourLegs_B166AD4D42FDC9EC05BA81AAC6EEF505; 
+	bool __CustomProperty_DoLookAt_B166AD4D42FDC9EC05BA81AAC6EEF505; 
+	struct FVector __CustomProperty_LookAtTargetLocation_B166AD4D42FDC9EC05BA81AAC6EEF505; 
+	struct FVector ViewTargetLocation; 
+	bool HasViewTarget; 
+	bool IsAttacking; 
+	float PostureBlendTime; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_Striker_AnimBP_AnimGraphNode_ControlRig_B166AD4D42FDC9EC05BA81AAC6EEF505(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_Striker_AnimBP_AnimGraphNode_BlendSpacePlayer_8E343E2A4531B14277DD0199E2CE5AC6(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_Striker_AnimBP_AnimGraphNode_BlendSpacePlayer_36B57B7E4179BC5115B56CA83F2BE932(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_Striker_AnimBP_AnimGraphNode_BlendSpacePlayer_60D22C94408EAFE16F2438B377506C12(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_Striker_AnimBP_AnimGraphNode_ApplyMeshSpaceAdditive_80B01B0E459232C224F9D3B97409B338(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_Striker_AnimBP_AnimGraphNode_BlendListByBool_9BBB42B8453F78FF2E5A098432E26336(); // (BlueprintEvent)
+	void BlueprintUpdateAnimation(float DeltaTimeX); // (Event|Public|BlueprintEvent)
+	void ExecuteUbergraph_Striker_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

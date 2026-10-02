@@ -1,0 +1,31 @@
+// AnimBlueprintGeneratedClass SK_BLD_Railing_Concrete_Gate_Skeleton_AnimBlueprint.SK_BLD_Railing_Concrete_Gate_Skeleton_AnimBlueprint_C
+struct USK_BLD_Railing_Concrete_Gate_Skeleton_AnimBlueprint_C : UAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_6; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_5; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_4; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_3; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_2; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_4; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_5; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_3; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_4; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_2; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_3; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_2; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	enum class DoorState DoorState; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_Railing_Concrete_Gate_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_D9AF15664B72BF4EC440559C74520CA6(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_Railing_Concrete_Gate_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_9AFA9D264DFD520B18CAB1BA83EFEB7B(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_Railing_Concrete_Gate_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_81460344475E628415F2139A3A7D8E48(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_Railing_Concrete_Gate_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_6442965D43719F9708A233AA5CADD60B(); // (BlueprintEvent)
+	void BlueprintUpdateAnimation(float DeltaTimeX); // (Event|Public|BlueprintEvent)
+	void ExecuteUbergraph_SK_BLD_Railing_Concrete_Gate_Skeleton_AnimBlueprint(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

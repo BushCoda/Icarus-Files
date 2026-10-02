@@ -1,0 +1,9 @@
+// UserDefinedStruct TChatMessage.TChatMessage
+struct FTChatMessage {
+	struct FString PlayerID_14_C68188D0471098AB8C1BB795897FE3B6; 
+	struct FString PlayerName_6_1A10F977427CFDC7B2B72CA5F473861F; 
+	struct UTexture2D* PlayerIcon_11_D61192A6424BC99311F83BA2DD19D9BA; 
+	struct FColor PlayerColour_7_F418E4314BA8A9D8CB17C385BB705476; 
+	struct FString Message_8_8A301E2942F0BBDF0108158A83163F9D; 
+};
+

@@ -1,0 +1,50 @@
+// AnimBlueprintGeneratedClass SK_CRE_Tank_AnimBP.SK_CRE_Tank_AnimBP_C
+struct USK_CRE_Tank_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_4; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_3; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_2; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_4; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_3; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_3; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_6; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_5; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_2; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_4; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_3; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_ApplyMeshSpaceAdditive AnimGraphNode_ApplyMeshSpaceAdditive; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig_2; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	bool __CustomProperty_DoLookAt_C54C6B0A4735247C5DB53D8A541FBA6A; 
+	struct FVector __CustomProperty_TargetLocation_C54C6B0A4735247C5DB53D8A541FBA6A; 
+	bool IsFlying; 
+	struct FPositionHistory History; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Tank_AnimBP_AnimGraphNode_BlendSpacePlayer_7ABDB737446B09D839D3A6A100D620AF(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Tank_AnimBP_AnimGraphNode_BlendSpacePlayer_2AE333F8420CDAA57BB86F9D8023B0B2(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Tank_AnimBP_AnimGraphNode_BlendListByBool_A8A80B3C45998C158F5F559D9EECB446(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Tank_AnimBP_AnimGraphNode_BlendListByBool_B643A3AC4EBD5A1BC73DBEBC56B2DBEE(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Tank_AnimBP_AnimGraphNode_BlendSpacePlayer_52A0EF1A45257A9CE29DB29E85E9734A(); // (BlueprintEvent)
+	void BlueprintUpdateAnimation(float DeltaTimeX); // (Event|Public|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Tank_AnimBP_AnimGraphNode_BlendSpacePlayer_972E519E4523E72EE5D7B0900FCBF5DE(); // (BlueprintEvent)
+	void ExecuteUbergraph_SK_CRE_Tank_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

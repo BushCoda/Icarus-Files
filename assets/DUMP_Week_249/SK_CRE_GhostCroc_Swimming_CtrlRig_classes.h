@@ -1,0 +1,4 @@
+// ControlRigBlueprintGeneratedClass SK_CRE_GhostCroc_Swimming_CtrlRig.SK_CRE_GhostCroc_Swimming_CtrlRig_C
+struct USK_CRE_GhostCroc_Swimming_CtrlRig_C : UControlRig {
+};
+

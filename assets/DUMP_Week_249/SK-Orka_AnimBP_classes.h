@@ -1,0 +1,39 @@
+// AnimBlueprintGeneratedClass SK-Orka_AnimBP.SK-Orka_AnimBP_C
+struct USK-Orka_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_BlendListByEnum AnimGraphNode_BlendListByEnum; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	float __CustomProperty_LookAtInterpSpeedWithoutTarget_11C751C24482AB57BF38B497ABA056E4; 
+	float __CustomProperty_LookAtInterpSpeedWithTarget_11C751C24482AB57BF38B497ABA056E4; 
+	struct FVector __CustomProperty_LookAtTargetLocation_11C751C24482AB57BF38B497ABA056E4; 
+	bool __CustomProperty_DoLookAt_11C751C24482AB57BF38B497ABA056E4; 
+	struct FVector __CustomProperty_Trace_Length_98E8520B4908724257AD03933E958F53; 
+	float __CustomProperty_Trace_Offset_98E8520B4908724257AD03933E958F53; 
+	float __CustomProperty_Pelvis_Speed_Inc_98E8520B4908724257AD03933E958F53; 
+	float __CustomProperty_Pelvis_Speed_Dec_98E8520B4908724257AD03933E958F53; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Orka_AnimBP_AnimGraphNode_BlendListByBool_9D0D7A024E58D0BA2C6FCFB1E94615CE(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Orka_AnimBP_AnimGraphNode_BlendSpacePlayer_1D4BD3C64C881BB437F336959A62AE1D(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Orka_AnimBP_AnimGraphNode_BlendSpacePlayer_E9AA1EF6486E4994CE89F2B35E5B0A11(); // (BlueprintEvent)
+	void ExecuteUbergraph_SK-Orka_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

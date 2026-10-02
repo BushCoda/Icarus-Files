@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ModifierStateBehaviour_RadiationSickness.BP_ModifierStateBehaviour_RadiationSickness_C
+struct UBP_ModifierStateBehaviour_RadiationSickness_C : UBP_ModifierStateBehaviour_TickDamage_C {
+};
+

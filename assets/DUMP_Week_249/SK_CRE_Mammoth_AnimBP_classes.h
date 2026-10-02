@@ -1,0 +1,33 @@
+// AnimBlueprintGeneratedClass SK_CRE_Mammoth_AnimBP.SK_CRE_Mammoth_AnimBP_C
+struct USK_CRE_Mammoth_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_3; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_ApplyAdditive AnimGraphNode_ApplyAdditive; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig_2; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	bool __CustomProperty_DoLookAt_36367C654AB9F3E8F999B097EB82D506; 
+	struct FVector __CustomProperty_LookAtTargetLocation_36367C654AB9F3E8F999B097EB82D506; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Mammoth_AnimBP_AnimGraphNode_BlendListByBool_531B24744A2D2120162D05A27CB4BC6A(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Mammoth_AnimBP_AnimGraphNode_BlendSpacePlayer_EC24EAD0408ADF55DC3785A67B1B8EB9(); // (BlueprintEvent)
+	void ExecuteUbergraph_SK_CRE_Mammoth_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

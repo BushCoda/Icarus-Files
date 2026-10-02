@@ -1,0 +1,9 @@
+// UserDefinedStruct FProspectServerInfo.FProspectServerInfo
+struct FFProspectServerInfo {
+	struct FProspectInfo ProspectInfo_23_6124B8864E499D95C9280FB64D71F169; 
+	struct FBlueprintSessionResult Session_13_24CBF6094F819F915C2AF59365EDF438; 
+	bool FromServer_25_F9C528E64F20AFA8C84ED7AA1326ED9A; 
+	bool Locked_27_6AF042504E9CF0860185D5954A081152; 
+	bool DedicatedServer_29_F52309C7414817A00450F39BBD398484; 
+};
+

@@ -1,0 +1,8 @@
+// UserDefinedStruct FContextImageConditions.FContextImageConditions
+struct FFContextImageConditions {
+	struct FGameplayTagQuery ObjectQuery_3_DDAE1BF547D799D72050BAAB18E10F5D; 
+	struct FGameplayTagQuery HeldItemQuery_4_854E2AB34FF2BED16AD982B7108A74CB; 
+	struct UTexture2D* Image_17_D97387C74FD1AF2C8B9E14A1D75C6E17; 
+	bool RequiresItem_16_40AA6567488920A889E2A0BE6A320961; 
+};
+

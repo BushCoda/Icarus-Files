@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ModifierStateBehaviour_PureDamage.BP_ModifierStateBehaviour_PureDamage_C
+struct UBP_ModifierStateBehaviour_PureDamage_C : UBP_ModifierStateBehaviour_TickDamage_C {
+};
+

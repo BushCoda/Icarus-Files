@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_SpawnFilter_PopulationCheck_Slinker.BP_SpawnFilter_PopulationCheck_Slinker_C
+struct UBP_SpawnFilter_PopulationCheck_Slinker_C : UBP_SpawnFilter_PopulationCheck_C {
+};
+

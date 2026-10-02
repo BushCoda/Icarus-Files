@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_StaticItem_SplineTool_Fuel.BP_StaticItem_SplineTool_Fuel_C
+struct ABP_StaticItem_SplineTool_Fuel_C : ABP_StaticItem_SplineTool_Base_C {
+};
+

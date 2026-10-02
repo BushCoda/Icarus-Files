@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_SpawnFilter_PopulationCheck_Bear.BP_SpawnFilter_PopulationCheck_Bear_C
+struct UBP_SpawnFilter_PopulationCheck_Bear_C : UBP_SpawnFilter_PopulationCheck_C {
+};
+

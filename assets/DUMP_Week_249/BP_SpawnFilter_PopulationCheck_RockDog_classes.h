@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_SpawnFilter_PopulationCheck_RockDog.BP_SpawnFilter_PopulationCheck_RockDog_C
+struct UBP_SpawnFilter_PopulationCheck_RockDog_C : UBP_SpawnFilter_PopulationCheck_C {
+};
+

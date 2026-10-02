@@ -1,0 +1,17 @@
+// UserDefinedStruct TreeSetupProperties.TreeSetupProperties
+struct FTreeSetupProperties {
+	struct TMap<struct FBaseStatsEnum, int32_t> Stats_47_FF0C329548596122663D7F8C7C4B49FC; 
+	float CollisionDetachThreshold_19_984D367B487128FFA0DF6AA21FD46EE1; 
+	float CollisionDetachInvScaleMultiplier_20_84930E674CB8C94A4ECCB1ACC6B4EB82; 
+	float DamageActionBreakEffort_21_34EE34AF45B61CDDDF2822837AC3E864; 
+	float AngularDampingZ_22_1CDF18A54256FD0444B9FE957570A74B; 
+	float MassRelativeCollisionDamageRatio_51_D953ABC84723C1590542569E0D57FC88; 
+	struct UPhysicalMaterial* TreePrimitivePhysicsMaterial_23_EB9306AD4EFC5ECE3F1775A31CE86A61; 
+	struct FTreeAudioDataRowHandle AudioDataRow_24_9DB876A4407B971A19625C92CBEB2CC1; 
+	struct TMap<struct FName, struct FTreePrimitiveSubdivideMeshes> SubdivedMeshSets_32_07839A424550A7C858DF458571AD9E60; 
+	struct TMap<struct FString, struct FName> PrimitivesSubdivedMeshes_36_1103586647CFF7B12ADC5CB3A72DEB7C; 
+	bool DebugCollisions_38_C3B4E6D142F40FBA014575A629CFC403; 
+	bool DebugMetadata_37_150B18504CF3821821D5CABB33CD7D14; 
+	struct TArray<struct FName> LeafPrimitivesToForceDetach_55_157CD5C2426DC12FB2CE98ABCACBEC3A; 
+};
+

@@ -1,0 +1,30 @@
+// AnimBlueprintGeneratedClass SK_CRE_Ice_Mammoth_AnimBP.SK_CRE_Ice_Mammoth_AnimBP_C
+struct USK_CRE_Ice_Mammoth_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_ApplyAdditive AnimGraphNode_ApplyAdditive; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_PoseSnapshot AnimGraphNode_PoseSnapshot; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	bool __CustomProperty_DoLookAt_16381B81454BDDDE282478B629413400; 
+	struct FVector __CustomProperty_LookAtTargetLocation_16381B81454BDDDE282478B629413400; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Ice_Mammoth_AnimBP_AnimGraphNode_BlendListByBool_57722A354A06DFC23DAFE79C171F445C(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Ice_Mammoth_AnimBP_AnimGraphNode_BlendSpacePlayer_30F2B4F24CD392782CAE7586170DC0FC(); // (BlueprintEvent)
+	void ExecuteUbergraph_SK_CRE_Ice_Mammoth_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

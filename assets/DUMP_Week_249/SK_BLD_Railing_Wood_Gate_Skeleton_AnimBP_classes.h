@@ -1,0 +1,31 @@
+// AnimBlueprintGeneratedClass SK_BLD_Railing_Wood_Gate_Skeleton_AnimBP.SK_BLD_Railing_Wood_Gate_Skeleton_AnimBP_C
+struct USK_BLD_Railing_Wood_Gate_Skeleton_AnimBP_C : UAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_6; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_5; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_4; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_3; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_2; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_4; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_5; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_3; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_4; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_2; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_3; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_2; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	enum class DoorState DoorState; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_Railing_Wood_Gate_Skeleton_AnimBP_AnimGraphNode_TransitionResult_BDC5625947EA739F1EB4E09B06D5B072(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_Railing_Wood_Gate_Skeleton_AnimBP_AnimGraphNode_TransitionResult_6EDE800941A5D274B6462D8D273D3FC0(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_Railing_Wood_Gate_Skeleton_AnimBP_AnimGraphNode_TransitionResult_4D9906E9495E26F88B2803BE36C19DF6(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_Railing_Wood_Gate_Skeleton_AnimBP_AnimGraphNode_TransitionResult_59FB5C4E4D07A716000521B2B06C6DBB(); // (BlueprintEvent)
+	void BlueprintUpdateAnimation(float DeltaTimeX); // (Event|Public|BlueprintEvent)
+	void ExecuteUbergraph_SK_BLD_Railing_Wood_Gate_Skeleton_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

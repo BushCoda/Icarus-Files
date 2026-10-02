@@ -1,0 +1,4 @@
+// WidgetBlueprintGeneratedClass UMG_TalentArchetype_Blueprint.UMG_TalentArchetype_Blueprint_C
+struct UUMG_TalentArchetype_Blueprint_C : UUMG_TalentArchetype_Player_C {
+};
+

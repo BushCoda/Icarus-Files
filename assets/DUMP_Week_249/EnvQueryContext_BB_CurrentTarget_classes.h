@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass EnvQueryContext_BB_CurrentTarget.EnvQueryContext_BB_CurrentTarget_C
+struct UEnvQueryContext_BB_CurrentTarget_C : UEnvQueryContext_BB_TargetActor_C {
+};
+

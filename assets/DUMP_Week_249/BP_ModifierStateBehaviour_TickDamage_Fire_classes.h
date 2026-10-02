@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ModifierStateBehaviour_TickDamage_Fire.BP_ModifierStateBehaviour_TickDamage_Fire_C
+struct UBP_ModifierStateBehaviour_TickDamage_Fire_C : UBP_ModifierStateBehaviour_TickDamage_C {
+};
+

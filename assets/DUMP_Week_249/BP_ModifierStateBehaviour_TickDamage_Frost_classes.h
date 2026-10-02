@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ModifierStateBehaviour_TickDamage_Frost.BP_ModifierStateBehaviour_TickDamage_Frost_C
+struct UBP_ModifierStateBehaviour_TickDamage_Frost_C : UBP_ModifierStateBehaviour_TickDamage_C {
+};
+

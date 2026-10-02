@@ -1,0 +1,27 @@
+// AnimBlueprintGeneratedClass SK_CRE_BlueBack_AnimBP.SK_CRE_BlueBack_AnimBP_C
+struct USK_CRE_BlueBack_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig_2; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	struct FVector __CustomProperty_LookAtTargetLocation_4A809F244E654683B007BEA2F328031A; 
+	bool __CustomProperty_DoLookAt_4A809F244E654683B007BEA2F328031A; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_BlueBack_AnimBP_AnimGraphNode_BlendSpacePlayer_A031B6734454D9D51078889D5AD5EA09(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_BlueBack_AnimBP_AnimGraphNode_BlendSpacePlayer_FE6F010B4201CE3163A28B881569D528(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_BlueBack_AnimBP_AnimGraphNode_BlendListByBool_DBCC067A4973B4DAD5B3E4A4ED940AE8(); // (BlueprintEvent)
+	void ExecuteUbergraph_SK_CRE_BlueBack_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

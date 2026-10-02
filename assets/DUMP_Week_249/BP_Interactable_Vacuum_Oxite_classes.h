@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_Interactable_Vacuum_Oxite.BP_Interactable_Vacuum_Oxite_C
+struct UBP_Interactable_Vacuum_Oxite_C : UBP_Interactable_Interact_Vacuum_Items_Base_C {
+};
+

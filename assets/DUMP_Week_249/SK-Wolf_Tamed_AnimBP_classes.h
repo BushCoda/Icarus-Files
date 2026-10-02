@@ -1,0 +1,73 @@
+// AnimBlueprintGeneratedClass SK-Wolf_Tamed_AnimBP.SK-Wolf_Tamed_AnimBP_C
+struct USK-Wolf_Tamed_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_7; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_4; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_6; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_5; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_4; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_4; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_3; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace_3; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace_3; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_3; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_3; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_BlendListByEnum AnimGraphNode_BlendListByEnum; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_Slot AnimGraphNode_Slot_2; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig_2; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_MakeDynamicAdditive AnimGraphNode_MakeDynamicAdditive; 
+	struct FAnimNode_SequenceEvaluator AnimGraphNode_SequenceEvaluator_2; 
+	struct FAnimNode_ApplyMeshSpaceAdditive AnimGraphNode_ApplyMeshSpaceAdditive; 
+	struct FAnimNode_SequenceEvaluator AnimGraphNode_SequenceEvaluator; 
+	struct FAnimNode_RigidBody AnimGraphNode_RigidBody; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace_2; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace_2; 
+	struct FAnimNode_SpringBone AnimGraphNode_SpringBone_2; 
+	struct FAnimNode_SpringBone AnimGraphNode_SpringBone; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_4; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_BlendBoneByChannel AnimGraphNode_BlendBoneByChannel; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_3; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	bool __CustomProperty_DoLookAt_6319260943E98A97A1D274899FD68379; 
+	struct FVector __CustomProperty_LookAtTargetLocation_6319260943E98A97A1D274899FD68379; 
+	struct FVector ViewTargetLocation; 
+	bool HasViewTarget; 
+	bool IsAttacking; 
+	bool IsMovingSlowly; 
+	bool UseSimulatedTail; 
+	bool UseSimulatedEars; 
+	bool ShouldWagTail; 
+	float SimulatedTailStrength; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Wolf_Tamed_AnimBP_AnimGraphNode_BlendBoneByChannel_6CEF635346837043567061934D6C80AC(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Wolf_Tamed_AnimBP_AnimGraphNode_SequencePlayer_332F633242F9F96A1DA430A31A290DB7(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Wolf_Tamed_AnimBP_AnimGraphNode_RigidBody_8B6F36E84AC90712E9D45C93950D667B(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Wolf_Tamed_AnimBP_AnimGraphNode_ControlRig_6319260943E98A97A1D274899FD68379(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Wolf_Tamed_AnimBP_AnimGraphNode_BlendListByBool_82583A2441E8BE585C396DA07382CC16(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Wolf_Tamed_AnimBP_AnimGraphNode_BlendSpacePlayer_0DCE362946FE5D4321542193B75B234C(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Wolf_Tamed_AnimBP_AnimGraphNode_BlendSpacePlayer_D58F336540F8163D0F5BD0A48FFBFB0A(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Wolf_Tamed_AnimBP_AnimGraphNode_BlendListByBool_EFDC29CA47D48CAD2DE92695D5E4876F(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Wolf_Tamed_AnimBP_AnimGraphNode_BlendSpacePlayer_869AFC1840E502E452F1AD8F0BBC2174(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Wolf_Tamed_AnimBP_AnimGraphNode_BlendSpacePlayer_914DBB1742AB4B96EDA2DC992A0FFCE7(); // (BlueprintEvent)
+	void BlueprintUpdateAnimation(float DeltaTimeX); // (Event|Public|BlueprintEvent)
+	void ExecuteUbergraph_SK-Wolf_Tamed_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

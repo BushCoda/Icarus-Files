@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_Interactable_Mission_STYX_D_Research2_Vacuum_Abyssal_Oxite.BP_Interactable_Mission_STYX_D_Research2_Vacuum_Abyssal_Oxite_C
+struct UBP_Interactable_Mission_STYX_D_Research2_Vacuum_Abyssal_Oxite_C : UBP_Interactable_Interact_Vacuum_Items_Base_C {
+};
+

@@ -1,0 +1,9 @@
+// UserDefinedStruct FAfflictionTrigger.FAfflictionTrigger
+struct FFAfflictionTrigger {
+	float Threshold_3_6FFECBE7491B8C476329A19D9CDC48BB; 
+	float EndCondition_5_709900FB4BB243E76753E0B181E22E1E; 
+	bool Triggered_8_A099635E49C9F9320CDE63809CBC27A4; 
+	int32_t UID_11_7AF767734033AEBC046A739CAF600BB9; 
+	struct FModifier Modifier_14_EDC9B0B6450AB98ACEE74C9838625EA7; 
+};
+

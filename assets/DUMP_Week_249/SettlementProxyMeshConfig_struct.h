@@ -1,0 +1,7 @@
+// UserDefinedStruct SettlementProxyMeshConfig.SettlementProxyMeshConfig
+struct FSettlementProxyMeshConfig {
+	struct FTagQueriesRowHandle ItemTagQuery_2_4DB320A844C6694E3D62BF8EBAFBAB2F; 
+	int32_t NumRequiredToShow_8_601B90D34F887CE0BCA5D19AD6D0677A; 
+	bool ApplyToAllProxyIndexes_7_3F492D974A5FC2A2AE91EE95F8197E79; 
+};
+

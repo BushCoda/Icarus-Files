@@ -1,0 +1,42 @@
+// AnimBlueprintGeneratedClass SK_CRE_Storca_AnimBP.SK_CRE_Storca_AnimBP_C
+struct USK_CRE_Storca_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_4; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_3; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_ApplyMeshSpaceAdditive AnimGraphNode_ApplyMeshSpaceAdditive; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig_2; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	struct FVector __CustomProperty_Trace_Length_BFA29B0F4CD68B2A96EF1A988C0E458E; 
+	float __CustomProperty_LookAtInterpSpeedWithoutTarget_15E9908D41C1C84BB143F096E4C509AE; 
+	struct FVector __CustomProperty_LookAtTargetLocation_15E9908D41C1C84BB143F096E4C509AE; 
+	float __CustomProperty_LookAtInterpSpeedWithTarget_15E9908D41C1C84BB143F096E4C509AE; 
+	bool __CustomProperty_DoLookAt_15E9908D41C1C84BB143F096E4C509AE; 
+	bool HasViewTarget; 
+	struct FVector ViewTargetLocation; 
+	bool IsAttacking; 
+	struct FVector Trace Length; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Storca_AnimBP_AnimGraphNode_ControlRig_15E9908D41C1C84BB143F096E4C509AE(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Storca_AnimBP_AnimGraphNode_BlendSpacePlayer_6DD0C15740CD65D4F7DAE4B3474DDDB4(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Storca_AnimBP_AnimGraphNode_BlendListByBool_4F3ECF7747F29BC38DF8518E6282E8A3(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Storca_AnimBP_AnimGraphNode_BlendSpacePlayer_C62256C34831A063316BF4904DECE04D(); // (BlueprintEvent)
+	void BlueprintUpdateAnimation(float DeltaTimeX); // (Event|Public|BlueprintEvent)
+	void ExecuteUbergraph_SK_CRE_Storca_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_IcarusGOAPGoal_SatisfyAttraction.BP_IcarusGOAPGoal_SatisfyAttraction_C
+struct UBP_IcarusGOAPGoal_SatisfyAttraction_C : UBP_IcarusGOAPGoal_Base_C {
+};
+

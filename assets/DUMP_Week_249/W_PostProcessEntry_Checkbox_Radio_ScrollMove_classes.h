@@ -1,0 +1,4 @@
+// WidgetBlueprintGeneratedClass W_PostProcessEntry_Checkbox_Radio_ScrollMove.W_PostProcessEntry_Checkbox_Radio_ScrollMove_C
+struct UW_PostProcessEntry_Checkbox_Radio_ScrollMove_C : UW_PostProcessEntry_Checkbox_Radio_C {
+};
+

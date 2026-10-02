@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_IcarusGOAPAction_FollowLeader.BP_IcarusGOAPAction_FollowLeader_C
+struct UBP_IcarusGOAPAction_FollowLeader_C : UBP_IcarusGOAPAction_Base_C {
+};
+

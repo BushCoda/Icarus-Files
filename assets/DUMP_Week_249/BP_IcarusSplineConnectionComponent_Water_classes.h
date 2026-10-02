@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_IcarusSplineConnectionComponent_Water.BP_IcarusSplineConnectionComponent_Water_C
+struct UBP_IcarusSplineConnectionComponent_Water_C : UBP_IcarusSplineConnectionComponent_C {
+};
+

@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_SpawnFilter_PopulationCheck_Reaver.BP_SpawnFilter_PopulationCheck_Reaver_C
+struct UBP_SpawnFilter_PopulationCheck_Reaver_C : UBP_SpawnFilter_PopulationCheck_C {
+};
+

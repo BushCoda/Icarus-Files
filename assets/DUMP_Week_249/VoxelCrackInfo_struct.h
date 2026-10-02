@@ -1,0 +1,8 @@
+// UserDefinedStruct VoxelCrackInfo.VoxelCrackInfo
+struct FVoxelCrackInfo {
+	struct AActor* Attacker_9_288379924B7AEEBFA1A2C1802F6B1AC5; 
+	struct AActor* Weapon_18_991394504AB7B9BC3FEE52AE94BB0E7B; 
+	struct FHitResult HitInfo_11_87D0B0C34A59418BBFF7DE863C0A8723; 
+	int32_t NumHits_15_7EDDF41F414BD5CE4812AD8FFAFB10D2; 
+};
+

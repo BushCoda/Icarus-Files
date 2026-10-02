@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_GOAPInteractable_WaterBodyNode.BP_GOAPInteractable_WaterBodyNode_C
+struct ABP_GOAPInteractable_WaterBodyNode_C : ABP_GOAPInteractable_Base_C {
+};
+

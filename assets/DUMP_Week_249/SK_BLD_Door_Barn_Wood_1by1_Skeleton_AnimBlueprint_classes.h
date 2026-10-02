@@ -1,0 +1,31 @@
+// AnimBlueprintGeneratedClass SK_BLD_Door_Barn_Wood_1by1_Skeleton_AnimBlueprint.SK_BLD_Door_Barn_Wood_1by1_Skeleton_AnimBlueprint_C
+struct USK_BLD_Door_Barn_Wood_1by1_Skeleton_AnimBlueprint_C : UAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_6; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_5; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_4; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_3; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_2; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_4; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_5; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_3; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_4; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_2; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_3; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_2; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	enum class DoorState DoorState; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_Door_Barn_Wood_1by1_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_5008C2C444F5F5035138DA8EE0D920AC(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_Door_Barn_Wood_1by1_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_43A8F2B94FAE70B4C99BB68E5E8E9E2F(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_Door_Barn_Wood_1by1_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_C062B16B44925E982B5D4C92D54FA2C2(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_BLD_Door_Barn_Wood_1by1_Skeleton_AnimBlueprint_AnimGraphNode_TransitionResult_1E1162124D91049F7B8735A35A0D3D57(); // (BlueprintEvent)
+	void BlueprintUpdateAnimation(float DeltaTimeX); // (Event|Public|BlueprintEvent)
+	void ExecuteUbergraph_SK_BLD_Door_Barn_Wood_1by1_Skeleton_AnimBlueprint(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

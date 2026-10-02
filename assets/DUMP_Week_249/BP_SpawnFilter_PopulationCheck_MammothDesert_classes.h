@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_SpawnFilter_PopulationCheck_MammothDesert.BP_SpawnFilter_PopulationCheck_MammothDesert_C
+struct UBP_SpawnFilter_PopulationCheck_MammothDesert_C : UBP_SpawnFilter_PopulationCheck_C {
+};
+

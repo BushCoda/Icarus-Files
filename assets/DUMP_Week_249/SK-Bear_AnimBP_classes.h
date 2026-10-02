@@ -1,0 +1,37 @@
+// AnimBlueprintGeneratedClass SK-Bear_AnimBP.SK-Bear_AnimBP_C
+struct USK-Bear_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_BlendListByEnum AnimGraphNode_BlendListByEnum; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_3; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_3; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_AimOffsetLookAt AnimGraphNode_AimOffsetLookAt; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	struct FVector __CustomProperty_Trace_Length_0E3912484F618EBFA97571B9CD075E81; 
+	float __CustomProperty_Trace_Offset_0E3912484F618EBFA97571B9CD075E81; 
+	float __CustomProperty_Pelvis_Speed_Inc_0E3912484F618EBFA97571B9CD075E81; 
+	float __CustomProperty_Pelvis_Speed_Dec_0E3912484F618EBFA97571B9CD075E81; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Bear_AnimBP_AnimGraphNode_BlendListByBool_08BC8BF4457ACC9ECCC6138F7452FA27(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Bear_AnimBP_AnimGraphNode_BlendSpacePlayer_36BC4CBF4A0C2F5862A11B9313F4D8C5(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK-Bear_AnimBP_AnimGraphNode_BlendSpacePlayer_1DB800EB41A9ED5CF2090CA4FD8949FA(); // (BlueprintEvent)
+	void ExecuteUbergraph_SK-Bear_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

@@ -1,0 +1,47 @@
+// AnimBlueprintGeneratedClass SK_CRE_Buffalo_AnimBP.SK_CRE_Buffalo_AnimBP_C
+struct USK_CRE_Buffalo_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_3; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace_2; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace_2; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig_2; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	struct FAnimNode_RigidBody AnimGraphNode_RigidBody; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	float __CustomProperty_LookAtInterpSpeedWithoutTarget_D5EE94C3443D0C1BBDEEADAD787DE94B; 
+	float __CustomProperty_LookAtInterpSpeedWithTarget_D5EE94C3443D0C1BBDEEADAD787DE94B; 
+	float __CustomProperty_AdditionalTargetHeight_D5EE94C3443D0C1BBDEEADAD787DE94B; 
+	struct FVector __CustomProperty_LookAtTargetLocation_D5EE94C3443D0C1BBDEEADAD787DE94B; 
+	bool __CustomProperty_DoLookAt_D5EE94C3443D0C1BBDEEADAD787DE94B; 
+	float __CustomProperty_GroundHeightOffset_7E479D5D493AE73E75285194ED9C8E2F; 
+	float __CustomProperty_Pelvis_Speed_Inc_7E479D5D493AE73E75285194ED9C8E2F; 
+	float __CustomProperty_Pelvis_Speed_Dec_7E479D5D493AE73E75285194ED9C8E2F; 
+	struct FRotator LastRotation; 
+	struct FRotator AngularVelocity; 
+	float GroundHeightOffset; 
+	float LookAtTargetHeightOffset; 
+	bool UseSimulatedTail; 
+	float SimulatedTailStrength; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Buffalo_AnimBP_AnimGraphNode_RigidBody_AAD2BE104EFD55722C5B1F8286416AAA(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Buffalo_AnimBP_AnimGraphNode_BlendSpacePlayer_AE05D4CF490DE1222C8CCE9DCDABE6F3(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Buffalo_AnimBP_AnimGraphNode_BlendListByBool_B5B27E9A41D5799F367C3AA597C1069E(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_SK_CRE_Buffalo_AnimBP_AnimGraphNode_BlendSpacePlayer_98F4DD894573EA9CE5E87097F1D9FFC5(); // (BlueprintEvent)
+	void ExecuteUbergraph_SK_CRE_Buffalo_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

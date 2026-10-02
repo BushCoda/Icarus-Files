@@ -1,0 +1,6 @@
+// BlueprintGeneratedClass BP_HuntingClueSpawnerInstanceGroup_Footprint.BP_HuntingClueSpawnerInstanceGroup_Footprint_C
+struct UBP_HuntingClueSpawnerInstanceGroup_Footprint_C : UBP_HuntingClueSpawnerInstanceGroup_C {
+	struct FVector LastAIFocus; 
+	float CurrentTotalDistance; 
+};
+

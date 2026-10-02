@@ -1,0 +1,8 @@
+// UserDefinedStruct FCHCollisionStruct.FCHCollisionStruct
+struct FFCHCollisionStruct {
+	struct FVector Location_2_51E56E7442F2EBB3042EA9A10E70FD7B; 
+	float Time_5_E2CED84B45C0DBD25B17D7AAB6BFF9E0; 
+	struct FVector Start_11_EF13EA2B464CA1822FC671A7FDB96097; 
+	struct FVector End_10_7E54A2244144349326A77EA3F3590AFE; 
+};
+

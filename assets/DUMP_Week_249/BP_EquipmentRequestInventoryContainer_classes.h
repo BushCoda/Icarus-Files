@@ -1,0 +1,5 @@
+// BlueprintGeneratedClass BP_EquipmentRequestInventoryContainer.BP_EquipmentRequestInventoryContainer_C
+struct ABP_EquipmentRequestInventoryContainer_C : AEquipmentRequestInventoryContainer {
+	struct USceneComponent* DefaultSceneRoot; 
+};
+

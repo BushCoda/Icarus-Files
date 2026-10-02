@@ -1,0 +1,6 @@
+// BlueprintGeneratedClass BP_HuntingClueSpawnerInstanceGroup_BloodTrail.BP_HuntingClueSpawnerInstanceGroup_BloodTrail_C
+struct UBP_HuntingClueSpawnerInstanceGroup_BloodTrail_C : UBP_HuntingClueSpawnerInstanceGroup_C {
+	float LastDropTime; 
+	struct FVector LastClueLocation; 
+};
+

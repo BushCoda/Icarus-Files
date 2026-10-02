@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_SpawnFilter_PopulationCheck_Crocodile_Grasslands.BP_SpawnFilter_PopulationCheck_Crocodile_Grasslands_C
+struct UBP_SpawnFilter_PopulationCheck_Crocodile_Grasslands_C : UBP_SpawnFilter_PopulationCheck_C {
+};
+

@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ModifierStateBehaviour_Irradiated_Small.BP_ModifierStateBehaviour_Irradiated_Small_C
+struct UBP_ModifierStateBehaviour_Irradiated_Small_C : UBP_ModifierStateBehaviour_Irradiated_C {
+};
+

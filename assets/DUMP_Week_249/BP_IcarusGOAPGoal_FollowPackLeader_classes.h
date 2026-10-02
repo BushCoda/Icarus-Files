@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_IcarusGOAPGoal_FollowPackLeader.BP_IcarusGOAPGoal_FollowPackLeader_C
+struct UBP_IcarusGOAPGoal_FollowPackLeader_C : UBP_IcarusGOAPGoal_Base_C {
+};
+

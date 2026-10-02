@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_SpawnFilter_PopulationCheck_Needler.BP_SpawnFilter_PopulationCheck_Needler_C
+struct UBP_SpawnFilter_PopulationCheck_Needler_C : UBP_SpawnFilter_PopulationCheck_C {
+};
+

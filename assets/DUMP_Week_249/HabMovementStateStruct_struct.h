@@ -1,0 +1,10 @@
+// UserDefinedStruct HabMovementStateStruct.HabMovementStateStruct
+struct FHabMovementStateStruct {
+	struct FVector Location_8_9FD90F534E7D39B96FA124AAA07F138F; 
+	struct FVector Velocity_5_8D16932E491120A4997B52ACF0C54572; 
+	struct FVector DesiredDirection_17_C653E35A4DFB81ECF9BCF0BD7EAF7FDF; 
+	float Using6DOFMovement_14_A7FA209F456144F916B5A19AEFAED95C; 
+	bool TouchingSurface_13_2E3A8BF049F76690EAFD54AA10DB3C5A; 
+	float CurrentTime_21_51B33F9F43DB039E41DF4EA45C6E4B12; 
+};
+

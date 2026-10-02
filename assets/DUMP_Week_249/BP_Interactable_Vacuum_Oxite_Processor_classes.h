@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_Interactable_Vacuum_Oxite_Processor.BP_Interactable_Vacuum_Oxite_Processor_C
+struct UBP_Interactable_Vacuum_Oxite_Processor_C : UBP_Interactable_Vacuum_Oxite_C {
+};
+

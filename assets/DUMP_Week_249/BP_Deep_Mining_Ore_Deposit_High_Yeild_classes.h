@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_Deep_Mining_Ore_Deposit_High_Yeild.BP_Deep_Mining_Ore_Deposit_High_Yeild_C
+struct ABP_Deep_Mining_Ore_Deposit_High_Yeild_C : ABP_Deep_Mining_Ore_Deposit_C {
+};
+

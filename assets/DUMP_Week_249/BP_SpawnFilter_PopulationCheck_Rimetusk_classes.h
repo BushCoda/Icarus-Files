@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_SpawnFilter_PopulationCheck_Rimetusk.BP_SpawnFilter_PopulationCheck_Rimetusk_C
+struct UBP_SpawnFilter_PopulationCheck_Rimetusk_C : UBP_SpawnFilter_PopulationCheck_C {
+};
+

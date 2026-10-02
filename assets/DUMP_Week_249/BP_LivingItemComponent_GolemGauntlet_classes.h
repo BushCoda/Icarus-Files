@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_LivingItemComponent_GolemGauntlet.BP_LivingItemComponent_GolemGauntlet_C
+struct UBP_LivingItemComponent_GolemGauntlet_C : ULivingItemComponent {
+};
+

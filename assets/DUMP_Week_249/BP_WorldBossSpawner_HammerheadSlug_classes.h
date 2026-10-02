@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_WorldBossSpawner_HammerheadSlug.BP_WorldBossSpawner_HammerheadSlug_C
+struct ABP_WorldBossSpawner_HammerheadSlug_C : ABP_WorldBossSpawner_C {
+};
+

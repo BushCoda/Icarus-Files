@@ -1,0 +1,8 @@
+// UserDefinedStruct F_ChallengeState.F_ChallengeState
+struct FF_ChallengeState {
+	struct FSlateColor TitleTextColour_2_F405BE4647E8B598181F4ABF6850DD57; 
+	struct FLinearColor BaseBackgroundColour_5_38DE906C4F344839DEC8CFA36EE50269; 
+	struct FSlateColor RewardTextColour_8_BB09180142C00BCA8DC19391369043B0; 
+	struct FLinearColor RewardBoxColour_11_6E652A3D4DED9363A73B00A2898DF6F0; 
+};
+

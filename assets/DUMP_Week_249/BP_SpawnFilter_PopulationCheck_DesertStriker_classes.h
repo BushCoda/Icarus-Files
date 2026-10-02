@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_SpawnFilter_PopulationCheck_DesertStriker.BP_SpawnFilter_PopulationCheck_DesertStriker_C
+struct UBP_SpawnFilter_PopulationCheck_DesertStriker_C : UBP_SpawnFilter_PopulationCheck_C {
+};
+

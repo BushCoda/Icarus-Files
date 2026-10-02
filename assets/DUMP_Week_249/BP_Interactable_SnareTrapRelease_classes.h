@@ -1,0 +1,10 @@
+// BlueprintGeneratedClass BP_Interactable_SnareTrapRelease.BP_Interactable_SnareTrapRelease_C
+struct UBP_Interactable_SnareTrapRelease_C : UInteractableBehaviour {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+
+	bool CanInteract(struct AActor* Instigator, struct FHitResult HitResult); // (Event|Public|HasOutParms|BlueprintCallable|BlueprintEvent)
+	void Interact(struct AActor* Instigator, struct FHitResult& HitResult); // (Event|Public|HasOutParms|BlueprintEvent)
+	void ReceiveBeginPlay(); // (Event|Public|BlueprintEvent)
+	void ExecuteUbergraph_BP_Interactable_SnareTrapRelease(int32_t EntryPoint); // (Final|UbergraphFunction|HasDefaults)
+};
+

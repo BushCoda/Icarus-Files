@@ -1,0 +1,15 @@
+// BlueprintGeneratedClass BP_IcarusGameModeFunctionLibrary.BP_IcarusGameModeFunctionLibrary_C
+struct UBP_IcarusGameModeFunctionLibrary_C : UBlueprintFunctionLibrary {
+
+	void WorldHasAvailableYellowMetaDeposits(struct UObject* __WorldContext, int32_t& YellowFound); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void WorldHasAvailableRedMetaDeposits(struct UObject* __WorldContext, bool& RedFound); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void RemoveInvalidMetaSpawns(struct TArray<struct FMetaSpawn>& InMetaSpawns, struct TArray<struct ABP_IcarusMetaSpawn_C*>& PotentialSpawns, struct UObject* __WorldContext, struct TArray<struct FMetaSpawn>& OutMetaSpawns); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void Cheat Exhaust ARandom ExoticDeposit(struct UObject* __WorldContext); // (Static|Public|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void RemoveAnyMindedSpawns(struct TArray<struct ABP_MetaDeposit_C*>& ExistingSpawns, struct TArray<struct ABP_IcarusMetaSpawn_C*>& WorldSpawnPoints, struct UObject* __WorldContext, struct TArray<struct ABP_MetaDeposit_C*>& LiveSpawns, struct TArray<struct ABP_IcarusMetaSpawn_C*>& RecentlyUsed, struct TArray<struct ABP_MetaDeposit_C*>& ExtractorSpawns); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void Remove Any Spawns in Same LocationAsDeposits(struct TArray<struct ABP_IcarusMetaSpawn_C*>& PotentialSpawns, struct TArray<struct ABP_MetaDeposit_C*>& ExistingSpawns, struct UObject* __WorldContext, struct TArray<struct ABP_IcarusMetaSpawn_C*>& OutSpawns); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void SelectRandomMetaSpawnsForProspect(struct FIcarusProspect& Prospect, struct FVector AroundLocation, int32_t MinCount, int32_t MaxCount, bool RemoveMined, struct FRandomStream InRandomStream, struct UObject* __WorldContext, struct TMap<struct ABP_IcarusMetaSpawn_C*, int32_t>& OutMetaSpawnsAndResourceCount); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void FindMetaSpawnByBiomeAndDistance(struct TArray<struct ABP_IcarusMetaSpawn_C*>& MetaSpawns, struct FMetaSpawn MetaSpawnDescription, struct FVector AveragePlayerStartLocation, struct UObject* __WorldContext, struct TArray<struct ABP_IcarusMetaSpawn_C*>& ValidCandidates); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+	void FindMetaSpawnByName(struct TArray<struct ABP_IcarusMetaSpawn_C*>& MetaSpawns, struct FMetaSpawn MetaSpawnDescription, struct UObject* __WorldContext, struct ABP_IcarusMetaSpawn_C*& MetaSpawn); // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent)
+	void GetAvailableMetaSpawns(struct FIcarusProspect& Prospect, struct FVector AveragePlayerStartLocation, bool AllowDuplicateSelections, struct UObject* __WorldContext, struct TMap<int32_t, struct ABP_IcarusMetaSpawn_C*>& OutMetaSpawns, struct TArray<struct ABP_IcarusMetaSpawn_C*>& OutValidCandidates, struct TArray<int32_t>& OutNewCandidateStartIndexs); // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+};
+

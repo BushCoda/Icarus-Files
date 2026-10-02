@@ -1,0 +1,231 @@
+// AnimBlueprintGeneratedClass NPC_SettlementCharacter_AnimBP.NPC_SettlementCharacter_AnimBP_C
+struct UNPC_SettlementCharacter_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Slot AnimGraphNode_Slot_8; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	struct FAnimNode_Inertialization AnimGraphNode_Inertialization_3; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_35; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_34; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_33; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_32; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_31; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_30; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_29; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_28; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_27; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_26; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_25; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_24; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_23; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_22; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_21; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_20; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_19; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_18; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_17; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_16; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_15; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_31; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_28; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_30; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_27; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_29; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_26; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_28; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_25; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_27; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_24; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_26; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_23; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_25; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_22; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_24; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_21; 
+	struct FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace_2; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_23; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_22; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_20; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_8; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_7; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_19; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_18; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_20; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_21; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_19; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_20; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_18; 
+	struct FAnimNode_RotationOffsetBlendSpace AnimGraphNode_RotationOffsetBlendSpace; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_19; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_6; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_5; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_17; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_16; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_17; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_18; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_16; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_17; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_15; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_16; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_15; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_15; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_4; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_3; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_14; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_13; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_14; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_14; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_12; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_13; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_12; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine_4; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_4; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_7; 
+	struct FAnimNode_ApplyMeshSpaceAdditive AnimGraphNode_ApplyMeshSpaceAdditive_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_11; 
+	struct FAnimNode_Slot AnimGraphNode_Slot_7; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_10; 
+	struct FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_4; 
+	struct FAnimNode_Slot AnimGraphNode_Slot_6; 
+	struct FAnimNode_Slot AnimGraphNode_Slot_5; 
+	struct FAnimNode_Slot AnimGraphNode_Slot_4; 
+	struct FAnimNode_ApplyMeshSpaceAdditive AnimGraphNode_ApplyMeshSpaceAdditive; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_9; 
+	struct FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_3; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_6; 
+	struct FAnimNode_Slot AnimGraphNode_Slot_3; 
+	struct FAnimNode_Slot AnimGraphNode_Slot_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_8; 
+	struct FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend_2; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_3; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_5; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_4; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_3; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_7; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace_2; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_2; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace_2; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_14; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_13; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_12; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_11; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_13; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_11; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_12; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_10; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_11; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_9; 
+	struct FAnimNode_RandomPlayer AnimGraphNode_RandomPlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_8; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine_3; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_6; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_7; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_5; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	struct FAnimNode_LayeredBoneBlend AnimGraphNode_LayeredBoneBlend; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_10; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_9; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_8; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_7; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_6; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_5; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_4; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_3; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_2; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_10; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_6; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_4; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_9; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_8; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_5; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_3; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_7; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_6; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_4; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_5; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_4; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_3; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_3; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_2; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_2; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_Inertialization AnimGraphNode_Inertialization_2; 
+	struct FAnimNode_Inertialization AnimGraphNode_Inertialization; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	bool __CustomProperty_IgnoreNeckMovement_6418D4EF4E8D512ED129A9BF9F584A58; 
+	float __CustomProperty_AdditionalTargetHeight_6418D4EF4E8D512ED129A9BF9F584A58; 
+	struct FVector __CustomProperty_LookAtTargetLocation_6418D4EF4E8D512ED129A9BF9F584A58; 
+	bool __CustomProperty_DoLookAt_6418D4EF4E8D512ED129A9BF9F584A58; 
+	struct AActor* LookAtTarget; 
+	float LookAtAlpha; 
+	bool NPCLookAtAllowed; 
+	enum class ENPC_InjuredStates Injured State; 
+	bool Stable; 
+	bool Do Look At; 
+	struct FVector Look at Target Location; 
+	bool IgnoreNeckMovement; 
+	struct UAnimSequence* OverrideAnimation; 
+	bool ShouldOverrideInjuredStates; 
+	struct UAnimSequence* OverrideLookAtAnimation; 
+	bool HasCustomLookAtAnimation; 
+	bool LookAtWithinRange; 
+	float Direction; 
+	float Speed; 
+	bool IsADS; 
+	bool IsCrouched; 
+	float MaxLookAtAlpha; 
+	bool IsSprinting; 
+	bool IsDead; 
+	enum class SoldierMovementState MovementSpeedState; 
+	struct ABP_SettlementNPC_C* SettlerRef; 
+	bool IsInCombat; 
+	enum class SettlementNPC_AnimState SettlerAnimState; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void FindTargetToLookAt(); // (Public|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_BlendListByBool_ECA8534547062E7D25DDE3859955068D(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_BlendListByBool_3747846E4D3067D08B6890AD3F435299(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_BlendListByBool_EFE258EC440CF9EB218B4FB034B04700(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_ControlRig_6418D4EF4E8D512ED129A9BF9F584A58(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_BlendListByBool_033358394DE9E9F6C74EB4900DD4491E(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_BlendListByBool_CE6BEDC1437505DFA89904B0D6C7105A(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_BlendListByBool_5181D69647DFFE710BE6DEB31D069855(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_BlendListByBool_E5400B5A48FCCF113B6B3093A6990BBF(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_TransitionResult_DA38AEE84DF3B61858CB4E910C8B241B(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_TransitionResult_98B1C62E470C293FA613688F6E83F478(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_TransitionResult_DE5A6B5F4F576E497A645E895B33A4C7(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_TransitionResult_E0CEB5D94CC0F93D4325FC9F6342489A(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_TransitionResult_564533EE4E8F22502D7EBB9E4A35B16F(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_TransitionResult_1760275F4DFE1CEBF79C36918378AE81(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_TransitionResult_71500EF8441389D7C14AF9A188C9D10B(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_TransitionResult_64B66F7E4D508DBCD68B16AA6C61EDD8(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_TransitionResult_4ADEDBAF476E60B5F9E3C08E08F31204(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_TransitionResult_CD330B5F41227CC7B2E0D29C95F567C5(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_TransitionResult_2ECB942F448A7D1C3327629FB1750A01(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_BlendListByBool_73858D8B4B7CA14F0C1D19B6CE598860(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_BlendListByBool_C4798F574C5296DA67598DB9AD833646(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_BlendListByBool_D2DB57404D908E6B30C2AD9BC729870A(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_BlendListByBool_234546B44331FA7AEC4C7C869E1B55CA(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_BlendListByBool_C055DBB64D4F7CC2DEC69FB0D94207A3(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_TransitionResult_EFD581E14BBC4B4B3AD876B7D79B21F7(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_TransitionResult_08109F8546D88C16B92054A406B39115(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_NPC_SettlementCharacter_AnimBP_AnimGraphNode_TransitionResult_EBFC12DB4DD40DEE7ECFF8B94D2E6F37(); // (BlueprintEvent)
+	void BlueprintUpdateAnimation(float DeltaTimeX); // (Event|Public|BlueprintEvent)
+	void BlueprintBeginPlay(); // (Event|Public|BlueprintEvent)
+	void ExecuteUbergraph_NPC_SettlementCharacter_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction|HasDefaults)
+};
+

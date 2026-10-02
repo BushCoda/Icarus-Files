@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ModifierStateBehaviour_RadiationRecovery_Slow.BP_ModifierStateBehaviour_RadiationRecovery_Slow_C
+struct UBP_ModifierStateBehaviour_RadiationRecovery_Slow_C : UBP_ModifierStateBehaviour_RadiationRecovery_C {
+};
+

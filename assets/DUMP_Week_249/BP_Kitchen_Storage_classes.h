@@ -1,0 +1,10 @@
+// BlueprintGeneratedClass BP_Kitchen_Storage.BP_Kitchen_Storage_C
+struct ABP_Kitchen_Storage_C : ABP_DeployableContainerBase_C {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct UAudioOcclusionComponent* AudioOcclusion1; 
+
+	void OnBecomeInteractedWith(); // (BlueprintCallable|BlueprintEvent)
+	void OnNoLongerInteractedWith(); // (BlueprintCallable|BlueprintEvent)
+	void ExecuteUbergraph_BP_Kitchen_Storage(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

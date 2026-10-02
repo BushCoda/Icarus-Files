@@ -1,0 +1,4 @@
+// WidgetBlueprintGeneratedClass W_PostProcessEntry_Checkbox_Radio_ScrollFOV.W_PostProcessEntry_Checkbox_Radio_ScrollFOV_C
+struct UW_PostProcessEntry_Checkbox_Radio_ScrollFOV_C : UW_PostProcessEntry_Checkbox_Radio_C {
+};
+

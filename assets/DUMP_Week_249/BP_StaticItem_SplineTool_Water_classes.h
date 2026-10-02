@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_StaticItem_SplineTool_Water.BP_StaticItem_SplineTool_Water_C
+struct ABP_StaticItem_SplineTool_Water_C : ABP_StaticItem_SplineTool_Base_C {
+};
+

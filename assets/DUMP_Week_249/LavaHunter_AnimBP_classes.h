@@ -1,0 +1,88 @@
+// AnimBlueprintGeneratedClass LavaHunter_AnimBP.LavaHunter_AnimBP_C
+struct ULavaHunter_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_10; 
+	struct FAnimNode_SequenceEvaluator AnimGraphNode_SequenceEvaluator_3; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_Slot AnimGraphNode_Slot_2; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_5; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_4; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_3; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult_2; 
+	struct FAnimNode_TransitionResult AnimGraphNode_TransitionResult; 
+	struct FAnimNode_SequenceEvaluator AnimGraphNode_SequenceEvaluator_2; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_6; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_9; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_5; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_9; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_8; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_6; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_8; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_7; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_7; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_5; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_4; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_6; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_3; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_5; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_6; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_4; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_4; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_5; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult_2; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_3; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_4; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_3; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_3; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer_2; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_MakeDynamicAdditive AnimGraphNode_MakeDynamicAdditive; 
+	struct FAnimNode_SequenceEvaluator AnimGraphNode_SequenceEvaluator; 
+	struct FAnimNode_ApplyMeshSpaceAdditive AnimGraphNode_ApplyMeshSpaceAdditive; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_TwoWayBlend AnimGraphNode_TwoWayBlend; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+	struct FVector __CustomProperty_Trace_Length_5AE2462C47414F87E28D0294873F2F9D; 
+	float __CustomProperty_Pelvis_Speed_Inc_5AE2462C47414F87E28D0294873F2F9D; 
+	float __CustomProperty_Pelvis_Speed_Dec_5AE2462C47414F87E28D0294873F2F9D; 
+	bool IsAlive; 
+	struct FPositionHistory History; 
+	struct FRotator LastRotation; 
+	float RotationRate; 
+	bool HideEggSack; 
+	float LastFrameVelocity; 
+	float LastDelta; 
+	bool IsWounded; 
+	struct FVector Trace Length; 
+	bool IsDormant; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_LavaHunter_AnimBP_AnimGraphNode_TransitionResult_8894AE8B46C2745D3B2E4EB315355523(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_LavaHunter_AnimBP_AnimGraphNode_TransitionResult_E9D3FE364DB060706696BFBED32258B2(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_LavaHunter_AnimBP_AnimGraphNode_TwoWayBlend_7FE435B84EF91F8535D9F2A0726D5704(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_LavaHunter_AnimBP_AnimGraphNode_ApplyMeshSpaceAdditive_144B2A65412232A1E938249059D664A1(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_LavaHunter_AnimBP_AnimGraphNode_ModifyBone_5DB2FB09413267C7AC347998DDB2674D(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_LavaHunter_AnimBP_AnimGraphNode_BlendListByBool_6F2FC99F4FD92C7CB98D65A06551BE1F(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_LavaHunter_AnimBP_AnimGraphNode_BlendSpacePlayer_5D442A1E490CAC78A0E9F0850D222784(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_LavaHunter_AnimBP_AnimGraphNode_BlendListByBool_CAFF74DE4FCD51EC8B1A538B085B41BB(); // (BlueprintEvent)
+	void BlueprintUpdateAnimation(float DeltaTimeX); // (Event|Public|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_LavaHunter_AnimBP_AnimGraphNode_BlendListByBool_63B491254D3ECC62E19D9CB590E39257(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_LavaHunter_AnimBP_AnimGraphNode_BlendListByBool_C22A944D4DB39BE15B2162B2B48DB992(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_LavaHunter_AnimBP_AnimGraphNode_BlendSpacePlayer_A40DBED04C367287DAB1AF9C938CD3BD(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_LavaHunter_AnimBP_AnimGraphNode_BlendListByBool_4CAE5F3C4EF5CFD8BCE22584DE2D69D0(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_LavaHunter_AnimBP_AnimGraphNode_BlendListByBool_F2D0987D4847B947D11C0494D36BBEAC(); // (BlueprintEvent)
+	void ExecuteUbergraph_LavaHunter_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

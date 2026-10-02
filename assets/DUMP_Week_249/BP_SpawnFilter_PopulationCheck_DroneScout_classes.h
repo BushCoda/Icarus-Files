@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_SpawnFilter_PopulationCheck_DroneScout.BP_SpawnFilter_PopulationCheck_DroneScout_C
+struct UBP_SpawnFilter_PopulationCheck_DroneScout_C : UBP_SpawnFilter_PopulationCheck_C {
+};
+

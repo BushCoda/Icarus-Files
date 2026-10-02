@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_Stone_Fireplace_Chimney_Cap_Half.BP_Stone_Fireplace_Chimney_Cap_Half_C
+struct ABP_Stone_Fireplace_Chimney_Cap_Half_C : ABP_Fireplace_Chimney_Cap_Half_C {
+};
+

@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_IcarusSplineConnectionComponent_Crude_Oil.BP_IcarusSplineConnectionComponent_Crude_Oil_C
+struct UBP_IcarusSplineConnectionComponent_Crude_Oil_C : UBP_IcarusSplineConnectionComponent_C {
+};
+
