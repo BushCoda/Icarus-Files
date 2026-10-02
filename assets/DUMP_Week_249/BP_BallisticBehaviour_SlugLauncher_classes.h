@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_BallisticBehaviour_SlugLauncher.BP_BallisticBehaviour_SlugLauncher_C
+struct UBP_BallisticBehaviour_SlugLauncher_C : UBP_BallisticBehaviour_FilteredDamage_C {
+};
+

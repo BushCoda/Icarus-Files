@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_FireArm_FireController_ScorpionRifle.BP_ActionableBehaviour_FireArm_FireController_ScorpionRifle_C
+struct UBP_ActionableBehaviour_FireArm_FireController_ScorpionRifle_C : UBP_ActionableBehaviour_FireArm_FireController_SemiAuto_C {
+};
+

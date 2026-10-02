@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_Scanner_DeepOre.BP_ActionableBehaviour_Scanner_DeepOre_C
+struct UBP_ActionableBehaviour_Scanner_DeepOre_C : UBP_ActionableBehaviour_Scanner_C {
+};
+

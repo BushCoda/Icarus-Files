@@ -1,0 +1,8 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_FireArm_FireController_SemiAuto_Launcher_T2.BP_ActionableBehaviour_FireArm_FireController_SemiAuto_Launcher_T2_C
+struct UBP_ActionableBehaviour_FireArm_FireController_SemiAuto_Launcher_T2_C : UBP_ActionableBehaviour_FireArm_FireController_SemiAuto_Launcher_C {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+
+	void ReceiveBeginPlay(); // (Event|Public|BlueprintEvent)
+	void ExecuteUbergraph_BP_ActionableBehaviour_FireArm_FireController_SemiAuto_Launcher_T2(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

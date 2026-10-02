@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_CurvedSplinePlace_Power.BP_ActionableBehaviour_CurvedSplinePlace_Power_C
+struct UBP_ActionableBehaviour_CurvedSplinePlace_Power_C : UBP_ActionableBehaviour_CurvedSplinePlace_C {
+};
+

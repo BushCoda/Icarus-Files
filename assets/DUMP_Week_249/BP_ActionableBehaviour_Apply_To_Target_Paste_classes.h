@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_Apply_To_Target_Paste.BP_ActionableBehaviour_Apply_To_Target_Paste_C
+struct UBP_ActionableBehaviour_Apply_To_Target_Paste_C : UBP_ActionableBehaviour_Apply_To_Target_C {
+};
+

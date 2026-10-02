@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_BallisticBehaviour_DropshipFlare.BP_BallisticBehaviour_DropshipFlare_C
+struct UBP_BallisticBehaviour_DropshipFlare_C : UBP_BallisticBehaviour_FlareArrow_C {
+};
+

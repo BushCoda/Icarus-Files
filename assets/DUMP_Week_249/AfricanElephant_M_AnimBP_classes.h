@@ -1,0 +1,30 @@
+// AnimBlueprintGeneratedClass AfricanElephant_M_AnimBP.AfricanElephant_M_AnimBP_C
+struct UAfricanElephant_M_AnimBP_C : UIcarusCreatureAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct FAnimNode_Root AnimGraphNode_Root; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer_2; 
+	struct FAnimNode_ApplyMeshSpaceAdditive AnimGraphNode_ApplyMeshSpaceAdditive; 
+	struct FAnimNode_SequencePlayer AnimGraphNode_SequencePlayer; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool_2; 
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; 
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; 
+	struct FAnimNode_ConvertLocalToComponentSpace AnimGraphNode_LocalToComponentSpace; 
+	struct FAnimNode_BlendSpacePlayer AnimGraphNode_BlendSpacePlayer; 
+	struct FAnimNode_StateResult AnimGraphNode_StateResult; 
+	struct FAnimNode_StateMachine AnimGraphNode_StateMachine; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose_2; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_3; 
+	struct FAnimNode_AimOffsetLookAt AnimGraphNode_AimOffsetLookAt; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose_2; 
+	struct FAnimNode_BlendListByBool AnimGraphNode_BlendListByBool; 
+	struct FAnimNode_Slot AnimGraphNode_Slot; 
+	struct FAnimNode_SaveCachedPose AnimGraphNode_SaveCachedPose; 
+	struct FAnimNode_UseCachedPose AnimGraphNode_UseCachedPose; 
+	struct FAnimNode_ControlRig AnimGraphNode_ControlRig; 
+
+	void AnimGraph(struct FPoseLink& AnimGraph); // (HasOutParms|BlueprintCallable|BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AfricanElephant_M_AnimBP_AnimGraphNode_BlendSpacePlayer_AF30C7B045D9B11D0CE0EF919134E33E(); // (BlueprintEvent)
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_AfricanElephant_M_AnimBP_AnimGraphNode_ApplyMeshSpaceAdditive_E7FAA59A4AECB1BA819708896557D96A(); // (BlueprintEvent)
+	void ExecuteUbergraph_AfricanElephant_M_AnimBP(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_Apply_To_Target_Tonic.BP_ActionableBehaviour_Apply_To_Target_Tonic_C
+struct UBP_ActionableBehaviour_Apply_To_Target_Tonic_C : UBP_ActionableBehaviour_Apply_To_Target_C {
+};
+

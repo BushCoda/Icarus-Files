@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_CurvedSplinePlace_Refined_Oil.BP_ActionableBehaviour_CurvedSplinePlace_Refined_Oil_C
+struct UBP_ActionableBehaviour_CurvedSplinePlace_Refined_Oil_C : UBP_ActionableBehaviour_CurvedSplinePlace_C {
+};
+

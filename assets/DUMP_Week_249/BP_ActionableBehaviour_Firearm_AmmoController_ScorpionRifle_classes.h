@@ -1,0 +1,6 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_Firearm_AmmoController_ScorpionRifle.BP_ActionableBehaviour_Firearm_AmmoController_ScorpionRifle_C
+struct UBP_ActionableBehaviour_Firearm_AmmoController_ScorpionRifle_C : UBP_ActionableBehaviour_Firearm_AmmoController_WithAbort_C {
+
+	void GetFiredProjectileInfo(bool& HasBallisticData, struct FBallisticData& BallisticData, int32_t& ProjectileCount, struct FVector2D& ProjectileAccuracy); // (Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent)
+};
+

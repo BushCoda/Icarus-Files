@@ -1,0 +1,6 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_Firearm_AmmoController_VisibleProjectile_LegendaryChainsaw.BP_ActionableBehaviour_Firearm_AmmoController_VisibleProjectile_LegendaryChainsaw_C
+struct UBP_ActionableBehaviour_Firearm_AmmoController_VisibleProjectile_LegendaryChainsaw_C : UBP_ActionableBehaviour_Firearm_AmmoController_VisibleProjectile_C {
+
+	void GetProjectileMeshOverride(struct TSoftObjectPtr<UStreamableRenderAsset>& OverrideMesh); // (Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure)
+};
+

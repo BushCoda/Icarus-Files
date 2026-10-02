@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_Firearm_AmmoController_CustomAmmo_Fireball.BP_ActionableBehaviour_Firearm_AmmoController_CustomAmmo_Fireball_C
+struct UBP_ActionableBehaviour_Firearm_AmmoController_CustomAmmo_Fireball_C : UBP_ActionableBehaviour_Firearm_AmmoController_CustomAmmo_C {
+};
+

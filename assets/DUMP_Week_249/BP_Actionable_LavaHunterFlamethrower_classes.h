@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_Actionable_LavaHunterFlamethrower.BP_Actionable_LavaHunterFlamethrower_C
+struct UBP_Actionable_LavaHunterFlamethrower_C : UBP_Actionable_FlameThrower_C {
+};
+

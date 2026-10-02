@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_Actionable_Behaviour_Water_Bucket.BP_Actionable_Behaviour_Water_Bucket_C
+struct UBP_Actionable_Behaviour_Water_Bucket_C : UBP_Actionable_Behaviour_WateringCan_C {
+};
+

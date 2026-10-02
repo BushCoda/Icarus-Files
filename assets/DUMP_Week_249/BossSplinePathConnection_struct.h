@@ -1,0 +1,8 @@
+// UserDefinedStruct BossSplinePathConnection.BossSplinePathConnection
+struct FBossSplinePathConnection {
+	int32_t StartingSplinePoint_12_696F47B44DD4F46EA29638935C3E0CF8; 
+	bool ForwardDirection_1_291F8B9F4ABAB3BFD372579F95F4B71C; 
+	struct FName OtherSplineActorTag_14_8117D52E446C2E40A1DDF6866B6155FB; 
+	float OtherSplineInputKey_8_2D8270EF4B0BAEB62DBDE18146A76354; 
+};
+

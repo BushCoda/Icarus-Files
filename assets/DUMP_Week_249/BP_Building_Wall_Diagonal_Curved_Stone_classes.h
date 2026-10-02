@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_Building_Wall_Diagonal_Curved_Stone.BP_Building_Wall_Diagonal_Curved_Stone_C
+struct ABP_Building_Wall_Diagonal_Curved_Stone_C : ABP_Building_Wall_Diagonal_Curved_C {
+};
+

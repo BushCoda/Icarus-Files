@@ -1,0 +1,6 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_Firearm_AmmoController_WithAbort.BP_ActionableBehaviour_Firearm_AmmoController_WithAbort_C
+struct UBP_ActionableBehaviour_Firearm_AmmoController_WithAbort_C : UBP_ActionableBehaviour_Firearm_AmmoController_Base_C {
+
+	void CanAbortReload(bool& CanAbort); // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure)
+};
+

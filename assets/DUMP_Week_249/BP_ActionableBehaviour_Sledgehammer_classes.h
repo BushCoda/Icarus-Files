@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_Sledgehammer.BP_ActionableBehaviour_Sledgehammer_C
+struct UBP_ActionableBehaviour_Sledgehammer_C : UBP_ActionableBehaviour_Generic_Melee_C {
+};
+

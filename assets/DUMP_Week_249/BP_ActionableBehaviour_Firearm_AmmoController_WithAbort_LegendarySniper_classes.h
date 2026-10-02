@@ -1,0 +1,9 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_Firearm_AmmoController_WithAbort_LegendarySniper.BP_ActionableBehaviour_Firearm_AmmoController_WithAbort_LegendarySniper_C
+struct UBP_ActionableBehaviour_Firearm_AmmoController_WithAbort_LegendarySniper_C : UBP_ActionableBehaviour_Firearm_AmmoController_WithAbort_C {
+	struct FPointerToUberGraphFrame UberGraphFrame; 
+	struct UNiagaraSystem* ReloadParticle; 
+
+	void LoadAndPlayReloadAnims(); // (BlueprintCallable|BlueprintEvent)
+	void ExecuteUbergraph_BP_ActionableBehaviour_Firearm_AmmoController_WithAbort_LegendarySniper(int32_t EntryPoint); // (Final|UbergraphFunction)
+};
+

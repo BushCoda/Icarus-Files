@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_Apply_To_Target_Pill.BP_ActionableBehaviour_Apply_To_Target_Pill_C
+struct UBP_ActionableBehaviour_Apply_To_Target_Pill_C : UBP_ActionableBehaviour_Apply_To_Target_C {
+};
+

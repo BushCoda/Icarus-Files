@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_FireArm_FireController_Auto.BP_ActionableBehaviour_FireArm_FireController_Auto_C
+struct UBP_ActionableBehaviour_FireArm_FireController_Auto_C : UBP_ActionableBehaviour_FireArm_FireController_Base_C {
+};
+

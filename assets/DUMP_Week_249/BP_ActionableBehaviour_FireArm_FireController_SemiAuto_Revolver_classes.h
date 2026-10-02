@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_FireArm_FireController_SemiAuto_Revolver.BP_ActionableBehaviour_FireArm_FireController_SemiAuto_Revolver_C
+struct UBP_ActionableBehaviour_FireArm_FireController_SemiAuto_Revolver_C : UBP_ActionableBehaviour_FireArm_FireController_SemiAuto_C {
+};
+

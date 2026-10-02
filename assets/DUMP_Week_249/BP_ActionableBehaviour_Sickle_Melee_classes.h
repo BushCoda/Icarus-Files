@@ -1,0 +1,4 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_Sickle_Melee.BP_ActionableBehaviour_Sickle_Melee_C
+struct UBP_ActionableBehaviour_Sickle_Melee_C : UBP_ActionableBehaviour_Generic_Melee_C {
+};
+

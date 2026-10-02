@@ -1,0 +1,6 @@
+// BlueprintGeneratedClass BP_ActionableBehaviour_FireArm_FireController_SemiAuto.BP_ActionableBehaviour_FireArm_FireController_SemiAuto_C
+struct UBP_ActionableBehaviour_FireArm_FireController_SemiAuto_C : UBP_ActionableBehaviour_FireArm_FireController_Base_C {
+
+	void GetRefireRate(float& RefireRate); // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure)
+};
+

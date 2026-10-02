@@ -1,0 +1,10 @@
+// UserDefinedStruct AdditionalAddsBTTaskConfig.AdditionalAddsBTTaskConfig
+struct FAdditionalAddsBTTaskConfig {
+	int32_t BaseMaxNumberNearbyAdds_2_33D60FFD4C5387C9BA066A854EEC808C; 
+	int32_t ExtraMaxAddsPerConnectedPlayer_4_B86B05C7471BAF0B159C81BEAE52CDF3; 
+	int32_t MinNumberAddsPerExecution_15_288C7CD543BDC5FA984E479B72076163; 
+	struct FVector2D MaxNewAddsPerExecutionPerPlayer_7_4FA504034EFC69FCA47B258B4511A270; 
+	struct FVector2D SpawnedAddsLevel_9_291593054968EEF9910FD9B33E96FC61; 
+	int32_t MaxNumberNearbyAddsCap_12_53B947764471CEE28E5AC689D5EA99AE; 
+};
+
